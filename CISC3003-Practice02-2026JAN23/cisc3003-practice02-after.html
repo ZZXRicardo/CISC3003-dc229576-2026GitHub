@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Share Your Travels -- New York - Central Park</title>
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 img {
+            vertical-align: middle;
+            margin-right: 15px;
+            width: 60px;
+            height: 60px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #e9ecef;
+        }
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .photo-grid img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .review {
+            background: #f9f9f9;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #007bff;
+            border-radius: 3px;
+        }
+        .review-author {
+            font-weight: bold;
+            color: #007bff;
+        }
+        .review-date {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+   </style>
+</head>
+<body>
+<div class="container">
+<header>
+  <h1 id="top">
+    <img src="images/logo.png" alt="Travel Logo">
+    Share Your Travels
+  </h1>
+  <h2>New York - Central Park</h2>
+  <nav>
+    <ul>
+	  <li><a href="#descriptions">Descriptions</a></li>
+	  <li><a href="#related-photos">Related Photos</a></li>
+	  <li><a href="#reviews">Reviews</a></li>
+    </ul> 
+  </nav>
+</header>
+<main>
+   <section id="descriptions">
+	   <h3>Description</h3>
+	   <p>Photo by Randy Connolly</p>
+	   <p>This photo of Conservatory Pond in 
+	   <a href="http://www.centralpark.com/">Central Park</a> in
+	   <a href="newyork.html">New York City</a> was 
+	   taken on October 22, 2011 with a Canon EOS 30D camera. 
+	   </p>
+		<figure>
+		   <a href="images/large-central-park.jpg">
+		   <img src="images/central-park.jpg" alt="Central Park" title="Central Park"/>
+		   </a>
+		 <figcaption>Conservatory Pond in Central Park</figcaption>
+		</figure>
+   </section>
+   
+   <section id="related-photos">
+       <h3>Related Photos</h3>
+       <p>Explore more stunning photos from this collection:</p>
+       <div class="photo-grid">
+           <a href="images/related-large1.jpg">
+               <img src="images/related-square1.jpg" alt="Related Photo 1" title="Click to view larger">
+           </a>
+           <a href="images/related-large2.jpg">
+               <img src="images/related-square2.jpg" alt="Related Photo 2" title="Click to view larger">
+           </a>
+           <a href="images/related-large3.jpg">
+               <img src="images/related-square3.jpg" alt="Related Photo 3" title="Click to view larger">
+           </a>
+       </div>
+   </section>
+   
+   <section id="reviews">
+	   <h3>Reviews</h3>
+	   <div class="review">
+		  <div class="review-author">By Ricardo</div>
+          <div class="review-date">Posted on: <time>2016-05-23</time></div>
+		  <p>Easy on the HDR buddy.</p>
+	   </div>
+       <div class="review">
+          <div class="review-author">By Sarah Johnson</div>
+          <div class="review-date">Posted on: <time>2016-06-15</time></div>
+          <p>Beautiful composition! The lighting is perfect and captures the essence of Central Park.</p>
+       </div>
+       <div class="review">
+          <div class="review-author">By Mike Chen</div>
+          <div class="review-date">Posted on: <time>2016-07-02</time></div>
+          <p>Visited this spot last summer. Your photo brings back great memories. Thanks for sharing!</p>
+       </div>
+	   <hr/>
+   </section>
+</main>
+<footer>
+  <p><em>Copyright &copy; 2017 Share Your Travels</em></p>
+  <p><em>CISC3003-2026: DC229576 Zhang Zhexuan</em></p>
+  <p><a href="#top">Back to Top</a></p>
+</footer>
+</div>
+</body>
+</html>
