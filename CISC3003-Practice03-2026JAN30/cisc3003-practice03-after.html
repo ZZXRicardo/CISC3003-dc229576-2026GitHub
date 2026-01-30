@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>CISC3003-Practice 03 - Share Your Travels</title>
+   
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/cisc3003-practice03.css">
+</head>
+<body>
+
+<header>
+   <h1>Share Your Travels</h1>
+   <p>let us know where you've been</p>
+   
+   <nav>
+       <ul>
+           <li><a href="#description">Description</a></li>
+           <li><a href="#related-photos">Related Photos</a></li>
+           <li><a href="#reviews">Reviews</a></li>
+       </ul> 
+   </nav>
+</header>
+
+<main>
+   <!-- 修正：h3 改为 h2 -->
+   <section id="description">
+       <h2>Central Park</h2>
+       
+       <figure>
+           <img src="images/large-central-park.jpg" alt="Central Park" title="Central Park">
+           <figcaption>
+               <em>Conservatory Pond in Central Park</em>
+           </figcaption>
+       </figure>   
+       
+       <div>
+           <p>This photo of Conservatory Pond in 
+           <a href="http://www.centralpark.com/">Central Park</a> in
+           <a href="newyork.html">New York City</a> was taken on October 22, 2011 with a Canon EOS 30D camera. 
+           </p> 
+       </div>   
+   </section>
+
+   <!-- 修正：h3 改为 h2 -->
+   <section id="related-photos">
+       <h2>Related Photos</h2>
+       
+       <figure class="large-image-container">
+           <img src="images/related-large1.jpg" alt="Large view" id="large-display-image">
+           <figcaption id="large-image-caption">
+               <em>Click thumbnails below to view larger images</em>
+           </figcaption>
+       </figure>
+
+       <div class="thumbnail-gallery">
+           <a href="#related-photos" onclick="return changePhoto('images/related-large1.jpg', 'Related Photo 1');">
+               <img src="images/related-square1.jpg" alt="Related photo 1" title="Click to view larger">
+           </a>
+           <a href="#related-photos" onclick="return changePhoto('images/related-large2.jpg', 'Related Photo 2');">
+               <img src="images/related-square2.jpg" alt="Related photo 2" title="Click to view larger">
+           </a>
+           <a href="#related-photos" onclick="return changePhoto('images/related-large3.jpg', 'Related Photo 3');">
+               <img src="images/related-square3.jpg" alt="Related photo 3" title="Click to view larger">
+           </a>
+       </div>   
+   </section>   
+
+   <!-- 修正：h3 改为 h2 -->
+   <section id="reviews">
+       <h2>Reviews</h2>
+       
+       <div>
+           <p class="byline">By Ricardo on <time>2016-05-23</time></p>
+           <p>Easy on the HDR buddy.</p>
+       </div>
+       
+       <div>
+           <p class="byline">By Susan on <time>2016-11-18</time></p>
+           <p>I love Central Park.</p>
+       </div>          
+   </section>
+</main>
+
+<footer>
+   <p><a href="#">Home</a> | <a href="#">Browse</a> | <a href="#">Search</a></p>
+   <p><em>Copyright &copy; 2017 Share Your Travels</em></p>
+   <p>CISC3003 Web Programming - 2026: DC229576 + Zhang Zhexuan</p>
+</footer>
+
+<script>
+   function changePhoto(imagePath, captionText) {
+       var largeImg = document.getElementById('large-display-image');
+       var caption = document.getElementById('large-image-caption');
+       largeImg.src = imagePath;
+       caption.innerHTML = '<em>' + captionText + '</em>';
+       largeImg.style.opacity = '0.5';
+       setTimeout(function() {
+           largeImg.style.opacity = '1';
+       }, 200);
+       return false;
+   }
+</script>
+
+</body>
+</html>
