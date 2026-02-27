@@ -1,0 +1,116 @@
+/* 全局重置与基础排版 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f6; /* 现代感淡灰背景 */
+    color: #333;
+}
+
+/* 导航栏样式 (Flexbox 布局) */
+header {
+    background-color: #2c3e50; /* 沉稳的深蓝灰色 */
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #3498db; /* 悬停时的亮蓝色 */
+}
+
+/* 主体内容区域 */
+main {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+/* 介绍区块 (卡片式设计) */
+.intro-section {
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+/* 个人照片样式 */
+.profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%; /* 裁切为圆形 */
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 1.5rem;
+}
+
+.intro-section h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.intro-section h2 {
+    font-size: 1.5rem;
+    color: #3498db;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.intro-section p {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+    color: #555;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 4rem;
+}
+
+/* 简历按钮样式 */
+.resume-btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 12px 28px;
+    background-color: #3498db; /* 匹配你现有的主题蓝色 */
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.resume-btn:hover {
+    background-color: #2980b9; /* 悬停时颜色略微加深 */
+    transform: translateY(-2px); /* 悬停时产生轻微上浮的交互效果 */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
