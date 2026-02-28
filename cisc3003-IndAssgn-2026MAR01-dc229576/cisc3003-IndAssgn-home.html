@@ -11,12 +11,18 @@
         <div class="logo">Zhang Zhexuan</div>
         <nav>
             <ul>
-                <li><a href="#top">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="cisc3003-IndAssgn-home.html#top">Home</a></li>
+                <li><a href="cisc3003-IndAssgn-profile.html">Profile</a></li>
+                <li><a href="cisc3003-IndAssgn-qualification.html">Qualifications</a></li>
                 <li><a href="cisc3003-IndAssgn-showcase.html">Showcase</a></li>
+                <li><a href="cisc3003-IndAssgn-summary.html">Summary</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Projects ▼</a>
+                    <div class="dropdown-content">
+                        <a href="cisc3003-IndAssgn-demo01.html">Demo 01: Knowledge Graph</a>
+                        <a href="cisc3003-IndAssgn-demo02.html">Demo 02: Pet Medical LLM</a>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
@@ -41,11 +47,29 @@
             <h2>About Me</h2>
             <p>As a prospective 2027 graduate, I am currently completing my Bachelor's degree in Computer Technology at the University of Macau and have been admitted to the Master's program in Computer Technology at The Chinese University of Hong Kong. I possess a solid foundation in computer science and extensive hands-on project experience, with deep research in Knowledge Graphs, Artificial Intelligence, and Web Development.</p>
             <p>I have excellent problem-solving abilities and a strong team collaboration spirit, enabling me to quickly learn and apply new technologies to real-world business challenges. Through my internships and projects, I have effectively improved business efficiency and data quality. I am eager to apply my expertise in NLP algorithm implementation and Large Language Model applications to drive technological innovation.</p>
+            <div class="btn-container">
+                <a href="cisc3003-IndAssgn-profile.html" class="btn btn-solid">View Full Profile (Values & Hobbies)</a>
+            </div>
+        </section>
+
+        <section id="gallery" class="section-alt">
+            <h2>My Photo Gallery</h2>
+            <p class="text-center" style="text-align: center; margin-bottom: 2rem; color: #555;">A glimpse into my campus life, research moments, and daily inspirations.</p>
+            <div class="gallery-wrapper">
+                <div class="gallery-row">
+                    <img src="images/gallery1.jpg" alt="Gallery Photo 1" class="gallery-img">
+                    <img src="images/gallery2.jpg" alt="Gallery Photo 2" class="gallery-img">
+                </div>
+                <div class="gallery-row">
+                    <img src="images/gallery3.jpg" alt="Gallery Photo 3" class="gallery-img">
+                    <img src="images/gallery4.jpg" alt="Gallery Photo 4" class="gallery-img">
+                    <img src="images/gallery5.jpg" alt="Gallery Photo 5" class="gallery-img">
+                </div>
+            </div>
         </section>
 
         <section id="experience" class="experience-section">
-            <h2>Qualifications & Experience</h2>
-            
+            <h2>Experience Highlights</h2>
             <div class="exp-block">
                 <h3>🎓 Education</h3>
                 <ul>
@@ -53,7 +77,6 @@
                     <li><strong>University of Macau</strong> | Bachelor of Computer Technology | Aug 2022 - Jun 2026 | GPA: 3.7</li>
                 </ul>
             </div>
-
             <div class="exp-block">
                 <h3>💼 Internship Experience</h3>
                 <div class="job">
@@ -73,8 +96,36 @@
             </div>
         </section>
 
+        <section id="explore-more" class="section-alt">
+            <h2>Explore More</h2>
+            <div class="feature-cards-container">
+                
+                <div class="feature-card">
+                    <div class="card-icon">🚀</div>
+                    <h3>My Showcase</h3>
+                    <p>Read my Statement of Purpose, browse through my academic accomplishments, and explore my learning logs detailing my journey.</p>
+                    <a href="cisc3003-IndAssgn-showcase.html" class="btn btn-outline card-btn">Go to Showcase</a>
+                </div>
+
+                <div class="feature-card">
+                    <div class="card-icon">📜</div>
+                    <h3>Detailed Qualifications</h3>
+                    <p>Beyond the brief experience, discover my full academic awards, extracurricular services, and detailed technical background.</p>
+                    <a href="cisc3003-IndAssgn-qualification.html" class="btn btn-outline card-btn">Explore Full Quals</a>
+                </div>
+
+                <div class="feature-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Future Summary</h3>
+                    <p>A deep dive into my intended learning outcomes, reflections on my undergraduate studies, and my professional development planning.</p>
+                    <a href="cisc3003-IndAssgn-summary.html" class="btn btn-outline card-btn">Read My Summary</a>
+                </div>
+
+            </div>
+        </section>
+
         <section id="projects" class="projects-section">
-            <p class="section__text__p1">Browse My Recent</p>
+            <p class="section__text__p1" style="text-align: center;">Browse My Recent</p>
             <h2 class="title">Projects</h2>
             <div class="projects-container">
                 <div class="project-card">
@@ -96,7 +147,7 @@
             </div>
         </section>
 
-        <section id="contact" class="contact-section">
+        <section id="contact" class="contact-section section-alt">
             <h2>Get in Touch</h2>
             <div class="contact-card">
                 <div class="contact-item">
