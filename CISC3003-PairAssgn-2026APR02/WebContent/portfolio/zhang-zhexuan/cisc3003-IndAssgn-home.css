@@ -1,0 +1,126 @@
+/* 全局重置与平滑滚动 */
+html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background-color: #ffffff; }
+
+/* 吸顶导航栏与下拉菜单 */
+header { display: flex; justify-content: space-around; align-items: center; padding: 1.5rem 0; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000; }
+.logo { font-size: 1.8rem; font-weight: bold; color: #333; }
+nav ul { list-style: none; display: flex; gap: 1.5rem; align-items: center; }
+nav a { color: #333; text-decoration: none; font-size: 1.1rem; font-weight: 500; transition: color 0.3s ease; }
+nav a:hover { color: #3498db; text-decoration: none; }
+
+.dropdown { position: relative; display: inline-block; padding-bottom: 10px; margin-bottom: -10px; }
+.dropdown-content { display: none; position: absolute; background-color: #ffffff; min-width: 240px; box-shadow: 0px 8px 16px rgba(0,0,0,0.1); z-index: 1001; border-radius: 8px; top: 100%; overflow: hidden; }
+.dropdown-content a { color: #333; padding: 12px 16px; text-decoration: none; display: block; border-bottom: 1px solid #f4f4f4; font-size: 1rem; transition: background-color 0.3s; }
+.dropdown-content a:hover { background-color: #f9fbfb; color: #3498db; }
+.dropdown:hover .dropdown-content { display: block; }
+.dropbtn { cursor: pointer; }
+
+/* 通用模块样式 */
+section { padding: 4rem 2rem; border-bottom: 1px solid #f4f4f4; }
+.section-alt { background-color: #f9fbfb; border-top: 1px solid #f4f4f4; border-bottom: 1px solid #f4f4f4; }
+h2 { font-size: 2.2rem; margin-bottom: 1.5rem; color: #2c3e50; text-align: center; }
+
+/* 按钮样式 */
+.btn-container { display: flex; justify-content: center; gap: 1rem; margin-top: 1.5rem; }
+.btn { padding: 0.8rem 1.8rem; border-radius: 30px; font-size: 1rem; font-weight: bold; cursor: pointer; transition: all 0.3s ease; text-decoration: none; display: inline-block; text-align: center; }
+.btn-outline { background: transparent; border: 2px solid #333; color: #333; }
+.btn-outline:hover { background: #333; color: #fff; }
+.btn-solid { background: #3498db; border: 2px solid #3498db; color: #fff; }
+.btn-solid:hover { background: #2980b9; border-color: #2980b9; }
+
+/* 1. Hero 封面区 */
+.hero-section { display: flex; justify-content: center; align-items: center; gap: 5rem; min-height: 70vh; }
+.hero-image img { width: 320px; height: 320px; border-radius: 50%; object-fit: cover; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border: 5px solid #fff; }
+.hero-text { text-align: center; }
+.hero-text .greeting { font-size: 1.2rem; font-weight: 600; color: #555; margin-bottom: 0.5rem; }
+.hero-text h1 { font-size: 3rem; color: #111; margin-bottom: 0.5rem; }
+.hero-text h2 { font-size: 1.5rem; color: #666; font-weight: 500; margin-bottom: 1.5rem; }
+
+/* 2. About & Experience区 */
+.about-section, .experience-section { max-width: 900px; margin: 0 auto; }
+.about-section p { font-size: 1.1rem; color: #555; margin-bottom: 1rem; }
+.exp-block { background: #ffffff; padding: 2rem; border-radius: 10px; margin-bottom: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.03); border: 1px solid #eaeaea; }
+.exp-block h3 { color: #3498db; margin-bottom: 1rem; font-size: 1.4rem; border-bottom: 1px solid #eaeaea; padding-bottom: 0.5rem; }
+.exp-block ul { margin-left: 1.5rem; color: #555; }
+.exp-block li { margin-bottom: 0.5rem; }
+.job { margin-bottom: 1.5rem; }
+.job h4 { color: #2c3e50; font-size: 1.1rem; margin-bottom: 0.5rem; }
+.job h4 span { font-weight: normal; color: #7f8c8d; font-size: 0.95rem; float: right; }
+
+/* 3. 照片画廊 (强制 1:1 正方形 + Flexbox 上2下3 排版) */
+.gallery-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap; /* 保证小屏幕可以自动折行 */
+}
+.gallery-img {
+    width: 100%;
+    max-width: 280px; /* 限制最大宽度，保证3张能并排 */
+    aspect-ratio: 1 / 1; /* 核心代码：强制锁定正方形 */
+    object-fit: cover;   /* 核心代码：保证图片铺满不被拉伸变形 */
+    border-radius: 12px;
+    border: 2px solid #eaeaea;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery-img:hover { transform: scale(1.05); box-shadow: 0 10px 20px rgba(0,0,0,0.15); z-index: 2; position: relative; }
+
+/* 4. 三个竖向引流模块 (Feature Cards) */
+.feature-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.feature-card {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 15px;
+    padding: 2.5rem 1.5rem;
+    flex: 1;
+    min-width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+.feature-card:hover { transform: translateY(-8px); box-shadow: 0 12px 25px rgba(0,0,0,0.08); border-color: #dcdcdc; }
+.card-icon { font-size: 3.5rem; margin-bottom: 1rem; }
+.feature-card h3 { color: #2c3e50; margin-bottom: 1rem; font-size: 1.4rem; }
+.feature-card p { color: #555; margin-bottom: 2rem; font-size: 1.05rem; flex-grow: 1; /* 让按钮对齐到底部 */ }
+.card-btn { margin-top: auto; padding: 0.6rem 1.5rem; }
+
+/* 5. Projects 项目展示卡片 */
+.projects-section { background-color: #ffffff; text-align: center; }
+.projects-container { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; max-width: 1000px; margin: 0 auto; }
+.project-card { background: #ffffff; border: 2px solid #eaeaea; border-radius: 20px; padding: 1.5rem; width: 380px; transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: left;}
+.project-card:hover { transform: translateY(-8px); box-shadow: 0 12px 25px rgba(0,0,0,0.08); border-color: #dcdcdc; }
+.project-card .project-img { width: 100%; height: 250px; object-fit: cover; border-radius: 15px; margin-bottom: 1.5rem; border: 1px solid #f0f0f0; }
+.project-card .project-title { font-size: 1.4rem; color: #2c3e50; margin-bottom: 1.5rem; font-weight: 600; text-align: center; }
+.project-btn-container { display: flex; justify-content: center; gap: 1rem; }
+.project-btn { padding: 0.8rem 1.5rem; border-radius: 30px; font-weight: 600; font-size: 1rem; cursor: pointer; border: 2px solid #333; background: transparent; color: #333; transition: all 0.3s ease; }
+.project-btn:hover { background: #333; color: #fff; }
+
+/* 6. Contact 联系方式卡片 */
+.contact-section { background-color: #f9fbfb; }
+.contact-card { display: flex; justify-content: center; flex-wrap: wrap; gap: 2rem; max-width: 900px; margin: 0 auto; }
+.contact-item { background: #ffffff; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); min-width: 250px; transition: transform 0.3s ease; text-align: center; border: 1px solid #eaeaea;}
+.contact-item:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+.contact-item h3 { color: #3498db; margin-bottom: 0.5rem; font-size: 1.2rem; }
+.contact-item p, .contact-item a { font-size: 1.1rem; font-weight: 600; color: #333; text-decoration: none; }
+
+/* Footer */
+footer { background-color: #2c3e50; color: #ffffff; text-align: center; padding: 1.5rem 0; margin-top: auto; }
