@@ -1,0 +1,372 @@
+[
+  {
+    "name": "EECS Master of Engineering (MEng)",
+    "university": "Massachusetts Institute of Technology",
+    "region": "US",
+    "tier": "T1",
+    "duration": "1-2 years",
+    "tuition": "~$60,000/year",
+    "highlight": "Research-heavy programme with strong AI and systems groups; MEng open to MIT undergrads.",
+    "url": "https://www.eecs.mit.edu/academics/graduate-programs/"
+  },
+  {
+    "name": "MS in Computer Science",
+    "university": "Stanford University",
+    "region": "US",
+    "tier": "T1",
+    "duration": "1.5-2 years",
+    "tuition": "~$62,000/year",
+    "highlight": "Specialization tracks in AI, HCI, Systems; Silicon Valley network is unmatched.",
+    "url": "https://cs.stanford.edu/academics/masters"
+  },
+  {
+    "name": "MSCS / MSAI / MCDS",
+    "university": "Carnegie Mellon University",
+    "region": "US",
+    "tier": "T1",
+    "duration": "1.5-2 years",
+    "tuition": "~$50,000/year",
+    "highlight": "Top-ranked CS school; industry pipeline and specialized tracks for every niche.",
+    "url": "https://www.cs.cmu.edu/masters-programs"
+  },
+  {
+    "name": "MEng in EECS / MS in CS",
+    "university": "UC Berkeley",
+    "region": "US",
+    "tier": "T1",
+    "duration": "1-2 years",
+    "tuition": "~$55,000/year",
+    "highlight": "Bay Area access and strong theory tradition; MEng is one-year and course-based.",
+    "url": "https://eecs.berkeley.edu/academics/graduate"
+  },
+  {
+    "name": "MSE in Computer Science",
+    "university": "Princeton University",
+    "region": "US",
+    "tier": "T1",
+    "duration": "2 years",
+    "tuition": "~$60,000/year",
+    "highlight": "Small, research-focused; often a feeder into Princeton's PhD programme.",
+    "url": "https://www.cs.princeton.edu/grad"
+  },
+  {
+    "name": "MS in Computer Science",
+    "university": "University of Illinois Urbana-Champaign",
+    "region": "US",
+    "tier": "T2",
+    "duration": "1.5 years",
+    "tuition": "~$40,000/year",
+    "highlight": "Strong systems and databases programme; Grainger engineering network.",
+    "url": "https://cs.illinois.edu/academics/graduate"
+  },
+  {
+    "name": "MEng in Computer Science",
+    "university": "Cornell University",
+    "region": "US",
+    "tier": "T2",
+    "duration": "1 year",
+    "tuition": "~$65,000",
+    "highlight": "Fast 2-semester option; Ithaca or Cornell Tech NYC campus.",
+    "url": "https://www.cs.cornell.edu/masters"
+  },
+  {
+    "name": "MS in Computer Science & Engineering",
+    "university": "University of Washington",
+    "region": "US",
+    "tier": "T2",
+    "duration": "2 years",
+    "tuition": "~$35,000/year",
+    "highlight": "Seattle location near Amazon and Microsoft; highly competitive admissions.",
+    "url": "https://www.cs.washington.edu/academics/pmp"
+  },
+  {
+    "name": "MS in Computer Science (incl. OMSCS online)",
+    "university": "Georgia Institute of Technology",
+    "region": "US",
+    "tier": "T2",
+    "duration": "1.5-3 years",
+    "tuition": "OMSCS ~$7,000 total / on-campus ~$30,000/year",
+    "highlight": "OMSCS is affordable and same-diploma as on-campus; strong in ML and systems.",
+    "url": "https://www.cc.gatech.edu/graduate-programs"
+  },
+  {
+    "name": "MS in Computer Science",
+    "university": "Columbia University",
+    "region": "US",
+    "tier": "T2",
+    "duration": "1.5-2 years",
+    "tuition": "~$50,000/year",
+    "highlight": "Track-based programme; strong AI and finance-adjacent tech scene.",
+    "url": "https://www.cs.columbia.edu/education/ms"
+  },
+  {
+    "name": "MS in Computer Science / MSCSO",
+    "university": "University of Texas at Austin",
+    "region": "US",
+    "tier": "T2",
+    "duration": "1.5-2 years",
+    "tuition": "On-campus ~$20,000/year; MSCSO online ~$10,000",
+    "highlight": "Austin tech scene; MSCSO online is exceptional value for working students.",
+    "url": "https://www.cs.utexas.edu/graduate-program"
+  },
+  {
+    "name": "MS in Computer Science & Engineering",
+    "university": "UC San Diego",
+    "region": "US",
+    "tier": "T3",
+    "duration": "2 years",
+    "tuition": "~$30,000/year",
+    "highlight": "Strong systems and ML; San Diego's startup ecosystem is growing quickly.",
+    "url": "https://cse.ucsd.edu/graduate/ms-programs"
+  },
+  {
+    "name": "MS in Computer Science",
+    "university": "University of Southern California",
+    "region": "US",
+    "tier": "T3",
+    "duration": "1.5-2 years",
+    "tuition": "~$50,000/year",
+    "highlight": "Large CS school in LA; entertainment, gaming, and robotics adjacencies.",
+    "url": "https://www.cs.usc.edu/graduate"
+  },
+  {
+    "name": "MS in Computer Science",
+    "university": "New York University",
+    "region": "US",
+    "tier": "T3",
+    "duration": "1.5-2 years",
+    "tuition": "~$55,000/year",
+    "highlight": "Manhattan campus; strong links to finance, fintech, and media tech.",
+    "url": "https://cs.nyu.edu/home/master/index.html"
+  },
+  {
+    "name": "Align MS in Computer Science",
+    "university": "Northeastern University",
+    "region": "US",
+    "tier": "T3",
+    "duration": "2 years + 6-month co-op",
+    "tuition": "~$30,000/year",
+    "highlight": "Co-op track lets career-switchers intern for 6 months at a company.",
+    "url": "https://www.khoury.northeastern.edu/programs/align-masters-computer-science"
+  },
+  {
+    "name": "MS in Computer Science / MIDS",
+    "university": "Duke University",
+    "region": "US",
+    "tier": "T3",
+    "duration": "1.5-2 years",
+    "tuition": "~$60,000/year",
+    "highlight": "Smaller cohort; MIDS data-science track is popular for career pivots.",
+    "url": "https://cs.duke.edu/academics/masters"
+  },
+  {
+    "name": "MSE in Computer Science & Engineering",
+    "university": "University of Michigan",
+    "region": "US",
+    "tier": "T3",
+    "duration": "1.5-2 years",
+    "tuition": "~$40,000/year",
+    "highlight": "Strong engineering ecosystem with mobility and automotive tech proximity.",
+    "url": "https://cse.engin.umich.edu/academics/graduate"
+  },
+  {
+    "name": "MComp in Computer Science / MSc in AI / MSc in Digital Financial Technology",
+    "university": "National University of Singapore",
+    "region": "Singapore",
+    "tier": "T1",
+    "duration": "1-1.5 years",
+    "tuition": "S$45,000-55,000 total",
+    "highlight": "Flagship CS school in Asia; AI and FinTech tracks are especially competitive.",
+    "url": "https://www.comp.nus.edu.sg/programmes/pg/"
+  },
+  {
+    "name": "MSc in AI / Data Science / FinTech",
+    "university": "Nanyang Technological University",
+    "region": "Singapore",
+    "tier": "T1",
+    "duration": "1-1.5 years",
+    "tuition": "S$40,000-55,000 total",
+    "highlight": "Industry-partnership projects with Alibaba, ByteDance and regional banks.",
+    "url": "https://www.ntu.edu.sg/scse/admissions/programmes"
+  },
+  {
+    "name": "Master of Engineering (Computer Science)",
+    "university": "Singapore University of Technology and Design",
+    "region": "Singapore",
+    "tier": "T2",
+    "duration": "1-1.5 years",
+    "tuition": "S$40,000 total",
+    "highlight": "MIT-inspired curriculum; small cohort, hands-on project-based learning.",
+    "url": "https://www.sutd.edu.sg/programmes"
+  },
+  {
+    "name": "MITB (Master of IT in Business)",
+    "university": "Singapore Management University",
+    "region": "Singapore",
+    "tier": "T2",
+    "duration": "1-1.5 years",
+    "tuition": "S$55,000 total",
+    "highlight": "Business-IT crossover; a strong path from CS into consulting or finance.",
+    "url": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
+  },
+  {
+    "name": "MSc in Computer Science",
+    "university": "The University of Hong Kong",
+    "region": "HongKong",
+    "tier": "T1",
+    "duration": "1 year FT / 2 years PT",
+    "tuition": "HK$165,000 total",
+    "highlight": "Established programme with focused tracks in AI, multimedia and data science.",
+    "url": "https://www.cs.hku.hk/postgraduate/mcs"
+  },
+  {
+    "name": "MSc in Big Data Technology / MSc in AI",
+    "university": "Hong Kong University of Science and Technology",
+    "region": "HongKong",
+    "tier": "T1",
+    "duration": "1-1.5 years",
+    "tuition": "HK$230,000 total",
+    "highlight": "CS ranks top in Asia; Big Data Technology is highly career-oriented.",
+    "url": "https://cse.hkust.edu.hk/admission/pg/"
+  },
+  {
+    "name": "MSc in Computer Science",
+    "university": "The Chinese University of Hong Kong",
+    "region": "HongKong",
+    "tier": "T1",
+    "duration": "1 year FT",
+    "tuition": "HK$180,000 total",
+    "highlight": "Specialization tracks in AI, FinTech and Multimedia; strong research output.",
+    "url": "https://www.cse.cuhk.edu.hk/en/admissions/mphil-phd/"
+  },
+  {
+    "name": "MSc in Information Technology",
+    "university": "The Hong Kong Polytechnic University",
+    "region": "HongKong",
+    "tier": "T2",
+    "duration": "1 year FT",
+    "tuition": "HK$150,000 total",
+    "highlight": "Application-oriented programme suitable for pivoting into IT roles.",
+    "url": "https://www.polyu.edu.hk/comp/study/"
+  },
+  {
+    "name": "MSc in Computer Science",
+    "university": "City University of Hong Kong",
+    "region": "HongKong",
+    "tier": "T2",
+    "duration": "1 year FT",
+    "tuition": "HK$165,000 total",
+    "highlight": "Rising programme with strong value-for-money positioning.",
+    "url": "https://www.cs.cityu.edu.hk/postgraduate/"
+  },
+  {
+    "name": "MSc in Computer Science",
+    "university": "ETH Zürich",
+    "region": "Europe",
+    "tier": "T1",
+    "duration": "2 years",
+    "tuition": "~CHF 1,500/year",
+    "highlight": "Top-10 global CS at near-zero tuition; reading-level German helps daily life.",
+    "url": "https://ethz.ch/students/en/studies/programmes.html"
+  },
+  {
+    "name": "MSc in Computer Science / Data Science",
+    "university": "EPFL",
+    "region": "Europe",
+    "tier": "T1",
+    "duration": "2 years",
+    "tuition": "~CHF 1,500/year",
+    "highlight": "English-taught programme in Lausanne; strong AI and systems groups.",
+    "url": "https://www.epfl.ch/education/master/"
+  },
+  {
+    "name": "MSc in Computer Science",
+    "university": "University of Oxford",
+    "region": "Europe",
+    "tier": "T1",
+    "duration": "1 year",
+    "tuition": "£37,000",
+    "highlight": "Intense one-year taught programme; a great platform for career pivots.",
+    "url": "https://www.cs.ox.ac.uk/admissions/graduate/"
+  },
+  {
+    "name": "MPhil in Advanced Computer Science",
+    "university": "University of Cambridge",
+    "region": "Europe",
+    "tier": "T1",
+    "duration": "1 year",
+    "tuition": "£38,000",
+    "highlight": "Research-track MPhil; a strong runway into a PhD.",
+    "url": "https://www.cst.cam.ac.uk/admissions/acs"
+  },
+  {
+    "name": "MSc in Computing (Science)",
+    "university": "Imperial College London",
+    "region": "Europe",
+    "tier": "T1",
+    "duration": "1 year",
+    "tuition": "£41,000",
+    "highlight": "London location with strong FinTech, AI and quant-trading links.",
+    "url": "https://www.imperial.ac.uk/computing/current-students/postgraduate-taught/"
+  },
+  {
+    "name": "MSc in Informatics",
+    "university": "Technical University of Munich (TUM)",
+    "region": "Europe",
+    "tier": "T1",
+    "duration": "2 years",
+    "tuition": "~€300/semester",
+    "highlight": "Nearly free tuition; German engineering rigor and strong industry links.",
+    "url": "https://www.cit.tum.de/en/cit/studies/"
+  },
+  {
+    "name": "MSc in Computer Science (ICT Innovation)",
+    "university": "KTH Royal Institute of Technology",
+    "region": "Europe",
+    "tier": "T2",
+    "duration": "2 years",
+    "tuition": "~€16,000/year (EU free)",
+    "highlight": "Erasmus Mundus joint-campus option across top European schools.",
+    "url": "https://www.kth.se/en/studies/master/computer-science"
+  },
+  {
+    "name": "MSc in Computer Science",
+    "university": "TU Delft",
+    "region": "Europe",
+    "tier": "T2",
+    "duration": "2 years",
+    "tuition": "~€21,000/year",
+    "highlight": "English-taught; core of the Dutch tech ecosystem near Amsterdam.",
+    "url": "https://www.tudelft.nl/en/education/programmes/masters/computer-science/"
+  },
+  {
+    "name": "MSc in Artificial Intelligence",
+    "university": "University of Edinburgh",
+    "region": "Europe",
+    "tier": "T2",
+    "duration": "1 year",
+    "tuition": "£38,000",
+    "highlight": "Historic AI programme; coursework is intense but well-regarded by industry.",
+    "url": "https://www.ed.ac.uk/informatics/postgraduate"
+  },
+  {
+    "name": "MSc in Machine Learning / MSc CS",
+    "university": "University College London (UCL)",
+    "region": "Europe",
+    "tier": "T2",
+    "duration": "1 year",
+    "tuition": "£40,000",
+    "highlight": "Close ties with DeepMind and London's finance and health-tech scene.",
+    "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees"
+  },
+  {
+    "name": "MSc in Computer Science",
+    "university": "RWTH Aachen University",
+    "region": "Europe",
+    "tier": "T2",
+    "duration": "2 years",
+    "tuition": "~€500/semester",
+    "highlight": "Strong in systems and embedded computing; low cost of study.",
+    "url": "https://www.informatik.rwth-aachen.de/go/id/gjso"
+  }
+]

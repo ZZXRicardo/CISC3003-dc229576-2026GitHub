@@ -1,0 +1,1316 @@
+[
+  {
+    "title": "Software Engineer, New Grad",
+    "company": "Google",
+    "role_type": "SDE",
+    "location": "Mountain View / NYC / Seattle",
+    "level": "L3",
+    "highlight": "Rotational team placement; strong compensation and 20% project culture.",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/?jlo=en_US&q=software%20engineer"
+  },
+  {
+    "title": "Software Engineer, University Grad",
+    "company": "Meta",
+    "role_type": "SDE",
+    "location": "Menlo Park / NYC",
+    "level": "E3",
+    "highlight": "Bootcamp-style onboarding with product or infrastructure track placement.",
+    "url": "https://www.metacareers.com/jobs"
+  },
+  {
+    "title": "Software Development Engineer I (New Grad)",
+    "company": "Amazon",
+    "role_type": "SDE",
+    "location": "Seattle / Bay Area",
+    "level": "L4",
+    "highlight": "Leadership-Principles interviews; exposure to very large codebases from day one.",
+    "url": "https://www.amazon.jobs/en/teams/software-development"
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Apple",
+    "role_type": "SDE",
+    "location": "Cupertino",
+    "level": "ICT2",
+    "highlight": "Secrecy-heavy culture with deep hardware-software integration and polished craft.",
+    "url": "https://jobs.apple.com/en-us/search?team=SFTWR"
+  },
+  {
+    "title": "Software Engineer, New Grad",
+    "company": "Microsoft",
+    "role_type": "SDE",
+    "location": "Redmond / Vancouver",
+    "level": "L59",
+    "highlight": "Azure, Office and Windows divisions offer a broad menu of tech stacks.",
+    "url": "https://careers.microsoft.com/v2/global/en/students-and-graduates.html"
+  },
+  {
+    "title": "Software Engineer, New Grad",
+    "company": "Stripe",
+    "role_type": "SDE",
+    "location": "Remote US / SF / NYC",
+    "level": "IC2",
+    "highlight": "Financial-grade payments infrastructure with a celebrated engineering docs culture.",
+    "url": "https://stripe.com/jobs/search?teams=Engineering"
+  },
+  {
+    "title": "Software Engineer, New Grad",
+    "company": "Airbnb",
+    "role_type": "SDE",
+    "location": "San Francisco / Seattle",
+    "level": "IC3",
+    "highlight": "Product-driven engineering in a design-heavy culture.",
+    "url": "https://careers.airbnb.com/positions/"
+  },
+  {
+    "title": "Software Engineer",
+    "company": "ByteDance / TikTok",
+    "role_type": "SDE",
+    "location": "Singapore / Hong Kong / Seattle",
+    "level": "New Grad",
+    "highlight": "Fast iteration and product globalization across TikTok and ByteDance apps.",
+    "url": "https://jobs.bytedance.com/en/"
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Grab",
+    "role_type": "SDE",
+    "location": "Singapore",
+    "level": "SE I",
+    "highlight": "Southeast-Asia super-app spanning mobility, delivery and fintech.",
+    "url": "https://grab.careers/jobs/"
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Shopee",
+    "role_type": "SDE",
+    "location": "Singapore",
+    "level": "New Grad",
+    "highlight": "E-commerce platform at regional scale; part of Sea Group.",
+    "url": "https://careers.shopee.sg/job-openings"
+  },
+  {
+    "title": "Machine Learning Engineer, New Grad",
+    "company": "Google",
+    "role_type": "MLE",
+    "location": "Mountain View / London",
+    "level": "L3",
+    "highlight": "Work on Core ML, Search and Ads ranking pipelines.",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/?q=machine%20learning"
+  },
+  {
+    "title": "Research Engineer",
+    "company": "Google DeepMind",
+    "role_type": "MLE",
+    "location": "London / Mountain View",
+    "level": "IC",
+    "highlight": "Frontier research combined with production engineering at AGI scope.",
+    "url": "https://deepmind.google/about/careers/"
+  },
+  {
+    "title": "Research Engineer / AI Research Scientist",
+    "company": "Meta AI (FAIR)",
+    "role_type": "MLE",
+    "location": "Menlo Park / NYC / Paris",
+    "level": "IC",
+    "highlight": "Open research culture; home of PyTorch and long-horizon ML research.",
+    "url": "https://ai.meta.com/careers/"
+  },
+  {
+    "title": "Software Engineer, Machine Learning",
+    "company": "OpenAI",
+    "role_type": "MLE",
+    "location": "San Francisco",
+    "level": "IC",
+    "highlight": "Model training, tooling and product-facing ML for GPT-class systems.",
+    "url": "https://openai.com/careers/"
+  },
+  {
+    "title": "Member of Technical Staff, ML",
+    "company": "Anthropic",
+    "role_type": "MLE",
+    "location": "San Francisco / London",
+    "level": "IC",
+    "highlight": "Safety-focused frontier AI lab building the Claude model family.",
+    "url": "https://www.anthropic.com/careers"
+  },
+  {
+    "title": "Deep Learning Engineer",
+    "company": "NVIDIA",
+    "role_type": "MLE",
+    "location": "Santa Clara",
+    "level": "IC2",
+    "highlight": "CUDA-level performance engineering alongside deep-learning frameworks.",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "Apple",
+    "role_type": "MLE",
+    "location": "Cupertino / Seattle",
+    "level": "ICT3",
+    "highlight": "On-device ML with a privacy-first design ethos.",
+    "url": "https://jobs.apple.com/en-us/search?search=machine+learning"
+  },
+  {
+    "title": "Autopilot AI Engineer",
+    "company": "Tesla",
+    "role_type": "MLE",
+    "location": "Palo Alto",
+    "level": "IC",
+    "highlight": "Self-driving perception and planning at very high intensity.",
+    "url": "https://www.tesla.com/careers/search/?department=1"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "Shopee / Sea Labs",
+    "role_type": "MLE",
+    "location": "Singapore",
+    "level": "SE I",
+    "highlight": "Recommendation and search-relevance at Sea-Group scale across Southeast Asia.",
+    "url": "https://careers.shopee.sg/"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "ByteDance AI Lab",
+    "role_type": "MLE",
+    "location": "Singapore / Shanghai",
+    "level": "IC",
+    "highlight": "Douyin and TikTok ranking plus generative content systems.",
+    "url": "https://jobs.bytedance.com/en/"
+  },
+  {
+    "title": "Security Engineer",
+    "company": "Google",
+    "role_type": "Security",
+    "location": "Mountain View / Zürich",
+    "level": "L3",
+    "highlight": "Product Security and Detection & Response teams across Google services.",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/?q=security%20engineer"
+  },
+  {
+    "title": "Security Engineer",
+    "company": "Meta",
+    "role_type": "Security",
+    "location": "Menlo Park / London",
+    "level": "E4",
+    "highlight": "AppSec, Red Team and Detection tracks across Meta's product surface.",
+    "url": "https://www.metacareers.com/jobs?q=security"
+  },
+  {
+    "title": "Security Software Engineer",
+    "company": "CrowdStrike",
+    "role_type": "Security",
+    "location": "Remote US",
+    "level": "IC2",
+    "highlight": "Endpoint detection and response platform; cloud-native architecture.",
+    "url": "https://www.crowdstrike.com/en-us/careers/"
+  },
+  {
+    "title": "Security Engineer",
+    "company": "Palo Alto Networks",
+    "role_type": "Security",
+    "location": "Santa Clara",
+    "level": "IC",
+    "highlight": "Network and cloud-security stack across enterprises worldwide.",
+    "url": "https://www.paloaltonetworks.com/company/careers"
+  },
+  {
+    "title": "Security Engineer",
+    "company": "Cloudflare",
+    "role_type": "Security",
+    "location": "Austin / London / Singapore",
+    "level": "IC",
+    "highlight": "Edge-layer security at the scale of a large fraction of internet traffic.",
+    "url": "https://www.cloudflare.com/careers/jobs/"
+  },
+  {
+    "title": "Security Engineer, AppSec",
+    "company": "Amazon Web Services",
+    "role_type": "Security",
+    "location": "Seattle",
+    "level": "L4",
+    "highlight": "Application security across the AWS service catalogue.",
+    "url": "https://www.amazon.jobs/en/job_categories/security"
+  },
+  {
+    "title": "Security Engineer, MSRC",
+    "company": "Microsoft",
+    "role_type": "Security",
+    "location": "Redmond",
+    "level": "L60",
+    "highlight": "Microsoft Security Response Center: incident response and vulnerability research.",
+    "url": "https://careers.microsoft.com/v2/global/en/security-research.html"
+  },
+  {
+    "title": "Data Scientist, Product",
+    "company": "Google",
+    "role_type": "Data",
+    "location": "Mountain View",
+    "level": "L3",
+    "highlight": "Product metric design and A/B experimentation across Google surfaces.",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/?q=data%20scientist"
+  },
+  {
+    "title": "Data Scientist, Analytics",
+    "company": "Meta",
+    "role_type": "Data",
+    "location": "Menlo Park / London",
+    "level": "IC4",
+    "highlight": "Product analytics with SQL-heavy workflows and causal-inference depth.",
+    "url": "https://www.metacareers.com/jobs?q=data%20scientist"
+  },
+  {
+    "title": "Data Engineer",
+    "company": "Netflix",
+    "role_type": "Data",
+    "location": "Los Gatos",
+    "level": "IC",
+    "highlight": "Streaming data infrastructure and experimentation platforms.",
+    "url": "https://jobs.netflix.com/search?q=data"
+  },
+  {
+    "title": "Data Scientist",
+    "company": "Airbnb",
+    "role_type": "Data",
+    "location": "San Francisco",
+    "level": "IC3",
+    "highlight": "Marketplace metrics and causal-inference projects across global host/guest data.",
+    "url": "https://careers.airbnb.com/positions/"
+  },
+  {
+    "title": "Data Engineer",
+    "company": "Spotify",
+    "role_type": "Data",
+    "location": "NYC / Stockholm",
+    "level": "IC",
+    "highlight": "Music recommendation pipelines and business-intelligence systems.",
+    "url": "https://www.lifeatspotify.com/jobs"
+  },
+  {
+    "title": "Data Scientist",
+    "company": "Shopee",
+    "role_type": "Data",
+    "location": "Singapore",
+    "level": "IC",
+    "highlight": "E-commerce ranking, dynamic pricing and growth experimentation.",
+    "url": "https://careers.shopee.sg/"
+  },
+  {
+    "title": "Research Engineer",
+    "company": "Google Research",
+    "role_type": "Research",
+    "location": "Mountain View / NYC",
+    "level": "L4",
+    "highlight": "Applied research plus production-grade engineering across Google services.",
+    "url": "https://research.google/careers/"
+  },
+  {
+    "title": "Research Software Engineer",
+    "company": "Microsoft Research",
+    "role_type": "Research",
+    "location": "Redmond / Cambridge UK / Bangalore",
+    "level": "L62",
+    "highlight": "Broad CS research spanning systems, quantum computing and applied ML.",
+    "url": "https://www.microsoft.com/en-us/research/careers/"
+  },
+  {
+    "title": "Research Scientist",
+    "company": "Meta FAIR",
+    "role_type": "Research",
+    "location": "Menlo Park / NYC / Paris",
+    "level": "IC",
+    "highlight": "Open research with high publication cadence and strong collaborations.",
+    "url": "https://ai.meta.com/careers/"
+  },
+  {
+    "title": "Research Scientist",
+    "company": "Google DeepMind",
+    "role_type": "Research",
+    "location": "London",
+    "level": "IC",
+    "highlight": "Frontier AI research spanning reinforcement learning, biology and language.",
+    "url": "https://deepmind.google/about/careers/"
+  },
+  {
+    "title": "Research Staff Member",
+    "company": "IBM Research",
+    "role_type": "Research",
+    "location": "Yorktown Heights",
+    "level": "IC",
+    "highlight": "Long-horizon research in systems, quantum computing and enterprise AI.",
+    "url": "https://research.ibm.com/careers"
+  },
+  {
+    "title": "Research Scientist",
+    "company": "NVIDIA Research",
+    "role_type": "Research",
+    "location": "Santa Clara",
+    "level": "IC",
+    "highlight": "Graphics, deep learning and high-performance systems research.",
+    "url": "https://research.nvidia.com/careers"
+  },
+  {
+    "title": "Associate Product Manager (APM)",
+    "company": "Google",
+    "role_type": "Product",
+    "location": "Mountain View",
+    "level": "L3",
+    "highlight": "Flagship two-year rotational programme for early-career product managers.",
+    "url": "https://buildyourfuture.withgoogle.com/programs/apm"
+  },
+  {
+    "title": "Rotational Product Manager (RPM)",
+    "company": "Meta",
+    "role_type": "Product",
+    "location": "Menlo Park",
+    "level": "IC4",
+    "highlight": "Rotational new-grad PM programme across Meta's product surface.",
+    "url": "https://www.metacareers.com/careerprograms/pathways/rpm"
+  },
+  {
+    "title": "Product Manager, University Grad",
+    "company": "Microsoft",
+    "role_type": "Product",
+    "location": "Redmond",
+    "level": "L60",
+    "highlight": "Cloud, Office and Windows products with frequent cross-org rotations.",
+    "url": "https://careers.microsoft.com/v2/global/en/program/university-product-manager.html"
+  },
+  {
+    "title": "Associate Product Manager",
+    "company": "Atlassian",
+    "role_type": "Product",
+    "location": "Sydney / San Francisco",
+    "level": "P30",
+    "highlight": "Developer-tools PM track across Jira, Confluence and Trello.",
+    "url": "https://www.atlassian.com/company/careers/all-jobs"
+  },
+  {
+    "title": "销售总经理/销售副总裁",
+    "company": "海尔家居",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Senior",
+    "highlight": "20-30k · 5年以上 · 大专 · 海尔家居",
+    "url": "https://www.liepin.com/job/1981936967.shtml"
+  },
+  {
+    "title": "Responsible Officer",
+    "company": "水滴公司",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Senior",
+    "highlight": "60-90k·13薪 · 5年以上 · 本科 · 水滴公司",
+    "url": "https://www.liepin.com/job/1981774777.shtml"
+  },
+  {
+    "title": "澳门业务拓展岗",
+    "company": "银联国际",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Entry",
+    "highlight": "20-35k·13薪 · 经验不限 · 本科 · 银联国际",
+    "url": "https://www.liepin.com/job/1981549743.shtml"
+  },
+  {
+    "title": "风险分析师Risk Analyst",
+    "company": "水滴公司",
+    "role_type": "Data",
+    "location": "Macau",
+    "level": "Senior",
+    "highlight": "30-60k·13薪 · 7年以上 · 本科 · 水滴公司",
+    "url": "https://www.liepin.com/job/1979637739.shtml"
+  },
+  {
+    "title": "售前产品经理",
+    "company": "新华三集团",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Mid",
+    "highlight": "15-30k · 3-5年 · 统招本科 · 新华三集团",
+    "url": "https://www.liepin.com/job/1980595197.shtml"
+  },
+  {
+    "title": "客户经理（智慧教育）",
+    "company": "科大讯飞",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Mid",
+    "highlight": "15-25k · 2年以上 · 统招本科 · 科大讯飞",
+    "url": "https://www.liepin.com/job/1980178787.shtml"
+  },
+  {
+    "title": "教育解決方案交付主管",
+    "company": "科大讯飞",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Senior",
+    "highlight": "16-26k·14薪 · 5-10年 · 本科 · 科大讯飞",
+    "url": "https://www.liepin.com/job/1978115423.shtml"
+  },
+  {
+    "title": "ERP实施顾问",
+    "company": "金蝶",
+    "role_type": "SDE",
+    "location": "Macau",
+    "level": "Mid",
+    "highlight": "15-20k·14薪 · 3年以上 · 统招本科 · 金蝶",
+    "url": "https://www.liepin.com/job/1974833661.shtml"
+  },
+  {
+    "title": "地区销售经理",
+    "company": "金蝶",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Junior",
+    "highlight": "12-20k·14薪 · 1-3年 · 统招本科 · 金蝶",
+    "url": "https://www.liepin.com/job/1974833657.shtml"
+  },
+  {
+    "title": "运维开发工程师（技术支持）",
+    "company": "金蝶",
+    "role_type": "SDE",
+    "location": "Macau",
+    "level": "Mid",
+    "highlight": "15-20k·14薪 · 3-5年 · 本科 · 金蝶",
+    "url": "https://www.liepin.com/job/1974833655.shtml"
+  },
+  {
+    "title": "保险业务管理",
+    "company": "某北京大型互联网公司",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Staff+",
+    "highlight": "80-100k · 10年以上 · 统招本科 · 某北京大型互联网公司",
+    "url": "https://www.liepin.com/job/1976335041.shtml"
+  },
+  {
+    "title": "销售总监（澳门）",
+    "company": "某计算机软件公司",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Senior",
+    "highlight": "25-40k · 5-10年 · 本科 · 某计算机软件公司",
+    "url": "https://www.liepin.com/job/1971787287.shtml"
+  },
+  {
+    "title": "总经理",
+    "company": "某知名公司",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Staff+",
+    "highlight": "25-40k · 10年以上 · 本科 · 某知名公司",
+    "url": "https://www.liepin.com/job/1979099005.shtml"
+  },
+  {
+    "title": "安全督导员",
+    "company": "中国港湾工程有限责任公司",
+    "role_type": "Security",
+    "location": "Macau",
+    "level": "Senior",
+    "highlight": "22-27k·13薪 · 5年以上 · 大专 · 中国港湾工程有限责任公司",
+    "url": "https://www.liepin.com/job/1974144825.shtml"
+  },
+  {
+    "title": "机电设计工程师",
+    "company": "中国港湾工程有限责任公司",
+    "role_type": "SDE",
+    "location": "Macau",
+    "level": "Staff+",
+    "highlight": "16-29k · 10年以上 · 本科 · 中国港湾工程有限责任公司",
+    "url": "https://www.liepin.com/job/1980279483.shtml"
+  },
+  {
+    "title": "金融科技解决方案专家（澳门公司）",
+    "company": "新大陆科技集团有限公司",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Senior",
+    "highlight": "25-30k · 5年以上 · 本科 · 新大陆科技集团有限公司",
+    "url": "https://www.liepin.com/job/1974833655.shtml"
+  },
+  {
+    "title": "销售经理",
+    "company": "杭州潮秀商业管理集团有限公司",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Mid",
+    "highlight": "17-20k · 3-5年 · 大专 · 杭州潮秀商业管理集团有限公司",
+    "url": "https://www.liepin.com/job/1969828299.shtml"
+  },
+  {
+    "title": "QS主管",
+    "company": "中国港湾工程有限责任公司",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Mid",
+    "highlight": "18-30k · 3年以上 · 本科 · 中国港湾工程有限责任公司",
+    "url": "https://www.liepin.com/job/1969313893.shtml"
+  },
+  {
+    "title": "澳门销售经理",
+    "company": "珠海新大陆全球购跨境电商有限公司",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Senior",
+    "highlight": "20-40k · 5-10年 · 本科 · 珠海新大陆全球购跨境电商有限公司",
+    "url": "https://www.liepin.com/job/1969042115.shtml"
+  },
+  {
+    "title": "渠道销售（批发/经销商方向）",
+    "company": "珠海新大陆全球购跨境电商有限公司",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Mid",
+    "highlight": "15-18k · 3年以上 · 本科 · 珠海新大陆全球购跨境电商有限公司",
+    "url": "https://www.liepin.com/job/1968544345.shtml"
+  },
+  {
+    "title": "销售经理",
+    "company": "厦门市禅游者文化创意有限公司",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Junior",
+    "highlight": "12-20k · 1-3年 · 本科 · 厦门市禅游者文化创意有限公司",
+    "url": "https://www.liepin.com/job/1962704399.shtml"
+  },
+  {
+    "title": "网络安全运维工程师（珠海/澳门）",
+    "company": "广东颐点科技有限公司",
+    "role_type": "SDE",
+    "location": "Macau",
+    "level": "Junior",
+    "highlight": "7-9k · 1-3年 · 大专 · 广东颐点科技有限公司",
+    "url": "https://www.liepin.com/job/1955986257.shtml"
+  },
+  {
+    "title": "网络工程师",
+    "company": "珠海瓶科电子信息技术有限公司",
+    "role_type": "SDE",
+    "location": "Macau",
+    "level": "Entry",
+    "highlight": "10-15k · 经验不限 · 本科 · 珠海瓶科电子信息技术有限公司",
+    "url": "https://www.liepin.com/job/1955986121.shtml"
+  },
+  {
+    "title": "青少年編程導師",
+    "company": "进智科技(珠海)有限公司",
+    "role_type": "SDE",
+    "location": "Macau",
+    "level": "Junior",
+    "highlight": "10-15k · 1-3年 · 本科 · 进智科技(珠海)有限公司",
+    "url": "https://www.liepin.com/job/1921930725.shtml"
+  },
+  {
+    "title": "python老師",
+    "company": "进智科技(珠海)有限公司",
+    "role_type": "SDE",
+    "location": "Macau",
+    "level": "Junior",
+    "highlight": "10-15k · 1-3年 · 本科 · 进智科技(珠海)有限公司",
+    "url": "https://www.liepin.com/job/1973038775.shtml"
+  },
+  {
+    "title": "编程老师",
+    "company": "进智科技(珠海)有限公司",
+    "role_type": "SDE",
+    "location": "Macau",
+    "level": "Junior",
+    "highlight": "10-15k · 1-3年 · 本科 · 进智科技(珠海)有限公司",
+    "url": "https://www.liepin.com/job/1972929883.shtml"
+  },
+  {
+    "title": "运维项目经理（澳门）",
+    "company": "广州华资软件技术有限公司",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Mid",
+    "highlight": "18-30k · 3年以上 · 本科 · 广州华资软件技术有限公司",
+    "url": "https://www.liepin.com/job/1971358759.shtml"
+  },
+  {
+    "title": "自动化测试",
+    "company": "必扬极限(深圳)科技有限公司",
+    "role_type": "SDE",
+    "location": "Macau",
+    "level": "Senior",
+    "highlight": "25-30k·13薪 · 5-10年 · 大专 · 必扬极限(深圳)科技有限公司",
+    "url": "https://www.liepin.com/job/1968544345.shtml"
+  },
+  {
+    "title": "项目经理",
+    "company": "网龙网络公司",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Mid",
+    "highlight": "15-20k·13薪 · 3-5年 · 本科 · 网龙网络公司",
+    "url": "https://www.liepin.com/job/1962704399.shtml"
+  },
+  {
+    "title": "美團BD Sales崗位",
+    "company": "时代互联",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Entry",
+    "highlight": "9-10k · 经验不限 · 本科 · 时代互联",
+    "url": "https://www.liepin.com/job/1921930725.shtml"
+  },
+  {
+    "title": "商户拓展及服务专员",
+    "company": "帮手信息技术(珠海)有限公司",
+    "role_type": "Product",
+    "location": "Macau",
+    "level": "Junior",
+    "highlight": "7-15k · 1-3年 · 大专 · 帮手信息技术(珠海)有限公司",
+    "url": "https://www.liepin.com/job/1972929883.shtml"
+  },
+  {
+    "title": "软件开发",
+    "company": "地域科技(珠海)有限公司",
+    "role_type": "SDE",
+    "location": "Macau",
+    "level": "Junior",
+    "highlight": "9-13k · 1-3年 · 本科 · 地域科技(珠海)有限公司",
+    "url": "https://www.liepin.com/job/1971358759.shtml"
+  },
+  {
+    "title": "海外黑灰产情报运营",
+    "company": "深圳依时货拉拉科技有限公司",
+    "role_type": "Security",
+    "location": "HK",
+    "level": "Junior",
+    "highlight": "30-50k · 1-3年 · 本科 · 深圳依时货拉拉科技有限公司",
+    "url": "https://www.liepin.com/job/1981581837.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81581837%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=0&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=0"
+  },
+  {
+    "title": "产品总监",
+    "company": "艾氪智能",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "30-60k · 8年以上 · 统招本科 · 艾氪智能",
+    "url": "https://www.liepin.com/job/1981563147.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81563147%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=1&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=1"
+  },
+  {
+    "title": "風險管理及反欺诈專家",
+    "company": "深圳依时货拉拉科技有限公司",
+    "role_type": "Security",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "50-70k · 5年以上 · 本科 · 深圳依时货拉拉科技有限公司",
+    "url": "https://www.liepin.com/job/1980428373.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_80428373%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=11&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=11"
+  },
+  {
+    "title": "网络安全售后工程师（香港差旅）",
+    "company": "启明星辰集团",
+    "role_type": "Security",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "8-12k · 3年以上 · 统招本科 · 启明星辰集团",
+    "url": "https://www.liepin.com/job/1981467761.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81467761%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=12&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=12"
+  },
+  {
+    "title": "技术支持工程师（常驻香港） (MJ004075)",
+    "company": "广电运通集团股份有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "13-26k · 3年以上 · 统招本科 · 广电运通集团股份有限公司",
+    "url": "https://www.liepin.com/job/1981336229.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81336229%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=14&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=14"
+  },
+  {
+    "title": "AI产品经理",
+    "company": "轻网科技",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Entry",
+    "highlight": "18-25k · 经验不限 · 本科 · 轻网科技",
+    "url": "https://www.liepin.com/job/1979208443.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_79208443%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=19&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=19"
+  },
+  {
+    "title": "售前解决方案经理（香港）(J13297)",
+    "company": "联通数字科技有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "35-60k · 3-5年 · 统招本科 · 联通数字科技有限公司",
+    "url": "https://www.liepin.com/job/1981347271.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81347271%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=21&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=21"
+  },
+  {
+    "title": "公有云迁移（Base香港）",
+    "company": "深圳市华云中盛科技股份有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Junior",
+    "highlight": "20-40k · 1-3年 · 本科 · 深圳市华云中盛科技股份有限公司",
+    "url": "https://www.liepin.com/job/1981010877.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81010877%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=22&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=22"
+  },
+  {
+    "title": "技术支持工程师（常驻香港） (MJ004075)",
+    "company": "广电运通集团股份有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "13-26k · 3年以上 · 统招本科 · 广电运通集团股份有限公司",
+    "url": "https://www.liepin.com/job/1981343981.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81343981%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=24&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=24"
+  },
+  {
+    "title": "SAPS/4 HANA Finance Consultant(Record-to-Report)",
+    "company": "艾捷智信息科技(上海)有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "30-45k · 5-10年 · 本科 · 艾捷智信息科技(上海)有限公司",
+    "url": "https://www.liepin.com/job/1981355687.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81355687%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=29&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=29"
+  },
+  {
+    "title": "公有云迁移工程师（base香港）",
+    "company": "深圳市华云中盛科技股份有限公司",
+    "role_type": "SDE",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "25-40k · 3-5年 · 本科 · 深圳市华云中盛科技股份有限公司",
+    "url": "https://www.liepin.com/job/1981232519.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81232519%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=30&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=30"
+  },
+  {
+    "title": "售前解决方案专家（产业级Agentic OS）",
+    "company": "艾氪智能",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "30-60k · 8年以上 · 本科 · 艾氪智能",
+    "url": "https://www.liepin.com/job/1981325989.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81325989%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=33&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=33"
+  },
+  {
+    "title": "高级解决方案顾问",
+    "company": "上海爱数信息技术股份有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Staff+",
+    "highlight": "30-50k · 10年以上 · 本科 · 上海爱数信息技术股份有限公司",
+    "url": "https://www.liepin.com/job/1981297693.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81297693%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=34&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=34"
+  },
+  {
+    "title": "Research Associate",
+    "company": "深圳雅济科技有限公司",
+    "role_type": "Research",
+    "location": "HK",
+    "level": "Entry",
+    "highlight": "18-23k · 经验不限 · 统招本科 · 深圳雅济科技有限公司",
+    "url": "https://www.liepin.com/job/1981269091.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81269091%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=35&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=35"
+  },
+  {
+    "title": "Research Associate",
+    "company": "深圳雅济科技有限公司",
+    "role_type": "Research",
+    "location": "HK",
+    "level": "Entry",
+    "highlight": "18-23k · 2-6年 · 统招本科 · 深圳雅济科技有限公司",
+    "url": "https://www.liepin.com/job/1981268649.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81268649%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=37&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=37"
+  },
+  {
+    "title": "网络工程师",
+    "company": "尚阳股份",
+    "role_type": "SDE",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "13-16k · 3-5年 · 大专 · 尚阳股份",
+    "url": "https://www.liepin.com/job/1981151669.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81151669%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=39&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=39"
+  },
+  {
+    "title": "DBA（TDSQL）-香港584",
+    "company": "深圳市华云中盛科技股份有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "30-40k · 3-5年 · 统招本科 · 深圳市华云中盛科技股份有限公司",
+    "url": "https://www.liepin.com/job/1981119233.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81119233%3A1%3A770dc647-2be4-4b6e-92cc-50c1e0f0d0d7&d_sfrom=search_prime&d_ckId=null&d_curPage=1&d_pageSize=40&d_headId=null&d_posi=41&skId=&fkId=&ckId=j7zymnmtzu7lefokm0ysn666ligipy89&sfrom=search_job_pc&curPage=1&pageSize=40&index=41"
+  },
+  {
+    "title": "灾备解决方案顾问（香港）",
+    "company": "上海爱数信息技术股份有限公司",
+    "role_type": "Security",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "薪资面议 · 5-10年 · 大专 · 上海爱数信息技术股份有限公司",
+    "url": "https://www.liepin.com/job/1981126437.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81126437%3A1%3A3c3203eb-6108-43ac-8f8c-018e49d2b671&d_sfrom=search_prime&d_ckId=null&d_curPage=2&d_pageSize=40&d_headId=null&d_posi=1&skId=&fkId=&ckId=tf93f8puu75wibnex6g3kj6x83vlnaab&sfrom=search_job_pc&curPage=2&pageSize=40&index=1"
+  },
+  {
+    "title": "香港物流解决方案经理",
+    "company": "京东",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "30-50k·13薪 · 3年以上 · 大专 · 京东",
+    "url": "https://www.liepin.com/job/1980724781.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_80724781%3A1%3A3c3203eb-6108-43ac-8f8c-018e49d2b671&d_sfrom=search_prime&d_ckId=null&d_curPage=2&d_pageSize=40&d_headId=null&d_posi=8&skId=&fkId=&ckId=tf93f8puu75wibnex6g3kj6x83vlnaab&sfrom=search_job_pc&curPage=2&pageSize=40&index=8"
+  },
+  {
+    "title": "HK Sales Manager (IT Solutions Focus)",
+    "company": "奔步",
+    "role_type": "SDE",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "40-60k·20薪 · 3-10年 · 本科 · 奔步",
+    "url": "https://www.liepin.com/job/1979963425.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_79963425%3A1%3A3c3203eb-6108-43ac-8f8c-018e49d2b671&d_sfrom=search_prime&d_ckId=null&d_curPage=2&d_pageSize=40&d_headId=null&d_posi=34&skId=&fkId=&ckId=tf93f8puu75wibnex6g3kj6x83vlnaab&sfrom=search_job_pc&curPage=2&pageSize=40&index=34"
+  },
+  {
+    "title": "HK IT Solutions Delivery",
+    "company": "奔步",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Staff+",
+    "highlight": "30-50k·20薪 · 4-10年 · 本科 · 奔步",
+    "url": "https://www.liepin.com/job/1980278777.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_80278777%3A1%3A3c3203eb-6108-43ac-8f8c-018e49d2b671&d_sfrom=search_prime&d_ckId=null&d_curPage=2&d_pageSize=40&d_headId=null&d_posi=36&skId=&fkId=&ckId=tf93f8puu75wibnex6g3kj6x83vlnaab&sfrom=search_job_pc&curPage=2&pageSize=40&index=36"
+  },
+  {
+    "title": "IT技术支持（香港 桌面运维）",
+    "company": "广州市宏意星计算机系统服务有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "20-23k · 2年以上 · 大专 · 广州市宏意星计算机系统服务有限公司",
+    "url": "https://www.liepin.com/job/1973001023.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_73001023%3A1%3A26c0f9b2-f644-4ad1-abc4-c5a3733af95a&d_sfrom=search_prime&d_ckId=null&d_curPage=3&d_pageSize=40&d_headId=null&d_posi=0&skId=&fkId=&ckId=rne9pumjr94xs5dbpy9b01xoi55z7yqa&sfrom=search_job_pc&curPage=3&pageSize=40&index=0"
+  },
+  {
+    "title": "CFD交易平台支付产品经理",
+    "company": "福建省格瑞迪创新科技有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "50-80k·13薪 · 3年以上 · 本科 · 福建省格瑞迪创新科技有限公司",
+    "url": "https://www.liepin.com/job/1980332977.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_80332977%3A1%3A26c0f9b2-f644-4ad1-abc4-c5a3733af95a&d_sfrom=search_prime&d_ckId=null&d_curPage=3&d_pageSize=40&d_headId=null&d_posi=1&skId=&fkId=&ckId=rne9pumjr94xs5dbpy9b01xoi55z7yqa&sfrom=search_job_pc&curPage=3&pageSize=40&index=1"
+  },
+  {
+    "title": "CVC战投--AI投资经理",
+    "company": "Baidu",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "65-95k·15薪 · 3年以上 · 本科 · Baidu",
+    "url": "https://www.liepin.com/job/1980276163.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_80276163%3A1%3A26c0f9b2-f644-4ad1-abc4-c5a3733af95a&d_sfrom=search_prime&d_ckId=null&d_curPage=3&d_pageSize=40&d_headId=null&d_posi=2&skId=&fkId=&ckId=rne9pumjr94xs5dbpy9b01xoi55z7yqa&sfrom=search_job_pc&curPage=3&pageSize=40&index=2"
+  },
+  {
+    "title": "教育行业专家顾问",
+    "company": "深圳市优必选科技股份有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Staff+",
+    "highlight": "35-50k · 10年以上 · 本科 · 深圳市优必选科技股份有限公司",
+    "url": "https://www.liepin.com/job/1980260585.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_80260585%3A1%3A26c0f9b2-f644-4ad1-abc4-c5a3733af95a&d_sfrom=search_prime&d_ckId=null&d_curPage=3&d_pageSize=40&d_headId=null&d_posi=5&skId=&fkId=&ckId=rne9pumjr94xs5dbpy9b01xoi55z7yqa&sfrom=search_job_pc&curPage=3&pageSize=40&index=5"
+  },
+  {
+    "title": "科大讯飞-香港-技术支持工程师",
+    "company": "科大讯飞",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "25-40k · 3-5年 · 本科 · 科大讯飞",
+    "url": "https://www.liepin.com/job/1980123029.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_80123029%3A1%3A26c0f9b2-f644-4ad1-abc4-c5a3733af95a&d_sfrom=search_prime&d_ckId=null&d_curPage=3&d_pageSize=40&d_headId=null&d_posi=7&skId=&fkId=&ckId=rne9pumjr94xs5dbpy9b01xoi55z7yqa&sfrom=search_job_pc&curPage=3&pageSize=40&index=7"
+  },
+  {
+    "title": "HCS驻场运维工程师",
+    "company": "软通动力",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Entry",
+    "highlight": "18-22k · 经验不限 · 统招本科 · 软通动力",
+    "url": "https://www.liepin.com/job/1980155729.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_80155729%3A1%3A26c0f9b2-f644-4ad1-abc4-c5a3733af95a&d_sfrom=search_prime&d_ckId=null&d_curPage=3&d_pageSize=40&d_headId=null&d_posi=8&skId=&fkId=&ckId=rne9pumjr94xs5dbpy9b01xoi55z7yqa&sfrom=search_job_pc&curPage=3&pageSize=40&index=8"
+  },
+  {
+    "title": "销售工程师（香港）",
+    "company": "帆软软件",
+    "role_type": "SDE",
+    "location": "HK",
+    "level": "Junior",
+    "highlight": "22-30k · 1-3年 · 统招本科 · 帆软软件",
+    "url": "https://www.liepin.com/job/1969779783.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_69779783%3A1%3A26c0f9b2-f644-4ad1-abc4-c5a3733af95a&d_sfrom=search_prime&d_ckId=null&d_curPage=3&d_pageSize=40&d_headId=null&d_posi=9&skId=&fkId=&ckId=rne9pumjr94xs5dbpy9b01xoi55z7yqa&sfrom=search_job_pc&curPage=3&pageSize=40&index=9"
+  },
+  {
+    "title": "实施工程师（香港）",
+    "company": "帆软软件",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Junior",
+    "highlight": "23-30k · 1-3年 · 统招本科 · 帆软软件",
+    "url": "https://www.liepin.com/job/1969761335.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_69761335%3A1%3A26c0f9b2-f644-4ad1-abc4-c5a3733af95a&d_sfrom=search_prime&d_ckId=null&d_curPage=3&d_pageSize=40&d_headId=null&d_posi=10&skId=&fkId=&ckId=rne9pumjr94xs5dbpy9b01xoi55z7yqa&sfrom=search_job_pc&curPage=3&pageSize=40&index=10"
+  },
+  {
+    "title": "高级/资深解决方案顾问（it基础设施存储备份）",
+    "company": "上海爱数信息技术股份有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "40-50k · 5-10年 · 本科 · 上海爱数信息技术股份有限公司",
+    "url": "https://www.liepin.com/job/1978933477.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_78933477%3A1%3A26c0f9b2-f644-4ad1-abc4-c5a3733af95a&d_sfrom=search_prime&d_ckId=null&d_curPage=3&d_pageSize=40&d_headId=null&d_posi=17&skId=&fkId=&ckId=rne9pumjr94xs5dbpy9b01xoi55z7yqa&sfrom=search_job_pc&curPage=3&pageSize=40&index=17"
+  },
+  {
+    "title": "现场调试工程师",
+    "company": "交控科技股份有限公司",
+    "role_type": "SDE",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "30-40k · 3-5年 · 统招本科 · 交控科技股份有限公司",
+    "url": "https://www.liepin.com/job/1979899089.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_79899089%3A1%3A26c0f9b2-f644-4ad1-abc4-c5a3733af95a&d_sfrom=search_prime&d_ckId=null&d_curPage=3&d_pageSize=40&d_headId=null&d_posi=18&skId=&fkId=&ckId=rne9pumjr94xs5dbpy9b01xoi55z7yqa&sfrom=search_job_pc&curPage=3&pageSize=40&index=18"
+  },
+  {
+    "title": "国际业务低空项目经理",
+    "company": "交控科技股份有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "20-35k·15薪 · 3年以上 · 统招本科 · 交控科技股份有限公司",
+    "url": "https://www.liepin.com/job/1978941657.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_78941657%3A1%3A26c0f9b2-f644-4ad1-abc4-c5a3733af95a&d_sfrom=search_prime&d_ckId=null&d_curPage=3&d_pageSize=40&d_headId=null&d_posi=40&skId=&fkId=&ckId=rne9pumjr94xs5dbpy9b01xoi55z7yqa&sfrom=search_job_pc&curPage=3&pageSize=40&index=40"
+  },
+  {
+    "title": "国际业务信号项目经理",
+    "company": "交控科技股份有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "25-35k·15薪 · 5年以上 · 统招本科 · 交控科技股份有限公司",
+    "url": "https://www.liepin.com/job/1978941005.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_78941005%3A1%3A26c0f9b2-f644-4ad1-abc4-c5a3733af95a&d_sfrom=search_prime&d_ckId=null&d_curPage=3&d_pageSize=40&d_headId=null&d_posi=41&skId=&fkId=&ckId=rne9pumjr94xs5dbpy9b01xoi55z7yqa&sfrom=search_job_pc&curPage=3&pageSize=40&index=41"
+  },
+  {
+    "title": "海外SEO专家",
+    "company": "钰真(上海)信息技术有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "30-40k·15薪 · 3年以上 · 统招本科 · 钰真(上海)信息技术有限公司",
+    "url": "https://www.liepin.com/job/1978950235.shtml?pgRef=&d_sfrom=search_prime&d_ckId=null&d_curPage=4&d_pageSize=40&d_headId=null&d_posi=1&skId=&fkId=&ckId=s7l962nzgecjlolc57hr848h5eb97ad9&sfrom=search_job_pc&curPage=4&pageSize=40&index=1"
+  },
+  {
+    "title": "高级海外SEO专家",
+    "company": "钰真(上海)信息技术有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "40-60k·15薪 · 5年以上 · 统招本科 · 钰真(上海)信息技术有限公司",
+    "url": "https://www.liepin.com/job/1978950009.shtml?pgRef=&d_sfrom=search_prime&d_ckId=null&d_curPage=4&d_pageSize=40&d_headId=null&d_posi=2&skId=&fkId=&ckId=s7l962nzgecjlolc57hr848h5eb97ad9&sfrom=search_job_pc&curPage=4&pageSize=40&index=2"
+  },
+  {
+    "title": "资深海外SEO经理/专家",
+    "company": "钰真(上海)信息技术有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "60-80k·18薪 · 5年以上 · 统招本科 · 钰真(上海)信息技术有限公司",
+    "url": "https://www.liepin.com/job/1978949809.shtml?pgRef=&d_sfrom=search_prime&d_ckId=null&d_curPage=4&d_pageSize=40&d_headId=null&d_posi=3&skId=&fkId=&ckId=s7l962nzgecjlolc57hr848h5eb97ad9&sfrom=search_job_pc&curPage=4&pageSize=40&index=3"
+  },
+  {
+    "title": "阿里云-云安全服务运营经理-中国香港",
+    "company": "阿里云",
+    "role_type": "Security",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "30-60k·16薪 · 5-10年 · 本科 · 阿里云",
+    "url": "https://www.liepin.com/job/1978913351.shtml?pgRef=&d_sfrom=search_prime&d_ckId=null&d_curPage=4&d_pageSize=40&d_headId=null&d_posi=5&skId=&fkId=&ckId=s7l962nzgecjlolc57hr848h5eb97ad9&sfrom=search_job_pc&curPage=4&pageSize=40&index=5"
+  },
+  {
+    "title": "RPA Delivery Project Manager",
+    "company": "艺赛旗",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "20-35k · 3-5年 · 本科 · 艺赛旗",
+    "url": "https://www.liepin.com/job/1977836069.shtml?pgRef=&d_sfrom=search_prime&d_ckId=null&d_curPage=4&d_pageSize=40&d_headId=null&d_posi=10&skId=&fkId=&ckId=s7l962nzgecjlolc57hr848h5eb97ad9&sfrom=search_job_pc&curPage=4&pageSize=40&index=10"
+  },
+  {
+    "title": "Customer Success Consultant",
+    "company": "广联达",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "15-25k · 3-5年 · 本科 · 广联达",
+    "url": "https://www.liepin.com/job/1972042353.shtml?pgRef=&d_sfrom=search_prime&d_ckId=null&d_curPage=4&d_pageSize=40&d_headId=null&d_posi=14&skId=&fkId=&ckId=s7l962nzgecjlolc57hr848h5eb97ad9&sfrom=search_job_pc&curPage=4&pageSize=40&index=14"
+  },
+  {
+    "title": "售前经理（国际无线接入网业务）",
+    "company": "京信通信技术(广州)有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "35-60k·13薪 · 5年以上 · 本科 · 京信通信技术(广州)有限公司",
+    "url": "https://www.liepin.com/job/1976427041.shtml?pgRef=&d_sfrom=search_prime&d_ckId=null&d_curPage=4&d_pageSize=40&d_headId=null&d_posi=17&skId=&fkId=&ckId=s7l962nzgecjlolc57hr848h5eb97ad9&sfrom=search_job_pc&curPage=4&pageSize=40&index=17"
+  },
+  {
+    "title": "FAE现场应用工程师",
+    "company": "奇捷科技(深圳)有限公司",
+    "role_type": "SDE",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "40-60k·14薪 · 3-5年 · 统招本科 · 奇捷科技(深圳)有限公司",
+    "url": "https://www.liepin.com/job/1978211569.shtml?pgRef=&d_sfrom=search_prime&d_ckId=null&d_curPage=4&d_pageSize=40&d_headId=null&d_posi=18&skId=&fkId=&ckId=s7l962nzgecjlolc57hr848h5eb97ad9&sfrom=search_job_pc&curPage=4&pageSize=40&index=18"
+  },
+  {
+    "title": "国际研究岗",
+    "company": "中国汽车技术研究中心有限公司",
+    "role_type": "Research",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "25-30k·14薪 · 3年以上 · 统招本科 · 中国汽车技术研究中心有限公司",
+    "url": "https://www.liepin.com/job/1977901129.shtml?pgRef=&d_sfrom=search_prime&d_ckId=null&d_curPage=4&d_pageSize=40&d_headId=null&d_posi=26&skId=&fkId=&ckId=s7l962nzgecjlolc57hr848h5eb97ad9&sfrom=search_job_pc&curPage=4&pageSize=40&index=26"
+  },
+  {
+    "title": "Keeta香港 - 商业分析师（配送策略）",
+    "company": "美团",
+    "role_type": "Data",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "30-55k·15薪 · 3年以上 · 统招本科 · 美团",
+    "url": "https://www.liepin.com/job/1977647027.shtml?pgRef=&d_sfrom=search_prime&d_ckId=null&d_curPage=4&d_pageSize=40&d_headId=null&d_posi=28&skId=&fkId=&ckId=s7l962nzgecjlolc57hr848h5eb97ad9&sfrom=search_job_pc&curPage=4&pageSize=40&index=28"
+  },
+  {
+    "title": "智能自动化系统顾问",
+    "company": "香港生产力促进局",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Entry",
+    "highlight": "35-50k · 6年以上 · 本科 · 香港生产力促进局",
+    "url": "https://www.liepin.com/job/1981774259.shtml?pgRef=&d_sfrom=search_prime&d_ckId=null&d_curPage=4&d_pageSize=40&d_headId=null&d_posi=31&skId=&fkId=&ckId=s7l962nzgecjlolc57hr848h5eb97ad9&sfrom=search_job_pc&curPage=4&pageSize=40&index=31"
+  },
+  {
+    "title": "具身智能算法工程师",
+    "company": "深圳市优必选科技股份有限公司",
+    "role_type": "MLE",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "40-50k · 2-5年 · 硕士 · 深圳市优必选科技股份有限公司",
+    "url": "https://www.liepin.com/job/1977264289.shtml?pgRef=&d_sfrom=search_prime&d_ckId=null&d_curPage=4&d_pageSize=40&d_headId=null&d_posi=37&skId=&fkId=&ckId=s7l962nzgecjlolc57hr848h5eb97ad9&sfrom=search_job_pc&curPage=4&pageSize=40&index=37"
+  },
+  {
+    "title": "真机部署与在线强化研究员",
+    "company": "深圳市优必选科技股份有限公司",
+    "role_type": "Research",
+    "location": "HK",
+    "level": "Junior",
+    "highlight": "40-60k · 1-3年 · 博士 · 深圳市优必选科技股份有限公司",
+    "url": "https://www.liepin.com/job/1977264179.shtml?pgRef=&d_sfrom=search_prime&d_ckId=null&d_curPage=4&d_pageSize=40&d_headId=null&d_posi=39&skId=&fkId=&ckId=s7l962nzgecjlolc57hr848h5eb97ad9&sfrom=search_job_pc&curPage=4&pageSize=40&index=39"
+  },
+  {
+    "title": "游戏数据分析师",
+    "company": "深空棱镜",
+    "role_type": "Data",
+    "location": "HK",
+    "level": "Entry",
+    "highlight": "20-30k · 经验不限 · 本科 · 深空棱镜",
+    "url": "https://www.liepin.com/job/1981004319.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81004319%3A1%3A9da0b45c-60d4-465f-a3da-76f168341f6a&d_sfrom=search_prime&d_ckId=null&d_curPage=5&d_pageSize=40&d_headId=null&d_posi=0&skId=&fkId=&ckId=07we7hafsv3dbewr770at87sce8u1i39&sfrom=search_job_pc&curPage=5&pageSize=40&index=0"
+  },
+  {
+    "title": "项目经理",
+    "company": "用友金融",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "20-25k · 5年以上 · 本科 · 用友金融",
+    "url": "https://www.liepin.com/job/1976362757.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_76362757%3A1%3A9da0b45c-60d4-465f-a3da-76f168341f6a&d_sfrom=search_prime&d_ckId=null&d_curPage=5&d_pageSize=40&d_headId=null&d_posi=9&skId=&fkId=&ckId=07we7hafsv3dbewr770at87sce8u1i39&sfrom=search_job_pc&curPage=5&pageSize=40&index=9"
+  },
+  {
+    "title": "Solutions Architect (Web3)-Hong Kong",
+    "company": "阿里云",
+    "role_type": "SDE",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "25-55k·16薪 · 5-10年 · 统招本科 · 阿里云",
+    "url": "https://www.liepin.com/job/1976083553.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_76083553%3A1%3A9da0b45c-60d4-465f-a3da-76f168341f6a&d_sfrom=search_prime&d_ckId=null&d_curPage=5&d_pageSize=40&d_headId=null&d_posi=13&skId=&fkId=&ckId=07we7hafsv3dbewr770at87sce8u1i39&sfrom=search_job_pc&curPage=5&pageSize=40&index=13"
+  },
+  {
+    "title": "云与安全解决方案架构师",
+    "company": "富通东方",
+    "role_type": "Security",
+    "location": "HK",
+    "level": "Staff+",
+    "highlight": "30-35k · 10年以上 · 本科 · 富通东方",
+    "url": "https://www.liepin.com/job/1975036007.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_75036007%3A1%3A9da0b45c-60d4-465f-a3da-76f168341f6a&d_sfrom=search_prime&d_ckId=null&d_curPage=5&d_pageSize=40&d_headId=null&d_posi=22&skId=&fkId=&ckId=07we7hafsv3dbewr770at87sce8u1i39&sfrom=search_job_pc&curPage=5&pageSize=40&index=22"
+  },
+  {
+    "title": "Localization Product Manager for APJ – ERP Financials",
+    "company": "用友网络科技股份有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "20-50k·14薪 · 5-10年 · 统招本科 · 用友网络科技股份有限公司",
+    "url": "https://www.liepin.com/job/1975035231.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_75035231%3A1%3A9da0b45c-60d4-465f-a3da-76f168341f6a&d_sfrom=search_prime&d_ckId=null&d_curPage=5&d_pageSize=40&d_headId=null&d_posi=23&skId=&fkId=&ckId=07we7hafsv3dbewr770at87sce8u1i39&sfrom=search_job_pc&curPage=5&pageSize=40&index=23"
+  },
+  {
+    "title": "Localization Product Manager for APJ – HCM (Human Capital Management)",
+    "company": "用友网络科技股份有限公司",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "20-50k·14薪 · 5-10年 · 统招本科 · 用友网络科技股份有限公司",
+    "url": "https://www.liepin.com/job/1975035087.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_75035087%3A1%3A9da0b45c-60d4-465f-a3da-76f168341f6a&d_sfrom=search_prime&d_ckId=null&d_curPage=5&d_pageSize=40&d_headId=null&d_posi=24&skId=&fkId=&ckId=07we7hafsv3dbewr770at87sce8u1i39&sfrom=search_job_pc&curPage=5&pageSize=40&index=24"
+  },
+  {
+    "title": "网络工程师（粤语）",
+    "company": "亚信科技",
+    "role_type": "SDE",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "25-35k · 3年以上 · 本科 · 亚信科技",
+    "url": "https://www.liepin.com/job/1974973101.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_74973101%3A1%3A9da0b45c-60d4-465f-a3da-76f168341f6a&d_sfrom=search_prime&d_ckId=null&d_curPage=5&d_pageSize=40&d_headId=null&d_posi=25&skId=&fkId=&ckId=07we7hafsv3dbewr770at87sce8u1i39&sfrom=search_job_pc&curPage=5&pageSize=40&index=25"
+  },
+  {
+    "title": "高级产品经理(quantity surveyor)",
+    "company": "广联达",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "35-65k · 3年以上 · 本科 · 广联达",
+    "url": "https://www.liepin.com/job/1974335217.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_74335217%3A1%3A9da0b45c-60d4-465f-a3da-76f168341f6a&d_sfrom=search_prime&d_ckId=null&d_curPage=5&d_pageSize=40&d_headId=null&d_posi=33&skId=&fkId=&ckId=07we7hafsv3dbewr770at87sce8u1i39&sfrom=search_job_pc&curPage=5&pageSize=40&index=33"
+  },
+  {
+    "title": "运维工程师 (Kafka&Redis)",
+    "company": "博彦科技",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "35-50k·13薪 · 3年以上 · 学历不限 · 博彦科技",
+    "url": "https://www.liepin.com/job/1974206819.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_74206819%3A1%3A9da0b45c-60d4-465f-a3da-76f168341f6a&d_sfrom=search_prime&d_ckId=null&d_curPage=5&d_pageSize=40&d_headId=null&d_posi=35&skId=&fkId=&ckId=07we7hafsv3dbewr770at87sce8u1i39&sfrom=search_job_pc&curPage=5&pageSize=40&index=35"
+  },
+  {
+    "title": "泛亚太-技术支持工程师-项目技术支持-港澳",
+    "company": "海康威视",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "25-35k · 3-5年 · 统招本科 · 海康威视",
+    "url": "https://www.liepin.com/job/1974134719.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_74134719%3A1%3A9da0b45c-60d4-465f-a3da-76f168341f6a&d_sfrom=search_prime&d_ckId=null&d_curPage=5&d_pageSize=40&d_headId=null&d_posi=37&skId=&fkId=&ckId=07we7hafsv3dbewr770at87sce8u1i39&sfrom=search_job_pc&curPage=5&pageSize=40&index=37"
+  },
+  {
+    "title": "泛亚太-项目售前工程师-港澳",
+    "company": "海康威视",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Entry",
+    "highlight": "25-35k · 经验不限 · 学历不限 · 海康威视",
+    "url": "https://www.liepin.com/job/1974134591.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_74134591%3A1%3A9da0b45c-60d4-465f-a3da-76f168341f6a&d_sfrom=search_prime&d_ckId=null&d_curPage=5&d_pageSize=40&d_headId=null&d_posi=38&skId=&fkId=&ckId=07we7hafsv3dbewr770at87sce8u1i39&sfrom=search_job_pc&curPage=5&pageSize=40&index=38"
+  },
+  {
+    "title": "全栈工程师（香港工作）",
+    "company": "亚信科技",
+    "role_type": "SDE",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "30-35k · 5年以上 · 本科 · 亚信科技",
+    "url": "https://www.liepin.com/job/1973478399.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_73478399%3A1%3Ab43fb037-ab81-496f-a78a-425d5be66976&d_sfrom=search_prime&d_ckId=null&d_curPage=6&d_pageSize=40&d_headId=null&d_posi=4&skId=&fkId=&ckId=kote7tidu72jajfg0bnouixtcrq3vi09&sfrom=search_job_pc&curPage=6&pageSize=40&index=4"
+  },
+  {
+    "title": "Delivery Engineer",
+    "company": "来也科技",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Junior",
+    "highlight": "10-20k·15薪 · 1-3年 · 本科 · 来也科技",
+    "url": "https://www.liepin.com/job/1973165405.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_73165405%3A1%3Ab43fb037-ab81-496f-a78a-425d5be66976&d_sfrom=search_prime&d_ckId=null&d_curPage=6&d_pageSize=40&d_headId=null&d_posi=7&skId=&fkId=&ckId=kote7tidu72jajfg0bnouixtcrq3vi09&sfrom=search_job_pc&curPage=6&pageSize=40&index=7"
+  },
+  {
+    "title": "资深项目经理",
+    "company": "华胜天成",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Staff+",
+    "highlight": "50-70k · 10年以上 · 本科 · 华胜天成",
+    "url": "https://www.liepin.com/job/1966142889.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_66142889%3A1%3Ab43fb037-ab81-496f-a78a-425d5be66976&d_sfrom=search_prime&d_ckId=null&d_curPage=6&d_pageSize=40&d_headId=null&d_posi=8&skId=&fkId=&ckId=kote7tidu72jajfg0bnouixtcrq3vi09&sfrom=search_job_pc&curPage=6&pageSize=40&index=8"
+  },
+  {
+    "title": "数据分析师",
+    "company": "深空棱镜",
+    "role_type": "Data",
+    "location": "HK",
+    "level": "Entry",
+    "highlight": "20-50k·13薪 · 经验不限 · 本科 · 深空棱镜",
+    "url": "https://www.liepin.com/job/1981122733.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81122733%3A1%3Ab43fb037-ab81-496f-a78a-425d5be66976&d_sfrom=search_prime&d_ckId=null&d_curPage=6&d_pageSize=40&d_headId=null&d_posi=21&skId=&fkId=&ckId=kote7tidu72jajfg0bnouixtcrq3vi09&sfrom=search_job_pc&curPage=6&pageSize=40&index=21"
+  },
+  {
+    "title": "Java后端开发 （Web3)",
+    "company": "甄德资本有限公司",
+    "role_type": "SDE",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "20-30k · 3年以上 · 统招本科 · 甄德资本有限公司",
+    "url": "https://www.liepin.com/job/1981318061.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81318061%3A1%3Ab43fb037-ab81-496f-a78a-425d5be66976&d_sfrom=search_prime&d_ckId=null&d_curPage=6&d_pageSize=40&d_headId=null&d_posi=33&skId=&fkId=&ckId=kote7tidu72jajfg0bnouixtcrq3vi09&sfrom=search_job_pc&curPage=6&pageSize=40&index=33"
+  },
+  {
+    "title": "Associate Principal Consultant, Mainland Business Development",
+    "company": "香港生产力促进局",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Staff+",
+    "highlight": "50-65k · 10年以上 · 本科 · 香港生产力促进局",
+    "url": "https://www.liepin.com/job/1981817805.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81817805%3A1%3A0915aafd-f014-4ac1-a2f2-7e8600b4937a&d_sfrom=search_prime&d_ckId=null&d_curPage=7&d_pageSize=40&d_headId=null&d_posi=13&skId=&fkId=&ckId=7ilj8q1ene4k47uxqcc543m6k35gkhg8&sfrom=search_job_pc&curPage=7&pageSize=40&index=13"
+  },
+  {
+    "title": "人工智能算法工程师（CADD/AIDD/QIDD）-杭州",
+    "company": "香港灵光量子计算科技有限公司",
+    "role_type": "MLE",
+    "location": "HK",
+    "level": "Junior",
+    "highlight": "20-35k · 1年以上 · 硕士 · 香港灵光量子计算科技有限公司",
+    "url": "https://www.liepin.com/job/1979583031.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_79583031%3A1%3A0915aafd-f014-4ac1-a2f2-7e8600b4937a&d_sfrom=search_prime&d_ckId=null&d_curPage=7&d_pageSize=40&d_headId=null&d_posi=21&skId=&fkId=&ckId=7ilj8q1ene4k47uxqcc543m6k35gkhg8&sfrom=search_job_pc&curPage=7&pageSize=40&index=21"
+  },
+  {
+    "title": "游戏用户运营",
+    "company": "HAO",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Junior",
+    "highlight": "30-60k · 1-3年 · 统招本科 · HAO",
+    "url": "https://www.liepin.com/job/1981326247.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81326247%3A1%3A0915aafd-f014-4ac1-a2f2-7e8600b4937a&d_sfrom=search_prime&d_ckId=null&d_curPage=7&d_pageSize=40&d_headId=null&d_posi=22&skId=&fkId=&ckId=7ilj8q1ene4k47uxqcc543m6k35gkhg8&sfrom=search_job_pc&curPage=7&pageSize=40&index=22"
+  },
+  {
+    "title": "AI产品经理",
+    "company": "瞰觅科技",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "50-80k·14薪 · 3-5年 · 本科 · 瞰觅科技",
+    "url": "https://www.liepin.com/job/1980705861.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_80705861%3A1%3A0915aafd-f014-4ac1-a2f2-7e8600b4937a&d_sfrom=search_prime&d_ckId=null&d_curPage=7&d_pageSize=40&d_headId=null&d_posi=36&skId=&fkId=&ckId=7ilj8q1ene4k47uxqcc543m6k35gkhg8&sfrom=search_job_pc&curPage=7&pageSize=40&index=36"
+  },
+  {
+    "title": "出海游戏项目经理",
+    "company": "HAO",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "50-80k · 5-10年 · 本科 · HAO",
+    "url": "https://www.liepin.com/job/1981362271.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81362271%3A1%3A99250028-16c2-4a5d-9a70-21716b3b73e0&d_sfrom=search_prime&d_ckId=null&d_curPage=8&d_pageSize=40&d_headId=null&d_posi=8&skId=&fkId=&ckId=471y7w3bbgslg7l8cguyy1v73iayncn9&sfrom=search_job_pc&curPage=8&pageSize=40&index=8"
+  },
+  {
+    "title": "产品经理",
+    "company": "GEMGEM",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Junior",
+    "highlight": "20-40k · 1-3年 · 本科 · GEMGEM",
+    "url": "https://www.liepin.com/job/1972585185.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_72585185%3A1%3A99250028-16c2-4a5d-9a70-21716b3b73e0&d_sfrom=search_prime&d_ckId=null&d_curPage=8&d_pageSize=40&d_headId=null&d_posi=41&skId=&fkId=&ckId=471y7w3bbgslg7l8cguyy1v73iayncn9&sfrom=search_job_pc&curPage=8&pageSize=40&index=41"
+  },
+  {
+    "title": "海外游戏运营总监",
+    "company": "深空棱镜",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Senior",
+    "highlight": "70-100k · 5年以上 · 本科 · 深空棱镜",
+    "url": "https://www.liepin.com/job/1981003605.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_81003605%3A1%3Ac444cc9c-be4f-468c-b712-2c8c4fe22851&d_sfrom=search_prime&d_ckId=null&d_curPage=9&d_pageSize=40&d_headId=null&d_posi=16&skId=&fkId=&ckId=jtcokv526fqzahidat9zxb3vw8qvlkf9&sfrom=search_job_pc&curPage=9&pageSize=40&index=16"
+  },
+  {
+    "title": "Technical Support Engineer/技术支持",
+    "company": "英方软件",
+    "role_type": "Product",
+    "location": "HK",
+    "level": "Entry",
+    "highlight": "30-50k·15薪 · 经验不限 · 大专 · 英方软件",
+    "url": "https://www.liepin.com/job/1977202517.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_77202517%3A1%3Ac444cc9c-be4f-468c-b712-2c8c4fe22851&d_sfrom=search_prime&d_ckId=null&d_curPage=9&d_pageSize=40&d_headId=null&d_posi=28&skId=&fkId=&ckId=jtcokv526fqzahidat9zxb3vw8qvlkf9&sfrom=search_job_pc&curPage=9&pageSize=40&index=28"
+  },
+  {
+    "title": "弱电/智能化工程师",
+    "company": "华誉中信科技(深圳)有限公司",
+    "role_type": "SDE",
+    "location": "HK",
+    "level": "Mid",
+    "highlight": "20-25k · 3年以上 · 本科 · 华誉中信科技(深圳)有限公司",
+    "url": "https://www.liepin.com/job/1979703155.shtml?pgRef=c_pc_search_page%3Ac_pc_search_job_listcard%402_79703155%3A1%3Ac444cc9c-be4f-468c-b712-2c8c4fe22851&d_sfrom=search_prime&d_ckId=null&d_curPage=9&d_pageSize=40&d_headId=null&d_posi=29&skId=&fkId=&ckId=jtcokv526fqzahidat9zxb3vw8qvlkf9&sfrom=search_job_pc&curPage=9&pageSize=40&index=29"
+  }
+]

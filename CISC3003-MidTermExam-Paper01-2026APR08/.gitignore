@@ -1,0 +1,55 @@
+# Eclipse IDE
+.metadata/
+.settings/
+.project
+.classpath
+.factorypath
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS generated files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Build directories
+dist/
+build/
+out/
+target/
+
+# Environment files
+.env
+.env.local
+
+# Misc
+*.zip
+*.rar
+*.tar.gz
+
+# Images - only keep screenshots in My Screen Shots folder
+images/
+
+# Eclipse workspace metadata
+.metadata/
+
+# Git merge conflicts
+*.orig
+*~
+
+# User specific files
+*.user
+*.suo

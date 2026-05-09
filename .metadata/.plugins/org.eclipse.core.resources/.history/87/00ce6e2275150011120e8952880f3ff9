@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Zhang Zhexuan</title>
+    <link rel="stylesheet" href="css/cisc3003-IndAssgn-projects.css">
+</head>
+<body>
+    <header class="page-header">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="cisc3003-IndAssgn.html">Home</a> / Projects
+            </nav>
+            <h1>My Projects</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="projects-list">
+            <article class="project-detail">
+                <h2>KG-LLM Macao Cultural AI Assistant</h2>
+                <div class="project-meta">
+                    <span class="tag">Python</span>
+                    <span class="tag">LightRAG</span>
+                    <span class="tag">LLM</span>
+                    <span class="tag">Knowledge Graph</span>
+                </div>
+                <p>This project aims to reduce hallucination in Large Language Models by integrating Knowledge Graph technology. The system specifically focuses on Macao cultural content, providing accurate and verifiable information through a chat interface.</p>
+                <h3>Key Features:</h3>
+                <ul>
+                    <li>Entity and relation extraction from cultural documents</li>
+                    <li>Graph-based retrieval augmented generation</li>
+                    <li>Multi-model evaluation system for extracted knowledge</li>
+                    <li>Interactive web interface for querying cultural information</li>
+                </ul>
+                <a href="cisc3003-IndAssgn-demo01.html" class="demo-link">View Live Demo</a>
+            </article>
+
+            <article class="project-detail">
+                <h2>Personal Portfolio Website</h2>
+                <div class="project-meta">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">Responsive Design</span>
+                </div>
+                <p>A professional portfolio website built from scratch using modern web standards. Features responsive design, semantic HTML structure, and CSS Grid/Flexbox layouts.</p>
+                <h3>Technical Highlights:</h3>
+                <ul>
+                    <li>Mobile-first responsive design approach</li>
+                    <li>CSS Grid and Flexbox for modern layouts</li>
+                    <li>Semantic HTML5 structure for accessibility</li>
+                    <li>Cross-browser compatibility</li>
+                </ul>
+                <a href="cisc3003-IndAssgn-demo02.html" class="demo-link">View Live Demo</a>
+            </article>
+
+            <article class="project-detail">
+                <h2>Data Filtering & Analysis System</h2>
+                <div class="project-meta">
+                    <span class="tag">Python</span>
+                    <span class="tag">Pandas</span>
+                    <span class="tag">Data Processing</span>
+                </div>
+                <p>Developed a data preprocessing pipeline that reduced dataset size by over 50% while maintaining data quality and integrity for machine learning applications.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>CISC3003 Web Programming - 2025: dc229576 + Zhang Zhexuan</p>
+        </div>
+    </footer>
+</body>
+</html>

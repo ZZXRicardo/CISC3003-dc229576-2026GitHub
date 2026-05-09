@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Account · Cornerstone</title>
+  <meta name="description" content="Your saved programmes and jobs plus your browsing history.">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('cornerstone-theme');
+        var theme = stored || 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body class="page-account">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <div class="site-header-inner">
+        <a href="/" class="brand">Cornerstone</a>
+        <input type="checkbox" class="nav-toggle-checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-button"><span>Menu</span></label>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="/masters.html">Master's</a></li>
+            <li><a href="/careers.html">Careers</a></li>
+            <li><a href="/jobs.html">Jobs</a></li>
+            <li><a href="/readiness.html">Readiness</a></li>
+            <li><a href="/reflection.html">Reflection</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+          </ul>
+        </nav>
+        <div class="header-tools">
+          <button class="theme-toggle" data-theme-toggle type="button"><span data-theme-label>Dark mode</span></button>
+          <span data-auth="guest">
+            <a class="btn btn-ghost" href="/login.html">Sign in</a>
+            <a class="btn btn-ghost" href="/signup.html">Sign up</a>
+          </span>
+          <details class="user-menu" data-auth="user" hidden>
+            <summary><span data-user-name>Account</span></summary>
+            <div class="user-menu-panel">
+              <a href="/list.html">My List</a>
+              <a href="/chat.html">AI Chat</a>
+              <a href="/account.html">My account</a>
+              <button type="button" data-logout>Sign out</button>
+            </div>
+          </details>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-main" id="main-content">
+      <!-- Signed-out state -->
+      <section data-account-signed-out hidden>
+        <section class="auth-card" aria-labelledby="acct-signed-out">
+          <p class="kicker">Account</p>
+          <h1 id="acct-signed-out">Sign in to view your account</h1>
+          <p class="auth-intro">You need an account to save programmes and jobs into My List, and to view your browsing history.</p>
+          <p>
+            <a class="btn" href="/login.html?redirect=/account.html">Sign in</a>
+            <a class="btn btn-secondary" href="/signup.html">Create account</a>
+          </p>
+        </section>
+      </section>
+
+      <!-- Signed-in state -->
+      <section data-account-authed hidden>
+        <section class="page-banner" aria-labelledby="acct-title">
+          <p class="kicker">Account</p>
+          <div class="account-header">
+            <div>
+              <h1 id="acct-title">Welcome, <span data-user-name>there</span></h1>
+              <p class="lede">Your My List collections, saved jobs, and browsing history.</p>
+            </div>
+            <div>
+              <button class="btn btn-secondary" type="button" data-logout>Sign out</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="tabs" data-tabs data-tabs-key="account-tabs" data-reveal>
+          <div role="tablist" aria-label="Account sections">
+            <button role="tab" id="tab-shortlist" aria-controls="panel-shortlist" aria-selected="true">My List</button>
+            <button role="tab" id="tab-history" aria-controls="panel-history" aria-selected="false" tabindex="-1">History</button>
+            <button role="tab" id="tab-settings" aria-controls="panel-settings" aria-selected="false" tabindex="-1">Settings</button>
+          </div>
+
+          <div role="tabpanel" id="panel-shortlist" aria-labelledby="tab-shortlist" class="tab-panel">
+            <div class="shortlist-category">
+              <p class="kicker">Programmes</p>
+              <h2>Saved Master's programmes</h2>
+              <div data-shortlist-programmes>
+                <div class="empty-state">Loading…</div>
+              </div>
+            </div>
+            <div class="shortlist-category">
+              <p class="kicker">Jobs</p>
+              <h2>Saved job openings</h2>
+              <div data-shortlist-jobs>
+                <div class="empty-state">Loading…</div>
+              </div>
+            </div>
+          </div>
+
+          <div role="tabpanel" id="panel-history" aria-labelledby="tab-history" class="tab-panel" hidden>
+            <div class="account-header">
+              <div>
+                <p class="kicker">Recent activity</p>
+                <h2>Browsing history</h2>
+                <p class="prose">The last 50 pages and items you viewed while signed in.</p>
+              </div>
+              <div>
+                <button class="btn btn-secondary" type="button" data-clear-history>Clear history</button>
+              </div>
+            </div>
+            <div data-history-list>
+              <div class="empty-state">Loading…</div>
+            </div>
+          </div>
+
+          <div role="tabpanel" id="panel-settings" aria-labelledby="tab-settings" class="tab-panel" hidden>
+            <p class="kicker">Settings</p>
+            <h2>Account settings</h2>
+            <div class="card">
+              <h3>Signed in as</h3>
+              <p><span data-user-name>—</span></p>
+              <p class="card-meta">To change your display name or delete your account, please email the site administrator (placeholder for Group 02 project scope).</p>
+            </div>
+            <div class="card">
+              <h3>Password</h3>
+              <p>If you want to change your password, sign out and use the "Forgot password" flow to receive a reset link by email.</p>
+              <p><a class="btn btn-secondary" href="/forgot.html">Change password</a></p>
+            </div>
+            <div class="card">
+              <h3>Theme</h3>
+              <p>Your preference is stored locally in your browser.</p>
+              <p><button class="btn btn-secondary" data-theme-toggle type="button"><span data-theme-label>Toggle theme</span></button></p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div class="footer-brand">
+          <h4>Cornerstone</h4>
+          <p>An academic and career handbook for CS undergraduates at the University of Macau.</p>
+        </div>
+        <div>
+          <h4>Chapters</h4>
+          <ul>
+            <li><a href="/about.html">01 · About</a></li>
+            <li><a href="/skills.html">02 · Skills</a></li>
+            <li><a href="/masters.html">03 · Master's</a></li>
+            <li><a href="/careers.html">04 · Careers</a></li>
+            <li><a href="/jobs.html">05 · Jobs</a></li>
+            <li><a href="/readiness.html">06 · Readiness</a></li>
+            <li><a href="/reflection.html">07 · Reflection</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Account</h4>
+          <ul>
+            <li><a href="/login.html">Sign in</a></li>
+            <li><a href="/signup.html">Create account</a></li>
+            <li><a href="/list.html">My List</a></li>
+            <li><a href="/account.html">My account</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Meta</h4>
+          <ul>
+            <li><a href="#top">Back to top</a></li>
+            <li><button class="btn-ghost" data-theme-toggle style="padding:0;background:transparent;border:0;color:inherit;cursor:pointer;"><span data-theme-label>Toggle theme</span></button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>CISC3003 Web Programming · 2026 · Group 02</span>
+        <span>Vanilla HTML / CSS / JS · Node · Express · SQLite</span>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" type="button">&uarr;</button>
+  </div>
+
+  <script defer src="/js/api.js"></script>
+  <script defer src="/js/session.js"></script>
+  <script defer src="/js/theme.js"></script>
+  <script defer src="/js/nav.js"></script>
+  <script defer src="/js/ui.js"></script>
+  <script defer src="/js/shortlist.js"></script>
+  <script defer src="/js/account.js"></script>
+  <script defer src="/js/history-log.js"></script>
+</body>
+</html>

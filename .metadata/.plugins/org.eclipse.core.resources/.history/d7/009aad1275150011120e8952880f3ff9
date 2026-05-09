@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of Zhang Zhexuan - Computer Science Student">
+    <title>Zhang Zhexuan | Portfolio</title>
+    <link rel="stylesheet" href="css/cisc3003-IndAssgn-home.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <h1>Zhang Zhexuan</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="cisc3003-IndAssgn-projects.html">All Projects</a></li>
+                    <li><a href="cisc3003-IndAssgn-summary.html">Summary</a></li>
+                    <li><a href="cisc3003-IndAssgn-showcase.html">Showcase</a></li>
+                    <li><a href="cisc3003-IndAssgn-qualification.html">Qualifications</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="images/profile-photo.jpg" alt="Zhang Zhexuan Profile Photo" class="profile-img">
+                <h2>Hello, I'm Zhang Zhexuan</h2>
+                <p class="tagline">Computer Science Student | AI Enthusiast | Web Developer</p>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a dedicated Computer Science student at the University of Macau (Student ID: dc229576), passionate about artificial intelligence, web development, and knowledge graphs. My academic journey has equipped me with strong programming skills and a solid foundation in software engineering principles.</p>
+                    <p>Currently, I am focusing on combining Large Language Models with Knowledge Graphs to reduce hallucination in AI systems, particularly for cultural content related to Macao. I believe in creating technology that is both innovative and culturally aware.</p>
+                </div>
+                <div class="about-values">
+                    <h3>My Core Values</h3>
+                    <ul>
+                        <li><strong>Continuous Learning:</strong> Always exploring new technologies and methodologies</li>
+                        <li><strong>Problem Solving:</strong> Approaching challenges with analytical thinking</li>
+                        <li><strong>Collaboration:</strong> Believing in the power of teamwork</li>
+                        <li><strong>Innovation:</strong> Seeking creative solutions to complex problems</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">My Photo Gallery</h2>
+            <div class="photo-grid">
+                <div class="photo-item">
+                    <img src="images/photo1.jpg" alt="University Life">
+                    <p>University Life</p>
+                </div>
+                <div class="photo-item">
+                    <img src="images/photo2.jpg" alt="Coding Session">
+                    <p>Coding Session</p>
+                </div>
+                <div class="photo-item">
+                    <img src="images/photo3.jpg" alt="Team Project">
+                    <p>Team Collaboration</p>
+                </div>
+                <div class="photo-item">
+                    <img src="images/photo4.jpg" alt="Hackathon">
+                    <p>Hackathon Event</p>
+                </div>
+                <div class="photo-item">
+                    <img src="images/photo5.jpg" alt="Campus View">
+                    <p>Campus View</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Knowledge Graph Research Project</h3>
+                        <p>Developing a Macao Cultural AI Assistant using LightRAG and LLMs. Responsible for optimizing entity extraction systems and implementing evaluation functionalities.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - 2025</div>
+                    <div class="timeline-content">
+                        <h3>Web Development Coursework</h3>
+                        <p>Completed multiple web programming projects including responsive portfolio websites and interactive web applications using HTML, CSS, and JavaScript.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>Linear Algebra & Calculus Tutoring</h3>
+                        <p>Assisted peers in understanding complex mathematical concepts, improving problem-solving skills and communication abilities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>KG-LLM Macao Cultural AI</h3>
+                    <p>An intelligent assistant combining Knowledge Graphs with Large Language Models to provide accurate cultural information about Macao while reducing AI hallucination.</p>
+                    <a href="cisc3003-IndAssgn-demo01.html" class="project-link">View Demo 1</a>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website System</h3>
+                    <p>A responsive multi-page portfolio website built with pure HTML and CSS, featuring modern design principles and mobile-first approach.</p>
+                    <a href="cisc3003-IndAssgn-demo02.html" class="project-link">View Demo 2</a>
+                </div>
+            </div>
+            <div class="center-btn">
+                <a href="cisc3003-IndAssgn-projects.html" class="btn-secondary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p><strong>Email:</strong> dc229576@um.edu.mo</p>
+                    <p><strong>University:</strong> University of Macau</p>
+                    <p><strong>GitHub:</strong> github.com/dc229576</p>
+                    <p><strong>Location:</strong> Macao, China</p>
+                </div>
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>CISC3003 Web Programming - 2025: dc229576 + Zhang Zhexuan</p>
+            <p>&copy; 2026 Zhang Zhexuan. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

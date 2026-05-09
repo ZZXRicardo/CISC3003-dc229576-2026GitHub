@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About · Cornerstone</title>
+  <meta name="description" content="Why Cornerstone exists and how to read the handbook.">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('cornerstone-theme');
+        var theme = stored || 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body class="page-about">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <div class="site-header-inner">
+        <a href="/" class="brand">Cornerstone</a>
+        <input type="checkbox" class="nav-toggle-checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-button"><span>Menu</span></label>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html" class="current-page" aria-current="page">About</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="/masters.html">Master's</a></li>
+            <li><a href="/careers.html">Careers</a></li>
+            <li><a href="/jobs.html">Jobs</a></li>
+            <li><a href="/readiness.html">Readiness</a></li>
+            <li><a href="/reflection.html">Reflection</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+          </ul>
+        </nav>
+        <div class="header-tools">
+          <button class="theme-toggle" data-theme-toggle type="button"><span data-theme-label>Dark mode</span></button>
+          <span data-auth="guest">
+            <a class="btn btn-ghost" href="/login.html">Sign in</a>
+            <a class="btn btn-ghost" href="/signup.html">Sign up</a>
+          </span>
+          <details class="user-menu" data-auth="user" hidden>
+            <summary><span data-user-name>Account</span></summary>
+            <div class="user-menu-panel">
+              <a href="/list.html">My List</a>
+              <a href="/chat.html">AI Chat</a>
+              <a href="/account.html">My account</a>
+              <button type="button" data-logout>Sign out</button>
+            </div>
+          </details>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-main" id="main-content">
+      <section class="page-banner" aria-labelledby="about-title">
+        <p class="kicker">Chapter 01</p>
+        <h1 id="about-title">About the purpose of this site</h1>
+        <p class="lede">A short, honest explanation of what this handbook is, who it's for, and how to get the most out of it.</p>
+      </section>
+
+      <section data-reveal>
+        <div class="split-2">
+          <div class="prose">
+            <h2>Why we built this</h2>
+            <p>Most undergraduate CS students already <em>know</em> they should study hard, build projects, and think about graduate school or full-time offers. The problem isn't motivation — it's the absence of a single place to compare skills, programmes and job paths without sifting through twenty different forum threads.</p>
+            <p>Cornerstone is our attempt at that single place. It's written by CS students at the University of Macau, for CS students anywhere in the world who want concrete, specific information they can actually act on — not a pep talk.</p>
+            <h2>What you'll find inside</h2>
+            <ul>
+              <li><strong>Skills Development</strong> — a concrete list of what to build, when to build it.</li>
+              <li><strong>Master's Preparation</strong> — a realistic timeline and 37 programmes across four regions.</li>
+              <li><strong>Career Paths</strong> — six tracks with the skills and next-steps for each.</li>
+              <li><strong>Jobs</strong> — 43 real openings from top companies, filterable by role.</li>
+              <li><strong>Job Readiness</strong> — a four-stage workflow from resume to offer.</li>
+              <li><strong>Reflection</strong> — the story of building it.</li>
+            </ul>
+          </div>
+          <aside class="card">
+            <h3>At a glance</h3>
+            <p class="card-meta"><strong>Audience:</strong> Undergraduate CS students (Year 1–4).</p>
+            <p class="card-meta"><strong>Scope:</strong> Technical skills, graduate school, and early-career job paths.</p>
+            <p class="card-meta"><strong>Source material:</strong> Official university and company pages, with summaries distilled to one sentence per item.</p>
+            <p class="card-meta"><strong>Updated:</strong> 2026</p>
+            <p class="card-meta"><strong>Reading time:</strong> ~25 minutes end-to-end.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section aria-labelledby="pillars-title" data-reveal>
+        <p class="kicker">Three pillars</p>
+        <h2 id="pillars-title">Orient · Prepare · Reflect</h2>
+        <div class="grid-3 pillars">
+          <article class="card">
+            <h3>Orient</h3>
+            <p>Before you can prepare, you need a map. The Skills and Careers chapters give you the lay of the land — what exists, what matters, and what actually gets built in industry.</p>
+          </article>
+          <article class="card">
+            <h3>Prepare</h3>
+            <p>The Master's, Jobs and Readiness chapters are the "how". Timelines, programmes, openings and step-by-step checklists for moving from "interested" to "applying".</p>
+          </article>
+          <article class="card">
+            <h3>Reflect</h3>
+            <p>Action without reflection is noise. The Reflection chapter closes the loop — what changed along the way, what we would do differently, and how we think about the next few years.</p>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="faq-title" data-reveal>
+        <p class="kicker">Common questions</p>
+        <h2 id="faq-title">FAQ</h2>
+        <div class="accordion" data-accordion="single">
+          <details>
+            <summary>Who wrote this?</summary>
+            <div class="accordion-body"><p>Two undergraduate CS students at the University of Macau, as our CISC3003 Web Programming group project. We wrote the content based on our own reading and research; we're not career counsellors.</p></div>
+          </details>
+          <details>
+            <summary>Is this advice UM-specific?</summary>
+            <div class="accordion-body"><p>Some of it is (e.g., the UM-specific tips callout on Master's Preparation). Most of the skills, timeline, career tracks and job listings are broadly applicable to any CS undergrad worldwide.</p></div>
+          </details>
+          <details>
+            <summary>How should I read the handbook?</summary>
+            <div class="accordion-body"><p>If you're in Year 1–2, start at Skills and Careers. If you're in Year 3 and thinking about graduate school, jump to Master's Preparation. If you're in Year 4 and actively applying, go straight to Readiness and Jobs.</p></div>
+          </details>
+          <details>
+            <summary>How was the content organised?</summary>
+            <div class="accordion-body"><p>We interviewed ourselves (really — we listed every question we wished we'd asked earlier), then grouped them into the seven chapters. Inside each chapter, content is ordered from "what" to "how" to "when".</p></div>
+          </details>
+          <details>
+            <summary>Can I share it with a friend?</summary>
+            <div class="accordion-body"><p>Please do. The site is public and the content is free to read. If you're a classmate also building a similar site, we'd love to compare notes.</p></div>
+          </details>
+        </div>
+      </section>
+
+      <section data-reveal>
+        <div class="callout callout-tip">
+          <h4>How to read this handbook</h4>
+          <p><strong>If you're exploring</strong> (Year 1–2): start with <a href="/skills.html">Skills</a> and <a href="/careers.html">Careers</a>.</p>
+          <p><strong>If you're planning</strong> (Year 3): focus on <a href="/masters.html">Master's Preparation</a> and <a href="/careers.html">Careers</a>.</p>
+          <p><strong>If you're applying</strong> (Year 4): skip ahead to <a href="/readiness.html">Readiness</a> and <a href="/jobs.html">Jobs</a>.</p>
+        </div>
+      </section>
+
+      <section data-reveal>
+        <p class="kicker">References</p>
+        <h2>Referenced sources</h2>
+        <p class="prose">The design principles informing this handbook are drawn from:</p>
+        <ul class="prose">
+          <li>Mozilla (2025). <em>HTML: A good basis for accessibility</em>. MDN Web Docs.</li>
+          <li>Mozilla (2025). <em>Responsive web design</em>. MDN Web Docs.</li>
+          <li>Nielsen Norman Group (2017). <em>First impressions matter: How designers can support users' automatic thinking</em>.</li>
+          <li>World Wide Web Consortium (2025). <em>Web Content Accessibility Guidelines (WCAG) 2.1</em>.</li>
+          <li>World Wide Web Consortium (n.d.). <em>Introduction to web accessibility</em>. WAI.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div class="footer-brand">
+          <h4>Cornerstone</h4>
+          <p>An academic and career handbook for CS undergraduates at the University of Macau.</p>
+        </div>
+        <div>
+          <h4>Chapters</h4>
+          <ul>
+            <li><a href="/about.html">01 · About</a></li>
+            <li><a href="/skills.html">02 · Skills</a></li>
+            <li><a href="/masters.html">03 · Master's</a></li>
+            <li><a href="/careers.html">04 · Careers</a></li>
+            <li><a href="/jobs.html">05 · Jobs</a></li>
+            <li><a href="/readiness.html">06 · Readiness</a></li>
+            <li><a href="/reflection.html">07 · Reflection</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Account</h4>
+          <ul>
+            <li><a href="/login.html">Sign in</a></li>
+            <li><a href="/signup.html">Create account</a></li>
+            <li><a href="/list.html">My List</a></li>
+            <li><a href="/account.html">My account</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Meta</h4>
+          <ul>
+            <li><a href="#top">Back to top</a></li>
+            <li><button class="btn-ghost" data-theme-toggle style="padding:0;background:transparent;border:0;color:inherit;cursor:pointer;"><span data-theme-label>Toggle theme</span></button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>CISC3003 Web Programming · 2026 · Group 02</span>
+        <span>Vanilla HTML / CSS / JS · Node · Express · SQLite</span>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" type="button">&uarr;</button>
+  </div>
+
+  <script defer src="/js/api.js"></script>
+  <script defer src="/js/session.js"></script>
+  <script defer src="/js/theme.js"></script>
+  <script defer src="/js/nav.js"></script>
+  <script defer src="/js/ui.js"></script>
+  <script defer src="/js/shortlist.js"></script>
+  <script defer src="/js/history-log.js"></script>
+</body>
+</html>

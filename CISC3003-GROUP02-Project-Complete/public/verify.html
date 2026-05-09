@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verify Email | Cornerstone</title>
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('cornerstone-theme');
+        var theme = stored || 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body class="page-auth page-verify">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <div class="site-header-inner">
+        <a href="/" class="brand">Cornerstone</a>
+        <input type="checkbox" class="nav-toggle-checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-button"><span>Menu</span></label>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="/masters.html">Master's</a></li>
+            <li><a href="/careers.html">Careers</a></li>
+            <li><a href="/jobs.html">Jobs</a></li>
+            <li><a href="/readiness.html">Readiness</a></li>
+            <li><a href="/reflection.html">Reflection</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+          </ul>
+        </nav>
+        <div class="header-tools">
+          <button class="theme-toggle" data-theme-toggle type="button"><span data-theme-label>Dark mode</span></button>
+          <span data-auth="guest">
+            <a class="btn btn-ghost" href="/login.html">Sign in</a>
+          </span>
+          <details class="user-menu" data-auth="user" hidden>
+            <summary><span data-user-name>Account</span></summary>
+            <div class="user-menu-panel">
+              <a href="/list.html">My List</a>
+              <a href="/chat.html">AI Chat</a>
+              <a href="/account.html">My account</a>
+              <button type="button" data-logout>Sign out</button>
+            </div>
+          </details>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-main" id="main-content">
+      <section class="auth-card" aria-labelledby="verify-title">
+        <p class="kicker">Email verification</p>
+        <h1 id="verify-title" data-verify-title>Verify your email</h1>
+        <p class="auth-intro" data-verify-message>Open the verification link from your email, or enter the 6-digit code below.</p>
+        <div class="verify-status" data-verify-status hidden aria-live="polite"></div>
+
+        <form class="verify-code-form" data-auth-form="verify-code" novalidate>
+          <div class="form-field">
+            <label for="verify-email">Email</label>
+            <input id="verify-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="form-field">
+            <label for="verify-code">Verification code</label>
+            <input id="verify-code" name="code" type="text" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" autocomplete="one-time-code" required>
+          </div>
+          <button class="btn btn-full" type="submit">Verify code</button>
+        </form>
+
+        <p class="verify-help">If the link in your email does not open, you can still complete verification here with the 6-digit code.</p>
+        <form class="verify-resend-form" data-auth-form="resend-verification" novalidate>
+          <div class="form-field">
+            <label for="resend-email">Need another email?</label>
+            <input id="resend-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <button class="btn btn-ghost btn-full" type="submit">Resend verification email</button>
+        </form>
+        <p><a class="btn" href="/login.html">Go to sign in</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div class="footer-brand">
+          <h4>Cornerstone</h4>
+          <p>An academic and career handbook for CS undergraduates at the University of Macau.</p>
+        </div>
+        <div>
+          <h4>Chapters</h4>
+          <ul>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="/masters.html">Master's</a></li>
+            <li><a href="/careers.html">Careers</a></li>
+            <li><a href="/jobs.html">Jobs</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Account</h4>
+          <ul>
+            <li><a href="/login.html">Sign in</a></li>
+            <li><a href="/signup.html">Create account</a></li>
+            <li><a href="/list.html">My List</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+            <li><a href="/forgot.html">Forgot password</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Meta</h4>
+          <ul>
+            <li><a href="#top">Back to top</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>CISC3003 Web Programming | 2026 | Group 02</span>
+        <span>Vanilla HTML / CSS / JS | Node | Express | SQLite</span>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" type="button">&uarr;</button>
+  </div>
+
+  <script>
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      var status = params.get('status');
+      var email = params.get('email');
+      var title = document.querySelector('[data-verify-title]');
+      var msg = document.querySelector('[data-verify-message]');
+      var form = document.querySelector('[data-auth-form="verify-code"]');
+      var emailInputs = document.querySelectorAll('input[name="email"]');
+      var messages = {
+        success: ['Email verified', 'Your account is active. You can now sign in.'],
+        used: ['Link already used', 'This verification link was already used. If you still cannot sign in, use your email code below.'],
+        expired: ['Link expired', 'This verification link has expired. Enter the 6-digit code below if it is still valid, or request another email.'],
+        error: ['Verification failed', 'We could not verify that link. You can still enter the 6-digit code below.']
+      };
+      var statusBox = document.querySelector('[data-verify-status]');
+      var entry = messages[status] || ['Verify your email', 'Open the verification link from your email, or enter the 6-digit code below.'];
+      if (title) title.textContent = entry[0];
+      if (msg) msg.textContent = entry[1];
+      if (emailInputs && email) {
+        emailInputs.forEach(function (input) {
+          input.value = email;
+        });
+      }
+      if (statusBox && status && messages[status]) {
+        statusBox.textContent = entry[1];
+        statusBox.className = 'verify-status is-' + (status === 'success' ? 'success' : 'error');
+        statusBox.hidden = false;
+      }
+      if (form && status === 'success') form.hidden = true;
+    })();
+  </script>
+  <script defer src="/js/api.js"></script>
+  <script defer src="/js/auth.js"></script>
+  <script defer src="/js/session.js"></script>
+  <script defer src="/js/theme.js"></script>
+  <script defer src="/js/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Chat · Cornerstone</title>
+  <meta name="description" content="Chat with Cornerstone AI about programmes, jobs, career planning, and how to use the website.">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('cornerstone-theme');
+        var theme = stored || 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body class="page-chat">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <div class="site-header-inner">
+        <a href="/" class="brand">Cornerstone</a>
+        <input type="checkbox" class="nav-toggle-checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-button"><span>Menu</span></label>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="/masters.html">Master's</a></li>
+            <li><a href="/careers.html">Careers</a></li>
+            <li><a href="/jobs.html">Jobs</a></li>
+            <li><a href="/readiness.html">Readiness</a></li>
+            <li><a href="/reflection.html">Reflection</a></li>
+            <li><a href="/chat.html" class="current-page" aria-current="page">AI Chat</a></li>
+          </ul>
+        </nav>
+        <div class="header-tools">
+          <button class="theme-toggle" data-theme-toggle type="button"><span data-theme-label>Dark mode</span></button>
+          <span data-auth="guest">
+            <a class="btn btn-ghost" href="/login.html">Sign in</a>
+            <a class="btn btn-ghost" href="/signup.html">Sign up</a>
+          </span>
+          <details class="user-menu" data-auth="user" hidden>
+            <summary><span data-user-name>Account</span></summary>
+            <div class="user-menu-panel">
+              <a href="/list.html">My List</a>
+              <a href="/chat.html">AI Chat</a>
+              <a href="/account.html">My account</a>
+              <button type="button" data-logout>Sign out</button>
+            </div>
+          </details>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-main" id="main-content">
+      <section data-chat-signed-out hidden>
+        <section class="auth-card" aria-labelledby="chat-signed-out">
+          <p class="kicker">AI Chat</p>
+          <h1 id="chat-signed-out">Sign in to use ChatBox</h1>
+          <p class="auth-intro">The AI chat page is only available to logged-in users.</p>
+          <p>
+            <a class="btn" href="/login.html?redirect=/chat.html">Sign in</a>
+            <a class="btn btn-secondary" href="/signup.html">Create account</a>
+          </p>
+        </section>
+      </section>
+
+      <section data-chat-authed hidden>
+        <section class="page-banner" aria-labelledby="chat-title">
+          <p class="kicker">AI Assistant</p>
+          <div class="chat-hero">
+            <div>
+              <h1 id="chat-title">Ask Cornerstone AI anything</h1>
+              <p class="lede">Use this chat box to ask about Master's planning, job paths, My List, or general questions about the site.</p>
+            </div>
+            <div class="chat-status-card">
+              <span class="chat-status-label">Backend contract</span>
+              <strong data-chat-status>Ready for POST /api/chat</strong>
+              <span class="card-meta">Request body: { messages: [...] }</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="chat-layout" data-reveal>
+          <aside class="chat-sidebar card">
+            <p class="kicker">Suggested prompts</p>
+            <h2>Try one of these</h2>
+            <div class="chat-suggestions">
+              <button type="button" class="tag tag-filter" data-chat-prompt="Can you recommend some T2 programmes in Singapore for an AI-focused student?">Singapore AI programmes</button>
+              <button type="button" class="tag tag-filter" data-chat-prompt="What should I do in Year 3 if I want to apply for a Master's degree?">Year 3 master's plan</button>
+              <button type="button" class="tag tag-filter" data-chat-prompt="How do I use My List in this website?">How to use My List</button>
+              <button type="button" class="tag tag-filter" data-chat-prompt="Which job roles fit someone who likes machine learning more than pure software engineering?">Compare job roles</button>
+            </div>
+            <div class="callout callout-tip">
+              <h4>Integration note</h4>
+              <p>This page is connected to <code>POST /api/chat</code>. Once the chat API key is configured on the server, the assistant can reply immediately.</p>
+              <p>Expected response shape: <code>{ "reply": "..." }</code>.</p>
+            </div>
+          </aside>
+
+          <section class="chat-panel card" aria-labelledby="thread-title">
+            <div class="chat-panel-head">
+              <div>
+                <p class="kicker">Conversation</p>
+                <h2 id="thread-title">ChatBox</h2>
+              </div>
+              <button type="button" class="btn btn-secondary" data-chat-reset>New chat</button>
+            </div>
+
+            <div class="chat-thread" data-chat-thread aria-live="polite"></div>
+
+            <form class="chat-form" data-chat-form>
+              <label class="sr-only" for="chat-input">Ask a question</label>
+              <textarea id="chat-input" data-chat-input rows="4" maxlength="1500" placeholder="Ask a question about programmes, jobs, or this website..."></textarea>
+              <div class="chat-form-footer">
+                <p class="form-note">This page sends JSON to <code>POST /api/chat</code> and expects <code>{ "reply": "..." }</code> back.</p>
+                <button type="submit" class="btn" data-chat-send>Send</button>
+              </div>
+            </form>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div class="footer-brand">
+          <h4>Cornerstone</h4>
+          <p>An academic and career handbook for CS undergraduates at the University of Macau.</p>
+        </div>
+        <div>
+          <h4>Chapters</h4>
+          <ul>
+            <li><a href="/about.html">01 · About</a></li>
+            <li><a href="/skills.html">02 · Skills</a></li>
+            <li><a href="/masters.html">03 · Master's</a></li>
+            <li><a href="/careers.html">04 · Careers</a></li>
+            <li><a href="/jobs.html">05 · Jobs</a></li>
+            <li><a href="/readiness.html">06 · Readiness</a></li>
+            <li><a href="/reflection.html">07 · Reflection</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Account</h4>
+          <ul>
+            <li><a href="/login.html">Sign in</a></li>
+            <li><a href="/signup.html">Create account</a></li>
+            <li><a href="/list.html">My List</a></li>
+            <li><a href="/account.html">My account</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Meta</h4>
+          <ul>
+            <li><a href="#top">Back to top</a></li>
+            <li><button class="btn-ghost" data-theme-toggle style="padding:0;background:transparent;border:0;color:inherit;cursor:pointer;"><span data-theme-label>Toggle theme</span></button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>CISC3003 Web Programming · 2026 · Group 02</span>
+        <span>Vanilla HTML / CSS / JS · Node · Express · SQLite</span>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" type="button">&uarr;</button>
+  </div>
+
+  <script defer src="/js/api.js"></script>
+  <script defer src="/js/session.js"></script>
+  <script defer src="/js/theme.js"></script>
+  <script defer src="/js/nav.js"></script>
+  <script defer src="/js/ui.js"></script>
+  <script defer src="/js/chat.js"></script>
+  <script defer src="/js/history-log.js"></script>
+</body>
+</html>

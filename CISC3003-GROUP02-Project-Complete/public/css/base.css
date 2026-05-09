@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+/* ============================================================
+   DARK IS THE DEFAULT — Apple-tech palette.
+   [data-theme="light"] overrides for light-mode variant.
+   ============================================================ */
+
+:root {
+  /* Ink (text) */
+  --ink: #f5f5f7;
+  --ink-muted: #a1a1a6;
+  --ink-soft: #6e6e73;
+
+  /* Paper (backgrounds) */
+  --paper: #000;
+  --paper-soft: rgba(255, 255, 255, 0.03);
+  --paper-deep: rgba(255, 255, 255, 0.06);
+  --section: #0a0a0b;
+  --sage: rgba(41, 151, 255, 0.06);
+
+  /* Accents */
+  --teal: #2997ff;
+  --teal-deep: #0066ff;
+  --teal-tint: #00d4ff;
+  --accent: #2997ff;
+  --accent-bright: #00d4ff;
+  --accent-purple: #8a3af5;
+
+  /* Semantic */
+  --danger: #ff6b6b;
+  --success: #30d158;
+
+  /* Borders */
+  --border: rgba(255, 255, 255, 0.1);
+  --border-strong: rgba(255, 255, 255, 0.2);
+
+  /* Shadows */
+  --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 10px 24px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 22px 48px rgba(0, 0, 0, 0.6);
+
+  /* Radii */
+  --radius-sm: 0.65rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+  --radius-pill: 999px;
+
+  /* Spacing */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4.5rem;
+
+  /* Typography scale */
+  --fs-display: clamp(2.75rem, 9vw, 6.5rem);
+  --fs-h1: clamp(2.25rem, 5vw, 4rem);
+  --fs-h2: clamp(1.75rem, 3.5vw, 2.5rem);
+  --fs-h3: 1.25rem;
+  --fs-h4: 1.05rem;
+  --fs-body: 1rem;
+  --fs-body-lg: 1.075rem;
+  --fs-small: 0.9rem;
+  --fs-kicker: 0.78rem;
+  --measure: 68ch;
+
+  --site-width: 1200px;
+  --page-gutter: clamp(1rem, 3vw, 2rem);
+  --header-height: 72px;
+}
+
+[data-theme="light"] {
+  --ink: #1d1d1f;
+  --ink-muted: #515154;
+  --ink-soft: #6e6e73;
+
+  --paper: #fbfbfd;
+  --paper-soft: #fff;
+  --paper-deep: #f5f5f7;
+  --section: #f5f5f7;
+  --sage: rgba(0, 113, 227, 0.05);
+
+  --teal: #0071e3;
+  --teal-deep: #0066ff;
+  --teal-tint: #2997ff;
+  --accent: #0071e3;
+  --accent-bright: #2997ff;
+
+  --danger: #d32f2f;
+
+  --border: rgba(0, 0, 0, 0.08);
+  --border-strong: rgba(0, 0, 0, 0.18);
+
+  --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 10px 24px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 22px 48px rgba(0, 0, 0, 0.12);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Display", system-ui, sans-serif;
+  font-size: var(--fs-body);
+  color: var(--ink);
+  background: var(--paper);
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Subtle grid pattern, faded at edges */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 56px 56px;
+  -webkit-mask-image: radial-gradient(ellipse at center, black 20%, transparent 80%);
+  mask-image: radial-gradient(ellipse at center, black 20%, transparent 80%);
+  opacity: 0.6;
+}
+
+[data-theme="light"] body::before {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+  opacity: 0.5;
+}
+
+img { display: block; max-width: 100%; height: auto; }
+figure { margin: 0; }
+
+a {
+  color: var(--teal);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover { color: var(--teal-tint); }
+
+p, li {
+  color: var(--ink-muted);
+  line-height: 1.65;
+  margin: 0 0 var(--space-sm);
+}
+
+ul, ol {
+  margin: 0 0 var(--space-sm);
+  padding-left: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 var(--space-sm);
+  font-family: "Inter", -apple-system, "SF Pro Display", system-ui, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+
+h1 { font-size: var(--fs-h1); }
+h2 { font-size: var(--fs-h2); letter-spacing: -0.035em; }
+h3 { font-size: var(--fs-h3); letter-spacing: -0.02em; }
+h4 { font-size: var(--fs-h4); }
+
+.kicker {
+  font-family: "JetBrains Mono", "SF Mono", Menlo, monospace;
+  font-size: var(--fs-kicker);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--accent-bright);
+  margin: 0 0 var(--space-xs);
+}
+
+.prose,
+.prose p,
+.prose li {
+  max-width: var(--measure);
+}
+
+.lede {
+  font-size: var(--fs-body-lg);
+  color: var(--ink-muted);
+  max-width: 58ch;
+  line-height: 1.55;
+}
+
+:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-sm);
+  z-index: 200;
+}
+.skip-link:focus { top: 0.75rem; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.hidden { display: none !important; }
+
+code {
+  font-family: "JetBrains Mono", "SF Mono", Menlo, monospace;
+  font-size: 0.92em;
+  padding: 0.1em 0.4em;
+  background: var(--paper-soft);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}

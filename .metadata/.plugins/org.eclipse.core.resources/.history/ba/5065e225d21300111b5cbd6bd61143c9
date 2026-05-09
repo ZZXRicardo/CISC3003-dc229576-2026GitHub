@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showcase - Zhang Zhexuan Portfolio</title>
+    <link rel="stylesheet" href="cisc3003-IndAssgn-showcase.css">
+</head>
+<body id="top">
+    <header>
+        <div class="logo">Zhang Zhexuan</div>
+        <nav>
+            <ul>
+                <li><a href="cisc3003-IndAssgn-home.html#top">Home</a></li>
+                <li><a href="cisc3003-IndAssgn-home.html#about">About</a></li>
+                <li><a href="cisc3003-IndAssgn-home.html#contact">Contact</a></li>
+                <li><a href="cisc3003-IndAssgn-showcase.html#top">Showcase</a></li>
+                <li><a href="cisc3003-IndAssgn-demo01.html#top">Demo 1</a></li>
+                <li><a href="cisc3003-IndAssgn-demo02.html#top">Demo 2</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="page-title">Qualifications & Experience</h1>
+        
+        <section id="education" class="content-section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>The Chinese University of Hong Kong (CUHK)</strong> | Master of Computer Technology | Aug 2026 - Jun 2027</li>
+                <li><strong>University of Macau</strong> | Bachelor of Computer Technology | Aug 2022 - Jun 2026 | <strong>GPA:</strong> 3.7</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="content-section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> Python, Golang, Java, C, C++</li>
+                <li><strong>AI & NLP:</strong> LLM fine-tuning, Knowledge Graphs, NER, PyTorch, DeepSeek API, Qwen API</li>
+                <li><strong>Tools & Frameworks:</strong> Fiber, React, Flask, Worm, RabbitMQ, SAP, VBA</li>
+                <li><strong>Languages:</strong> Chinese (Native), English (IELTS 7.0 / GRE 330)</li>
+            </ul>
+        </section>
+
+        <section id="internship" class="content-section">
+            <h2>Internship Experience</h2>
+            <div class="job">
+                <h3>Chongqing Zhongxin Kongdian | IoT Development Intern</h3>
+                <p><em>July 2025 - August 2025</em></p>
+                <ul>
+                    <li>Built an enterprise Web application using EasyGoAdmin_Gin_Layui, integrating RabbitMQ.</li>
+                    <li>Constructed an online database using the Worm framework for role-based permission management.</li>
+                    <li>Successfully supported 10,000+ concurrent device uploads with millisecond-level updates.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Macau Electricity Company | Data Analysis Intern</h3>
+                <p><em>July 2024 - September 2024</em></p>
+                <ul>
+                    <li>Developed VBA scripts to standardize data formats and automate report generation.</li>
+                    <li>Optimized billing reconciliation processes, improving accuracy to 99.5%.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>CISC3003 Web Programming - 2025: dc229576 Zhang Zhexuan</p>
+    </footer>
+</body>
+</html>

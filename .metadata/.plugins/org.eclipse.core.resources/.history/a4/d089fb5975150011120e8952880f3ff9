@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 01: KG-LLM Macao Cultural AI</title>
+    <link rel="stylesheet" href="css/cisc3003-IndAssgn-demo01.css">
+</head>
+<body>
+    <header class="demo-header">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="cisc3003-IndAssgn.html">Home</a> / 
+                <a href="cisc3003-IndAssgn-projects.html">Projects</a> / Demo 01
+            </nav>
+            <h1>KG-LLM Macao Cultural AI Assistant</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="demo-intro">
+            <h2>Project Overview</h2>
+            <p>This demo showcases the integration of Knowledge Graphs with Large Language Models to create an AI assistant that provides accurate, hallucination-free information about Macao's cultural heritage.</p>
+            
+            <div class="tech-stack">
+                <h3>Technology Stack</h3>
+                <div class="tech-tags">
+                    <span class="tech">Python</span>
+                    <span class="tech">LightRAG</span>
+                    <span class="tech">OpenAI API</span>
+                    <span class="tech">Neo4j</span>
+                    <span class="tech">React</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="demo-interface">
+            <h2>Live Demo Interface</h2>
+            <div class="chat-container">
+                <div class="chat-header">
+                    <h3>Macao Cultural AI Assistant</h3>
+                    <span class="status online">● Online</span>
+                </div>
+                
+                <div class="chat-messages">
+                    <div class="message bot">
+                        <div class="avatar">AI</div>
+                        <div class="content">
+                            <p>Hello! I am your Macao Cultural AI Assistant. I can provide accurate information about Macao's history, architecture, cuisine, and traditions based on verified knowledge graph data. What would you like to know?</p>
+                        </div>
+                    </div>
+                    
+                    <div class="message user">
+                        <div class="avatar">User</div>
+                        <div class="content">
+                            <p>Tell me about the historic centre of Macao.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="message bot">
+                        <div class="avatar">AI</div>
+                        <div class="content">
+                            <p>The Historic Centre of Macao is a UNESCO World Heritage Site inscribed in 2005. It represents the outstanding example of coexistence and cultural exchange between Chinese and Portuguese civilizations.</p>
+                            <p><strong>Key Facts (Verified by Knowledge Graph):</strong></p>
+                            <ul>
+                                <li>Location: Macao Peninsula, Macao SAR, China</li>
+                                <li>Includes: Ruins of St. Paul's, Senado Square, A-Ma Temple, etc.</li>
+                                <li>Period: Development from 16th to 20th centuries</li>
+                                <li>Significance: Oldest European settlement in China</li>
+                            </ul>
+                            <div class="source-tag">Source: Knowledge Graph Verified</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chat-input">
+                    <input type="text" placeholder="Ask about Macao culture..." disabled>
+                    <button disabled>Send</button>
+                </div>
+                <p class="demo-note">* This is a static demo interface. In the full implementation, this connects to the LightRAG backend.</p>
+            </div>
+        </section>
+
+        <section class="demo-features">
+            <h2>Key Features Demonstrated</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h4>Entity Extraction</h4>
+                    <p>Automatically extracts cultural entities (places, people, events) from unstructured text with high accuracy using optimized prompts.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Graph Visualization</h4>
+                    <p>Interactive network visualization showing relationships between cultural entities, powered by D3.js and Neo4j.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Multi-Model Evaluation</h4>
+                    <p>Extracted knowledge is validated by multiple LLM judges to ensure accuracy before being added to the graph.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Hallucination Reduction</h4>
+                    <p>RAG (Retrieval Augmented Generation) ensures responses are grounded in verified knowledge graph data.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="demo-architecture">
+            <h2>System Architecture</h2>
+            <div class="architecture-diagram">
+                <div class="arch-layer">
+                    <div class="arch-box">User Interface (React)</div>
+                </div>
+                <div class="arch-arrow">↓</div>
+                <div class="arch-layer">
+                    <div class="arch-box">Query Processing & Prompt Engineering</div>
+                </div>
+                <div class="arch-arrow">↓</div>
+                <div class="arch-layer">
+                    <div class="arch-box">LightRAG Retrieval Engine</div>
+                </div>
+                <div class="arch-arrow">↓</div>
+                <div class="arch-layer dual">
+                    <div class="arch-box">Knowledge Graph (Neo4j)</div>
+                    <div class="arch-box">Vector Store</div>
+                </div>
+                <div class="arch-arrow">↓</div>
+                <div class="arch-layer">
+                    <div class="arch-box">LLM Generation (GPT-4)</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>CISC3003 Web Programming - 2025: dc229576 + Zhang Zhexuan</p>
+            <p>Project Demo 01: KG-LLM Integration System</p>
+        </div>
+    </footer>
+</body>
+</html>

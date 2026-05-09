@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skills Development · Cornerstone</title>
+  <meta name="description" content="The technical, soft, and meta-learning skills CS students should build across four undergraduate years.">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('cornerstone-theme');
+        var theme = stored || 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body class="page-skills">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <div class="site-header-inner">
+        <a href="/" class="brand">Cornerstone</a>
+        <input type="checkbox" class="nav-toggle-checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-button"><span>Menu</span></label>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/skills.html" class="current-page" aria-current="page">Skills</a></li>
+            <li><a href="/masters.html">Master's</a></li>
+            <li><a href="/careers.html">Careers</a></li>
+            <li><a href="/jobs.html">Jobs</a></li>
+            <li><a href="/readiness.html">Readiness</a></li>
+            <li><a href="/reflection.html">Reflection</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+          </ul>
+        </nav>
+        <div class="header-tools">
+          <button class="theme-toggle" data-theme-toggle type="button"><span data-theme-label>Dark mode</span></button>
+          <span data-auth="guest">
+            <a class="btn btn-ghost" href="/login.html">Sign in</a>
+            <a class="btn btn-ghost" href="/signup.html">Sign up</a>
+          </span>
+          <details class="user-menu" data-auth="user" hidden>
+            <summary><span data-user-name>Account</span></summary>
+            <div class="user-menu-panel">
+              <a href="/list.html">My List</a>
+              <a href="/chat.html">AI Chat</a>
+              <a href="/account.html">My account</a>
+              <button type="button" data-logout>Sign out</button>
+            </div>
+          </details>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-main" id="main-content">
+      <section class="page-banner" aria-labelledby="skills-title">
+        <p class="kicker">Chapter 02</p>
+        <h1 id="skills-title">Skills development</h1>
+        <p class="lede">A concrete catalogue of what to build and when — across technical depth, soft skills, and the meta-skill of learning.</p>
+      </section>
+
+      <section class="tabs" data-tabs data-tabs-key="skills-tabs" data-reveal>
+        <div role="tablist" aria-label="Skill categories">
+          <button role="tab" id="tab-technical" aria-controls="panel-technical" aria-selected="true">Technical</button>
+          <button role="tab" id="tab-soft" aria-controls="panel-soft" aria-selected="false" tabindex="-1">Soft skills</button>
+          <button role="tab" id="tab-meta" aria-controls="panel-meta" aria-selected="false" tabindex="-1">Meta-learning</button>
+        </div>
+
+        <!-- Technical -->
+        <div role="tabpanel" id="panel-technical" aria-labelledby="tab-technical">
+          <p class="prose">A typical undergraduate mastery curve — yours will differ, but this is roughly what employers and graduate committees see.</p>
+          <div class="grid-3">
+            <article class="card">
+              <h3>Programming fundamentals</h3>
+              <p class="card-meta">Typically Year 1</p>
+              <p>Fluency in one general-purpose language (Java / Python / C++) plus the muscle memory to refactor without fear.</p>
+              <ul class="tag-list"><li class="tag">Core</li><li class="tag">Year 1</li></ul>
+              <div class="progress-row" data-progress="85"><div class="progress-row-header"><strong>Typical curve</strong><span>85%</span></div><div class="progress-bar"><div class="progress-bar-fill"></div></div></div>
+            </article>
+            <article class="card">
+              <h3>Data structures & algorithms</h3>
+              <p class="card-meta">Year 1–2</p>
+              <p>CLRS first eight chapters; LeetCode Top Interview 150 worked through once.</p>
+              <ul class="tag-list"><li class="tag">Core</li><li class="tag">Interview critical</li></ul>
+              <div class="progress-row" data-progress="72"><div class="progress-row-header"><strong>Typical curve</strong><span>72%</span></div><div class="progress-bar"><div class="progress-bar-fill"></div></div></div>
+            </article>
+            <article class="card">
+              <h3>Systems (OS + networks)</h3>
+              <p class="card-meta">Year 2–3</p>
+              <p>CSAPP or OSTEP plus Beej's networking guide. Most students underinvest here.</p>
+              <ul class="tag-list"><li class="tag">Year 2</li><li class="tag">High leverage</li></ul>
+              <div class="progress-row" data-progress="55"><div class="progress-row-header"><strong>Typical curve</strong><span>55%</span></div><div class="progress-bar"><div class="progress-bar-fill"></div></div></div>
+            </article>
+            <article class="card">
+              <h3>Databases (SQL + NoSQL)</h3>
+              <p class="card-meta">Year 2–3</p>
+              <p>SQL Zoo fluency plus one NoSQL system understood end-to-end. A common pre-interview gap.</p>
+              <ul class="tag-list"><li class="tag">Year 2</li><li class="tag">Job-ready</li></ul>
+              <div class="progress-row" data-progress="60"><div class="progress-row-header"><strong>Typical curve</strong><span>60%</span></div><div class="progress-bar"><div class="progress-bar-fill"></div></div></div>
+            </article>
+            <article class="card">
+              <h3>Git & collaboration</h3>
+              <p class="card-meta">Year 1</p>
+              <p>"Pro Git" first three chapters, plus real experience opening, reviewing and merging pull requests.</p>
+              <ul class="tag-list"><li class="tag">Core</li><li class="tag">Team skill</li></ul>
+              <div class="progress-row" data-progress="80"><div class="progress-row-header"><strong>Typical curve</strong><span>80%</span></div><div class="progress-bar"><div class="progress-bar-fill"></div></div></div>
+            </article>
+            <article class="card">
+              <h3>Web stack + 1 framework</h3>
+              <p class="card-meta">Year 2–3</p>
+              <p>HTML, CSS, JS deep enough to ship — then React, Vue, or a server framework of your choice.</p>
+              <ul class="tag-list"><li class="tag">Portfolio</li><li class="tag">Year 2</li></ul>
+              <div class="progress-row" data-progress="65"><div class="progress-row-header"><strong>Typical curve</strong><span>65%</span></div><div class="progress-bar"><div class="progress-bar-fill"></div></div></div>
+            </article>
+            <article class="card">
+              <h3>One ML framework (PyTorch)</h3>
+              <p class="card-meta">Year 3–4</p>
+              <p>Enough to train, fine-tune and evaluate a model end-to-end. Fast.ai or Stanford CS231n material.</p>
+              <ul class="tag-list"><li class="tag">AI track</li><li class="tag">Year 3</li></ul>
+              <div class="progress-row" data-progress="45"><div class="progress-row-header"><strong>Typical curve</strong><span>45%</span></div><div class="progress-bar"><div class="progress-bar-fill"></div></div></div>
+            </article>
+            <article class="card">
+              <h3>Cloud basics</h3>
+              <p class="card-meta">Year 3–4</p>
+              <p>AWS Cloud Practitioner or Google 30-day cloud. Know enough to deploy a web app and explain what each piece does.</p>
+              <ul class="tag-list"><li class="tag">Year 3</li><li class="tag">Industry-ready</li></ul>
+              <div class="progress-row" data-progress="40"><div class="progress-row-header"><strong>Typical curve</strong><span>40%</span></div><div class="progress-bar"><div class="progress-bar-fill"></div></div></div>
+            </article>
+            <article class="card">
+              <h3>Testing & debugging</h3>
+              <p class="card-meta">Year 2+</p>
+              <p>Unit tests with Jest or PyTest, and a disciplined debugging process. Underrated differentiator in interviews.</p>
+              <ul class="tag-list"><li class="tag">Craft</li><li class="tag">Year 2</li></ul>
+              <div class="progress-row" data-progress="50"><div class="progress-row-header"><strong>Typical curve</strong><span>50%</span></div><div class="progress-bar"><div class="progress-bar-fill"></div></div></div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Soft skills -->
+        <div role="tabpanel" id="panel-soft" aria-labelledby="tab-soft" hidden>
+          <p class="prose">Soft skills are the reason two technically-equivalent candidates get different offers. They're learnable, but they require deliberate practice — not osmosis.</p>
+          <ol class="soft-skill-list">
+            <li class="soft-skill-item"><span class="soft-skill-number">1</span><div><h3>Communication</h3><p>Explain a technical decision to a non-technical listener in under two minutes. The clarity forces clarity in your own thinking.</p></div></li>
+            <li class="soft-skill-item"><span class="soft-skill-number">2</span><div><h3>Collaboration</h3><p>Ship one meaningful feature in a shared codebase with at least one other human. PR reviews, disagreements and merge conflicts included.</p></div></li>
+            <li class="soft-skill-item"><span class="soft-skill-number">3</span><div><h3>Written clarity</h3><p>Learn to write a one-paragraph project summary that makes a reader actually understand what the project does.</p></div></li>
+            <li class="soft-skill-item"><span class="soft-skill-number">4</span><div><h3>Time management</h3><p>Block time on a calendar the way you block time for exams. Weekly review on Sunday. This is boring and works.</p></div></li>
+            <li class="soft-skill-item"><span class="soft-skill-number">5</span><div><h3>Asking good questions</h3><p>Before asking, write the question as if it were a forum post: context, what you tried, what you expected. Half the time you answer it yourself.</p></div></li>
+            <li class="soft-skill-item"><span class="soft-skill-number">6</span><div><h3>Receiving feedback</h3><p>Separate "this criticism is wrong" from "this criticism feels bad". Both can be true; only one matters for the work.</p></div></li>
+          </ol>
+        </div>
+
+        <!-- Meta-learning -->
+        <div role="tabpanel" id="panel-meta" aria-labelledby="tab-meta" hidden>
+          <p class="prose">Meta-skills compound. A small investment early in the semester pays back every single week afterwards.</p>
+          <div class="callout callout-tip">
+            <h4>How to learn fast</h4>
+            <p>Active retrieval beats re-reading. After reading a chapter, close the book and write what you remember. The gap between what you thought you knew and what you can produce is the actual knowledge.</p>
+          </div>
+          <div class="callout">
+            <h4>How to read documentation</h4>
+            <p>First pass: read only the headings. Second pass: read only the first paragraph of each section. Third pass: read the full section that's actually relevant to your task. You almost never need to read the whole thing.</p>
+          </div>
+          <div class="callout callout-warn">
+            <h4>How to use AI tools responsibly</h4>
+            <p>Use AI to shorten the "lookup loop", not to skip the understanding loop. If you can't explain the code the assistant gave you, don't commit it. Your interviewer will notice.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div class="footer-brand">
+          <h4>Cornerstone</h4>
+          <p>An academic and career handbook for CS undergraduates at the University of Macau.</p>
+        </div>
+        <div>
+          <h4>Chapters</h4>
+          <ul>
+            <li><a href="/about.html">01 · About</a></li>
+            <li><a href="/skills.html">02 · Skills</a></li>
+            <li><a href="/masters.html">03 · Master's</a></li>
+            <li><a href="/careers.html">04 · Careers</a></li>
+            <li><a href="/jobs.html">05 · Jobs</a></li>
+            <li><a href="/readiness.html">06 · Readiness</a></li>
+            <li><a href="/reflection.html">07 · Reflection</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Account</h4>
+          <ul>
+            <li><a href="/login.html">Sign in</a></li>
+            <li><a href="/signup.html">Create account</a></li>
+            <li><a href="/list.html">My List</a></li>
+            <li><a href="/account.html">My account</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Meta</h4>
+          <ul>
+            <li><a href="#top">Back to top</a></li>
+            <li><button class="btn-ghost" data-theme-toggle style="padding:0;background:transparent;border:0;color:inherit;cursor:pointer;"><span data-theme-label>Toggle theme</span></button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>CISC3003 Web Programming · 2026 · Group 02</span>
+        <span>Vanilla HTML / CSS / JS · Node · Express · SQLite</span>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" type="button">&uarr;</button>
+  </div>
+
+  <script defer src="/js/api.js"></script>
+  <script defer src="/js/session.js"></script>
+  <script defer src="/js/theme.js"></script>
+  <script defer src="/js/nav.js"></script>
+  <script defer src="/js/ui.js"></script>
+  <script defer src="/js/shortlist.js"></script>
+  <script defer src="/js/history-log.js"></script>
+</body>
+</html>

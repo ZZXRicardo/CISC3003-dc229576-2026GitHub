@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualifications | Zhang Zhexuan</title>
+    <link rel="stylesheet" href="css/cisc3003-IndAssgn-qualification.css">
+</head>
+<body>
+    <header class="page-header">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="cisc3003-IndAssgn.html">Home</a> / Qualifications
+            </nav>
+            <h1>My Qualifications</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="qualification-section">
+            <h2>Education</h2>
+            <div class="qualification-card">
+                <div class="qual-header">
+                    <h3>University of Macau</h3>
+                    <span class="year">2022 - 2026</span>
+                </div>
+                <p class="degree">Bachelor of Science in Computer Science</p>
+                <ul>
+                    <li>GPA: 3.7/4.0 (Expected)</li>
+                    <li>Relevant Coursework: Data Structures, Algorithms, Artificial Intelligence, Web Programming, Database Systems</li>
+                    <li>Thesis: Knowledge Graph Enhanced Large Language Models for Cultural Heritage Preservation</li>
+                </ul>
+            </div>
+            
+            <div class="qualification-card">
+                <div class="qual-header">
+                    <h3>The Chinese University of Hong Kong</h3>
+                    <span class="year">2026 - 2028 (Expected)</span>
+                </div>
+                <p class="degree">Master of Science in Artificial Intelligence</p>
+                <ul>
+                    <li>Admitted to MSc in AI program</li>
+                    <li>Focus Area: Natural Language Processing and Knowledge Graphs</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="qualification-section">
+            <h2>Work Experience</h2>
+            <div class="qualification-card">
+                <div class="qual-header">
+                    <h3>Research Assistant</h3>
+                    <span class="year">2025 - Present</span>
+                </div>
+                <p class="company">University of Macau, Department of Computer Science</p>
+                <ul>
+                    <li>Developed entity extraction pipelines using LightRAG framework</li>
+                    <li>Implemented multi-model evaluation systems for knowledge graph validation</li>
+                    <li>Optimized prompt engineering for cultural domain-specific LLM applications</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="qualification-section">
+            <h2>Awards & Honors</h2>
+            <div class="awards-list">
+                <div class="award-item">
+                    <span class="award-year">2025</span>
+                    <div class="award-content">
+                        <h4>Undergraduate Research Excellence Award</h4>
+                        <p>For outstanding contribution to KG-LLM integration research</p>
+                    </div>
+                </div>
+                <div class="award-item">
+                    <span class="award-year">2024</span>
+                    <div class="award-content">
+                        <h4>Dean's Honor List</h4>
+                        <p>Academic excellence in Computer Science Department</p>
+                    </div>
+                </div>
+                <div class="award-item">
+                    <span class="award-year">2023</span>
+                    <div class="award-content">
+                        <h4>Best Project Award - Web Programming</h4>
+                        <p>For exceptional portfolio website implementation</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="qualification-section">
+            <h2>Services & Leadership</h2>
+            <div class="qualification-card">
+                <h3>Academic Services</h3>
+                <ul>
+                    <li>Teaching Assistant for CISC3001 - Introduction to Programming</li>
+                    <li>Peer Tutor for Linear Algebra and Calculus courses</li>
+                    <li>Student Representative, Computer Science Department</li>
+                </ul>
+            </div>
+            
+            <div class="qualification-card">
+                <h3>Community Services</h3>
+                <ul>
+                    <li>Volunteer Developer for Macao Cultural Heritage Digitalization Project</li>
+                    <li>Workshop Instructor: "Introduction to Web Development" for high school students</li>
+                    <li>Participant in University Open Day technology demonstrations</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="qualification-section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Programming Languages</h4>
+                    <p>Python, JavaScript, HTML/CSS, Java, SQL</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Frameworks & Tools</h4>
+                    <p>LightRAG, LangChain, React, Node.js, Git, Docker</p>
+                </div>
+                <div class="skill-category">
+                    <h4>AI/ML Technologies</h4>
+                    <p>Large Language Models, RAG Systems, Knowledge Graphs, PyTorch</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Web Technologies</h4>
+                    <p>Responsive Design, W3C Standards, RESTful APIs, Database Design</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>CISC3003 Web Programming - 2025: dc229576 + Zhang Zhexuan</p>
+        </div>
+    </footer>
+</body>
+</html>

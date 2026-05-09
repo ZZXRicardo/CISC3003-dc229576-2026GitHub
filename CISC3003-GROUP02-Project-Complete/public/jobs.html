@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jobs · Cornerstone</title>
+  <meta name="description" content="A curated board of 43 openings from top CS employers, filterable by role type — SDE, MLE, Security, Data, Research and Product.">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('cornerstone-theme');
+        var theme = stored || 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body class="page-jobs">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <div class="site-header-inner">
+        <a href="/" class="brand">Cornerstone</a>
+        <input type="checkbox" class="nav-toggle-checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-button"><span>Menu</span></label>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="/masters.html">Master's</a></li>
+            <li><a href="/careers.html">Careers</a></li>
+            <li><a href="/jobs.html" class="current-page" aria-current="page">Jobs</a></li>
+            <li><a href="/readiness.html">Readiness</a></li>
+            <li><a href="/reflection.html">Reflection</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+          </ul>
+        </nav>
+        <div class="header-tools">
+          <button class="theme-toggle" data-theme-toggle type="button"><span data-theme-label>Dark mode</span></button>
+          <span data-auth="guest">
+            <a class="btn btn-ghost" href="/login.html">Sign in</a>
+            <a class="btn btn-ghost" href="/signup.html">Sign up</a>
+          </span>
+          <details class="user-menu" data-auth="user" hidden>
+            <summary><span data-user-name>Account</span></summary>
+            <div class="user-menu-panel">
+              <a href="/list.html">My List</a>
+              <a href="/chat.html">AI Chat</a>
+              <a href="/account.html">My account</a>
+              <button type="button" data-logout>Sign out</button>
+            </div>
+          </details>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-main" id="main-content">
+      <section class="page-banner" aria-labelledby="jobs-title">
+        <p class="kicker">Chapter 05</p>
+        <h1 id="jobs-title">Jobs</h1>
+        <p class="lede">Curated openings from Google, Meta, Anthropic, ByteDance, NVIDIA, and more — organised by role type so you can skip straight to what you want to do.</p>
+      </section>
+
+      <section aria-labelledby="jobs-search-title" data-jobs-search data-reveal>
+        <h2 id="jobs-search-title" class="sr-only">Search and filter jobs</h2>
+        <p class="prose">These are representative openings sourced from public career pages. Use them to shape your own shortlist and to see how senior-level companies frame their entry-level roles.</p>
+
+        <div class="filters">
+          <div class="search-bar">
+            <label for="job-search" class="sr-only">Search jobs</label>
+            <input id="job-search" type="search" placeholder="Search by company, role or keyword…" data-search-input>
+            <button type="button" aria-label="Search">Search</button>
+          </div>
+          <div class="filter-bar">
+            <span class="filter-label">Role</span>
+            <button type="button" class="tag tag-filter" data-filter-key="role" data-filter-value="">All</button>
+            <button type="button" class="tag tag-filter" data-filter-key="role" data-filter-value="SDE">SDE</button>
+            <button type="button" class="tag tag-filter" data-filter-key="role" data-filter-value="MLE">MLE</button>
+            <button type="button" class="tag tag-filter" data-filter-key="role" data-filter-value="Security">Security</button>
+            <button type="button" class="tag tag-filter" data-filter-key="role" data-filter-value="Data">Data</button>
+            <button type="button" class="tag tag-filter" data-filter-key="role" data-filter-value="Research">Research</button>
+            <button type="button" class="tag tag-filter" data-filter-key="role" data-filter-value="Product">Product</button>
+          </div>
+        </div>
+
+        <p class="result-meta" data-count>Loading…</p>
+        <div data-results aria-live="polite">
+          <div class="empty-state">Loading openings…</div>
+        </div>
+      </section>
+
+      <section data-reveal>
+        <div class="callout callout-tip">
+          <h4>Applying tips</h4>
+          <p>Apply through the official company careers page whenever possible, not third-party aggregators. Referrals dramatically increase your probability of a first-round interview — ask classmates and alumni in your network.</p>
+          <p>Most new-grad programmes open applications in July/August for the following summer's start date. Assume every deadline is earlier than advertised; internal quotas fill fast.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div class="footer-brand">
+          <h4>Cornerstone</h4>
+          <p>An academic and career handbook for CS undergraduates at the University of Macau.</p>
+        </div>
+        <div>
+          <h4>Chapters</h4>
+          <ul>
+            <li><a href="/about.html">01 · About</a></li>
+            <li><a href="/skills.html">02 · Skills</a></li>
+            <li><a href="/masters.html">03 · Master's</a></li>
+            <li><a href="/careers.html">04 · Careers</a></li>
+            <li><a href="/jobs.html">05 · Jobs</a></li>
+            <li><a href="/readiness.html">06 · Readiness</a></li>
+            <li><a href="/reflection.html">07 · Reflection</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Account</h4>
+          <ul>
+            <li><a href="/login.html">Sign in</a></li>
+            <li><a href="/signup.html">Create account</a></li>
+            <li><a href="/list.html">My List</a></li>
+            <li><a href="/account.html">My account</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Meta</h4>
+          <ul>
+            <li><a href="#top">Back to top</a></li>
+            <li><button class="btn-ghost" data-theme-toggle style="padding:0;background:transparent;border:0;color:inherit;cursor:pointer;"><span data-theme-label>Toggle theme</span></button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>CISC3003 Web Programming · 2026 · Group 02</span>
+        <span>Vanilla HTML / CSS / JS · Node · Express · SQLite</span>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" type="button">&uarr;</button>
+  </div>
+
+  <script defer src="/js/api.js"></script>
+  <script defer src="/js/session.js"></script>
+  <script defer src="/js/theme.js"></script>
+  <script defer src="/js/nav.js"></script>
+  <script defer src="/js/ui.js"></script>
+  <script defer src="/js/shortlist.js"></script>
+  <script defer src="/js/search.js"></script>
+  <script defer src="/js/history-log.js"></script>
+</body>
+</html>

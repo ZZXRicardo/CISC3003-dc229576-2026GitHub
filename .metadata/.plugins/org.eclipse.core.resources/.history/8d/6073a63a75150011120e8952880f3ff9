@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showcase | Zhang Zhexuan</title>
+    <link rel="stylesheet" href="css/cisc3003-IndAssgn-showcase.css">
+</head>
+<body>
+    <header class="page-header">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="cisc3003-IndAssgn.html">Home</a> / Showcase
+            </nav>
+            <h1>My Showcase</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="showcase-section">
+            <h2>Learning Log</h2>
+            <div class="log-entries">
+                <div class="log-entry">
+                    <div class="log-date">January 2026</div>
+                    <div class="log-content">
+                        <h3>Web Programming Mastery</h3>
+                        <p>Completed comprehensive portfolio website implementing responsive design principles. Learned advanced CSS Grid and Flexbox layouts, semantic HTML5 structure, and W3C validation standards.</p>
+                    </div>
+                </div>
+                
+                <div class="log-entry">
+                    <div class="log-date">December 2025</div>
+                    <div class="log-content">
+                        <h3>Knowledge Graph Integration</h3>
+                        <p>Successfully integrated LightRAG with custom entity extraction prompts. Implemented evaluation framework using multiple LLM judges to assess extraction quality and accuracy.</p>
+                    </div>
+                </div>
+                
+                <div class="log-entry">
+                    <div class="log-date">November 2025</div>
+                    <div class="log-content">
+                        <h3>Data Processing Pipeline</h3>
+                        <p>Developed robust data filtering system reducing dataset volume by 50% while preserving essential information. Utilized Pandas and NumPy for efficient processing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="showcase-section">
+            <h2>Accomplishments</h2>
+            <div class="accomplishments-grid">
+                <div class="accomplishment-card">
+                    <h3>Academic Excellence</h3>
+                    <ul>
+                        <li>Dean's List for Academic Excellence</li>
+                        <li>Top 10% in Computer Science cohort</li>
+                        <li>Recipient of Undergraduate Research Award</li>
+                    </ul>
+                </div>
+                
+                <div class="accomplishment-card">
+                    <h3>Technical Projects</h3>
+                    <ul>
+                        <li>KG-LLM Macao Cultural AI System</li>
+                        <li>Responsive Portfolio Website (W3C Validated)</li>
+                        <li>Automated Data Processing Pipeline</li>
+                    </ul>
+                </div>
+                
+                <div class="accomplishment-card">
+                    <h3>Skills Acquired</h3>
+                    <ul>
+                        <li>Advanced Python Programming</li>
+                        <li>Frontend Web Development (HTML/CSS/JS)</li>
+                        <li>Large Language Model Integration</li>
+                        <li>Knowledge Graph Construction</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="showcase-section">
+            <h2>Statement of Purpose</h2>
+            <div class="statement-box">
+                <p>As a Computer Science student passionate about Artificial Intelligence, I am driven by the challenge of making AI systems more reliable and culturally aware. My experience with the KG-LLM project has reinforced my belief that structured knowledge representation is key to reducing AI hallucinations.</p>
+                
+                <p>I am committed to pursuing advanced studies in AI, specifically focusing on the intersection of Knowledge Graphs and Natural Language Processing. My goal is to contribute to the development of AI systems that not only perform technically well but also respect and accurately represent cultural nuances.</p>
+                
+                <p>Through my academic journey at the University of Macau and future graduate studies in Hong Kong, I aim to bridge the gap between theoretical AI research and practical applications that benefit society. I believe in continuous learning, ethical AI development, and the power of technology to preserve and share cultural heritage.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>CISC3003 Web Programming - 2025: dc229576 + Zhang Zhexuan</p>
+        </div>
+    </footer>
+</body>
+</html>

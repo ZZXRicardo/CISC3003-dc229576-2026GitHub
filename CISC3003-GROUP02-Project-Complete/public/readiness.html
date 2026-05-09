@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Job Readiness · Cornerstone</title>
+  <meta name="description" content="A four-stage workflow from resume to offer — structured advice for CS students getting job-ready.">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('cornerstone-theme');
+        var theme = stored || 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body class="page-readiness">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <div class="site-header-inner">
+        <a href="/" class="brand">Cornerstone</a>
+        <input type="checkbox" class="nav-toggle-checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-button"><span>Menu</span></label>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="/masters.html">Master's</a></li>
+            <li><a href="/careers.html">Careers</a></li>
+            <li><a href="/jobs.html">Jobs</a></li>
+            <li><a href="/readiness.html" class="current-page" aria-current="page">Readiness</a></li>
+            <li><a href="/reflection.html">Reflection</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+          </ul>
+        </nav>
+        <div class="header-tools">
+          <button class="theme-toggle" data-theme-toggle type="button"><span data-theme-label>Dark mode</span></button>
+          <span data-auth="guest">
+            <a class="btn btn-ghost" href="/login.html">Sign in</a>
+            <a class="btn btn-ghost" href="/signup.html">Sign up</a>
+          </span>
+          <details class="user-menu" data-auth="user" hidden>
+            <summary><span data-user-name>Account</span></summary>
+            <div class="user-menu-panel">
+              <a href="/list.html">My List</a>
+              <a href="/chat.html">AI Chat</a>
+              <a href="/account.html">My account</a>
+              <button type="button" data-logout>Sign out</button>
+            </div>
+          </details>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-main" id="main-content">
+      <section class="page-banner" aria-labelledby="readiness-title">
+        <p class="kicker">Chapter 06</p>
+        <h1 id="readiness-title">Job readiness</h1>
+        <p class="lede">Resume → Portfolio → Apply → Interview. A four-stage workflow that gets most CS students from "interested" to "offered".</p>
+      </section>
+
+      <section aria-labelledby="steps-title" data-reveal>
+        <h2 id="steps-title" class="sr-only">Four stages</h2>
+        <div class="grid-4">
+          <article class="process-step"><span class="step-number">1</span><h3>Resume</h3><p>One focused page, technical roles only.</p></article>
+          <article class="process-step"><span class="step-number">2</span><h3>Portfolio</h3><p>Two to four projects that demonstrate depth.</p></article>
+          <article class="process-step"><span class="step-number">3</span><h3>Apply</h3><p>A tracked, deadline-aware application workflow.</p></article>
+          <article class="process-step"><span class="step-number">4</span><h3>Interview</h3><p>Behavioural, technical and — for some roles — system design.</p></article>
+        </div>
+      </section>
+
+      <section aria-labelledby="resume-title" data-reveal>
+        <p class="kicker">Stage 1</p>
+        <h2 id="resume-title">Resume</h2>
+        <div class="accordion">
+          <details>
+            <summary>Structure</summary>
+            <div class="accordion-body">
+              <p>One page. Sections in order: Contact, Education, Experience, Projects, Skills. Put Skills last — interviewers use it as a keyword match, not a conversation starter.</p>
+            </div>
+          </details>
+          <details>
+            <summary>Content rules</summary>
+            <div class="accordion-body">
+              <p>Every bullet starts with a verb and ends with a metric. "Built", "Shipped", "Automated", "Reduced". Numbers beat adjectives. "Reduced model training time by 34%" beats "significantly improved performance".</p>
+            </div>
+          </details>
+          <details>
+            <summary>Common mistakes</summary>
+            <div class="accordion-body">
+              <p>Listing every class you've ever taken. Listing a skill without the context in which you used it. Two pages. Including a photo. Long paragraphs instead of bullets. Decorative fonts. Any of these can get you filtered out before a human reads it.</p>
+            </div>
+          </details>
+        </div>
+        <p class="prose"><a class="card-cta" href="#">Download a template (placeholder) →</a></p>
+      </section>
+
+      <section aria-labelledby="portfolio-title" data-reveal>
+        <p class="kicker">Stage 2</p>
+        <h2 id="portfolio-title">Portfolio</h2>
+        <div class="split-2">
+          <div class="prose">
+            <p>A portfolio is not a long list. It's 2–4 projects with depth. For each:</p>
+            <ul>
+              <li>A one-line "what it is" — understandable in ten seconds.</li>
+              <li>Three bullets on technical decisions you made and why.</li>
+              <li>A working demo (not just a GitHub link). Hosted, with a clear README.</li>
+              <li>A screenshot or short video so a reviewer can decide in seconds whether to click through.</li>
+            </ul>
+            <p>The best entry-level portfolios show a range: one full-stack web app, one systems or performance project, one ML or data project.</p>
+          </div>
+          <div class="grid-2">
+            <article class="card"><h3>Project A</h3><p class="card-meta">Full-stack web</p><p>Real users + non-trivial database + deployed.</p></article>
+            <article class="card"><h3>Project B</h3><p class="card-meta">Systems or perf</p><p>A parser, a small VM, or a perf-tuned tool.</p></article>
+            <article class="card"><h3>Project C</h3><p class="card-meta">ML / data</p><p>An end-to-end pipeline, not just a notebook.</p></article>
+            <article class="card"><h3>Project D</h3><p class="card-meta">Optional flourish</p><p>Open source contributions count here.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="apply-title" data-reveal>
+        <p class="kicker">Stage 3</p>
+        <h2 id="apply-title">Apply</h2>
+        <ul class="prose">
+          <li>Open a spreadsheet the day you start. Columns: company, role, deadline, status, referral contact, follow-up date.</li>
+          <li>New-grad applications for summer 20XX starts typically open in July/August of 20(XX-1). Apply early — companies fill quotas before deadlines.</li>
+          <li>Cold outreach works more often than you'd expect, especially to recruiters on LinkedIn. Be specific: mention the role, why you fit, and the link to your resume.</li>
+          <li>Ask for a referral from every classmate and alumnus who already works at your target companies.</li>
+          <li>Expect a 5–10% response rate from cold applications. A 60%+ response rate from warm referrals. The math is obvious.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="interview-title" class="tabs" data-tabs data-tabs-key="readiness-interview" data-reveal>
+        <p class="kicker">Stage 4</p>
+        <h2 id="interview-title">Interview</h2>
+        <div role="tablist" aria-label="Interview categories">
+          <button role="tab" id="tab-behavioral" aria-controls="panel-behavioral" aria-selected="true">Behavioural</button>
+          <button role="tab" id="tab-technical" aria-controls="panel-technical" aria-selected="false" tabindex="-1">Technical</button>
+          <button role="tab" id="tab-systems" aria-controls="panel-systems" aria-selected="false" tabindex="-1">System design (intro)</button>
+        </div>
+        <div role="tabpanel" id="panel-behavioral" aria-labelledby="tab-behavioral">
+          <p class="prose">Use the STAR framework (Situation, Task, Action, Result). Prepare 4–5 stories covering conflict, ownership, failure, teamwork, ambiguity. One story can often be reused across questions with a different framing.</p>
+          <ul class="tag-list">
+            <li class="tag">Tell me about yourself</li>
+            <li class="tag">A time you disagreed</li>
+            <li class="tag">A time you failed</li>
+          </ul>
+        </div>
+        <div role="tabpanel" id="panel-technical" aria-labelledby="tab-technical" hidden>
+          <p class="prose">Prepare 150 LeetCode problems across arrays, strings, trees, graphs, DP, heaps, and hashmaps. Quality of explanation matters as much as correctness. Practise talking out loud while coding.</p>
+          <ul class="tag-list">
+            <li class="tag">Two Sum variants</li>
+            <li class="tag">Tree traversals</li>
+            <li class="tag">Graph BFS/DFS</li>
+            <li class="tag">Sliding window</li>
+          </ul>
+        </div>
+        <div role="tabpanel" id="panel-systems" aria-labelledby="tab-systems" hidden>
+          <p class="prose">Not always asked at entry-level but increasingly common. Read <em>Designing Data-Intensive Applications</em> chapters 1–9. Practise designing: URL shortener, chat app, news feed. Focus on asking clarifying questions before drawing boxes.</p>
+          <ul class="tag-list">
+            <li class="tag">URL shortener</li>
+            <li class="tag">Rate limiter</li>
+            <li class="tag">News feed</li>
+          </ul>
+        </div>
+      </section>
+
+      <section data-reveal>
+        <div class="callout callout-tip">
+          <h4>Internship vs. full-time</h4>
+          <div class="grid-2">
+            <div>
+              <h4>Internship</h4>
+              <p>Lower bar, shorter commitment, high return-offer rate. If you're Year 2–3, applying for internships is almost always the right move. Summer offers converted to full-time beat the fall recruiting pipeline.</p>
+            </div>
+            <div>
+              <h4>Full-time</h4>
+              <p>Higher bar, longer commitment, more thorough interview loop. If you're Year 4 and already have intern experience, this is the path. If you don't have intern experience, consider a gap year to intern first.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div class="footer-brand">
+          <h4>Cornerstone</h4>
+          <p>An academic and career handbook for CS undergraduates at the University of Macau.</p>
+        </div>
+        <div>
+          <h4>Chapters</h4>
+          <ul>
+            <li><a href="/about.html">01 · About</a></li>
+            <li><a href="/skills.html">02 · Skills</a></li>
+            <li><a href="/masters.html">03 · Master's</a></li>
+            <li><a href="/careers.html">04 · Careers</a></li>
+            <li><a href="/jobs.html">05 · Jobs</a></li>
+            <li><a href="/readiness.html">06 · Readiness</a></li>
+            <li><a href="/reflection.html">07 · Reflection</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Account</h4>
+          <ul>
+            <li><a href="/login.html">Sign in</a></li>
+            <li><a href="/signup.html">Create account</a></li>
+            <li><a href="/list.html">My List</a></li>
+            <li><a href="/account.html">My account</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Meta</h4>
+          <ul>
+            <li><a href="#top">Back to top</a></li>
+            <li><button class="btn-ghost" data-theme-toggle style="padding:0;background:transparent;border:0;color:inherit;cursor:pointer;"><span data-theme-label>Toggle theme</span></button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>CISC3003 Web Programming · 2026 · Group 02</span>
+        <span>Vanilla HTML / CSS / JS · Node · Express · SQLite</span>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" type="button">&uarr;</button>
+  </div>
+
+  <script defer src="/js/api.js"></script>
+  <script defer src="/js/session.js"></script>
+  <script defer src="/js/theme.js"></script>
+  <script defer src="/js/nav.js"></script>
+  <script defer src="/js/ui.js"></script>
+  <script defer src="/js/shortlist.js"></script>
+  <script defer src="/js/history-log.js"></script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cornerstone · A CS Academic & Career Handbook</title>
+  <meta name="description" content="A handbook for the four years between freshman and first job offer — skills, master's preparation, career paths and job readiness for CS undergraduates.">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="/css/home.css">
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('cornerstone-theme');
+        // Home defaults to dark (tech aesthetic). Users can toggle to light.
+        var theme = stored || 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body class="page-home">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <div class="site-header-inner">
+        <a href="/" class="brand">Cornerstone</a>
+        <input type="checkbox" class="nav-toggle-checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-button"><span>Menu</span></label>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="/" class="current-page" aria-current="page">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="/masters.html">Master's</a></li>
+            <li><a href="/careers.html">Careers</a></li>
+            <li><a href="/jobs.html">Jobs</a></li>
+            <li><a href="/readiness.html">Readiness</a></li>
+            <li><a href="/reflection.html">Reflection</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+          </ul>
+        </nav>
+        <div class="header-tools">
+          <button class="theme-toggle" data-theme-toggle type="button"><span data-theme-label>Light mode</span></button>
+          <span data-auth="guest">
+            <a class="btn btn-ghost" href="/login.html">Sign in</a>
+            <a class="btn btn-ghost" href="/signup.html">Sign up</a>
+          </span>
+          <details class="user-menu" data-auth="user" hidden>
+            <summary><span data-user-name>Account</span></summary>
+            <div class="user-menu-panel">
+              <a href="/list.html">My List</a>
+              <a href="/chat.html">AI Chat</a>
+              <a href="/account.html">My account</a>
+              <button type="button" data-logout>Sign out</button>
+            </div>
+          </details>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-main" id="main-content">
+
+      <!-- ========== HERO ========== -->
+      <section class="home-hero" aria-labelledby="hero-title">
+        <div class="home-hero-content">
+          <p class="home-eyebrow">CISC3003 · Group 02 · 2026</p>
+          <h1 id="hero-title" class="home-display">
+            Everything a CS undergrad<br>
+            needs, in <span class="gradient">seven chapters</span>.
+          </h1>
+          <p class="home-lede">Skills. Master's programmes. Careers. Jobs. One handbook. No noise.</p>
+          <div class="home-cta">
+            <a class="home-btn home-btn-primary" href="/about.html">Start reading →</a>
+            <a class="home-btn home-btn-ghost" href="/signup.html">Create an account</a>
+          </div>
+          <ul class="home-tech-stack" aria-label="Built with">
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>SQLite</li>
+            <li>Vanilla HTML · CSS · JS</li>
+            <li>No frameworks</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ========== STATS BAND ========== -->
+      <section class="home-stats" aria-label="Site at a glance">
+        <div class="home-stat">
+          <div class="home-stat-num">07</div>
+          <div class="home-stat-caption">Chapters</div>
+        </div>
+        <div class="home-stat">
+          <div class="home-stat-num">37</div>
+          <div class="home-stat-caption">Master's programmes</div>
+        </div>
+        <div class="home-stat">
+          <div class="home-stat-num">43</div>
+          <div class="home-stat-caption">Job openings</div>
+        </div>
+        <div class="home-stat">
+          <div class="home-stat-num">6</div>
+          <div class="home-stat-caption">Career tracks</div>
+        </div>
+      </section>
+
+      <!-- ========== WHAT IT DOES ========== -->
+      <section class="home-section home-section-dark" aria-labelledby="intro-title">
+        <div class="home-section-head" data-reveal>
+          <p class="home-kicker">What it does</p>
+          <h2 id="intro-title" class="home-h2">Three things. Each with real depth.</h2>
+        </div>
+        <div class="home-three-grid">
+          <article class="home-tile" data-reveal>
+            <p class="home-tile-kicker">01 · Skills</p>
+            <h3>Name the skills you're building.</h3>
+            <p>A concrete catalogue of technical, soft, and meta-learning skills — mapped to the year you should build them.</p>
+            <a class="home-tile-cta" href="/skills.html">Explore skills ↗</a>
+          </article>
+          <article class="home-tile" data-reveal>
+            <p class="home-tile-kicker">02 · Master's</p>
+            <h3>See a realistic grad-school path.</h3>
+            <p>18-month timeline plus 37 programmes across US, Singapore, Hong Kong and Europe — organised by tier so you compare peers fairly.</p>
+            <a class="home-tile-cta" href="/masters.html">Open master's guide ↗</a>
+          </article>
+          <article class="home-tile" data-reveal>
+            <p class="home-tile-kicker">03 · Jobs</p>
+            <h3>Walk into your first interview prepared.</h3>
+            <p>43 openings from Google, Meta, Anthropic, ByteDance and more — plus a step-by-step readiness workflow.</p>
+            <a class="home-tile-cta" href="/jobs.html">Get job-ready ↗</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- ========== CHAPTER TILES — Apple product grid ========== -->
+      <section class="home-section" aria-labelledby="chapters-title">
+        <div class="home-section-head" data-reveal>
+          <p class="home-kicker">The handbook</p>
+          <h2 id="chapters-title" class="home-h2">Seven chapters, one path through.</h2>
+        </div>
+        <div class="home-tile-grid">
+
+          <a class="home-tile home-tile-lg" href="/masters.html" data-reveal>
+            <p class="home-tile-number">Chapter 03</p>
+            <h3>Master's Preparation</h3>
+            <p>37 programmes across four regions. An 18-month application timeline. Deep-dives on SoP, letters, CV, and standardised tests.</p>
+            <span class="home-tile-cta">Open chapter →</span>
+          </a>
+
+          <a class="home-tile alt" href="/about.html" data-reveal>
+            <p class="home-tile-number">Chapter 01</p>
+            <h3>About the Purpose</h3>
+            <p>Why this site exists and who it's built for.</p>
+            <span class="home-tile-cta">Open chapter →</span>
+          </a>
+
+          <a class="home-tile" href="/skills.html" data-reveal>
+            <p class="home-tile-number">Chapter 02</p>
+            <h3>Skills Development</h3>
+            <p>Technical, soft and meta-learning skills across the undergraduate years.</p>
+            <span class="home-tile-cta">Open chapter →</span>
+          </a>
+
+          <a class="home-tile" href="/careers.html" data-reveal>
+            <p class="home-tile-number">Chapter 04</p>
+            <h3>Career Paths</h3>
+            <p>Six tracks — software, ML, data, security, research, product — with concrete skills and next steps.</p>
+            <span class="home-tile-cta">Open chapter →</span>
+          </a>
+
+          <a class="home-tile alt" href="/jobs.html" data-reveal>
+            <p class="home-tile-number">Chapter 05</p>
+            <h3>Jobs</h3>
+            <p>A curated board of 43 openings from top CS employers, filterable by role.</p>
+            <span class="home-tile-cta">Open chapter →</span>
+          </a>
+
+          <a class="home-tile" href="/readiness.html" data-reveal>
+            <p class="home-tile-number">Chapter 06</p>
+            <h3>Job Readiness</h3>
+            <p>Resume, portfolio, applications, interviews — the workflow that lands offers.</p>
+            <span class="home-tile-cta">Open chapter →</span>
+          </a>
+
+          <a class="home-tile home-tile-lg alt" href="/reflection.html" data-reveal>
+            <p class="home-tile-number">Chapter 07</p>
+            <h3>Reflection</h3>
+            <p>A personal closing chapter — what we learned building this handbook, and what we'd do differently next time.</p>
+            <span class="home-tile-cta">Read the reflection →</span>
+          </a>
+
+        </div>
+      </section>
+
+      <!-- ========== READINESS TEASER ========== -->
+      <section class="home-section home-section-dark" aria-labelledby="readiness-title">
+        <div class="home-split">
+          <div data-reveal>
+            <p class="home-kicker">Where do you stand?</p>
+            <h2 id="readiness-title" class="home-h2">Three quick checkpoints.</h2>
+            <p>Readiness isn't a single moment — it's a curve. The bars on the right are a rough heuristic for a typical third-year CS student; yours will look different, and that's the point of tracking them.</p>
+            <p><a class="home-tile-cta" href="/readiness.html">Open the full guide ↗</a></p>
+          </div>
+          <div class="home-progress-card" data-reveal>
+            <h3>&gt; typical Y3 student</h3>
+            <div class="home-progress-row" data-progress="70">
+              <div class="home-progress-label"><strong>Technical foundations</strong><span>70%</span></div>
+              <div class="home-progress-track"><div class="home-progress-fill"></div></div>
+            </div>
+            <div class="home-progress-row" data-progress="45">
+              <div class="home-progress-label"><strong>Grad-school readiness</strong><span>45%</span></div>
+              <div class="home-progress-track"><div class="home-progress-fill"></div></div>
+            </div>
+            <div class="home-progress-row" data-progress="30">
+              <div class="home-progress-label"><strong>Job-application readiness</strong><span>30%</span></div>
+              <div class="home-progress-track"><div class="home-progress-fill"></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== PULL QUOTE ========== -->
+      <section class="home-section-quote" data-reveal>
+        <blockquote class="home-quote">
+          "I didn't build this because I figured it out. I built it because writing it down was how I figured it out."
+          <cite>— from the Reflection chapter</cite>
+        </blockquote>
+      </section>
+
+      <!-- ========== CTA BAND ========== -->
+      <section class="home-cta-band" aria-labelledby="cta-title">
+        <h2 id="cta-title">Start with the purpose.</h2>
+        <a class="home-btn home-btn-primary" href="/about.html">Open Chapter 01 →</a>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div class="footer-brand">
+          <h4>Cornerstone</h4>
+          <p>An academic and career handbook for CS undergraduates at the University of Macau.</p>
+        </div>
+        <div>
+          <h4>Chapters</h4>
+          <ul>
+            <li><a href="/about.html">01 · About</a></li>
+            <li><a href="/skills.html">02 · Skills</a></li>
+            <li><a href="/masters.html">03 · Master's</a></li>
+            <li><a href="/careers.html">04 · Careers</a></li>
+            <li><a href="/jobs.html">05 · Jobs</a></li>
+            <li><a href="/readiness.html">06 · Readiness</a></li>
+            <li><a href="/reflection.html">07 · Reflection</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Account</h4>
+          <ul>
+            <li><a href="/login.html">Sign in</a></li>
+            <li><a href="/signup.html">Create account</a></li>
+            <li><a href="/list.html">My List</a></li>
+            <li><a href="/account.html">My account</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Meta</h4>
+          <ul>
+            <li><a href="#top">Back to top</a></li>
+            <li><button class="btn-ghost" data-theme-toggle style="padding:0;background:transparent;border:0;color:inherit;cursor:pointer;"><span data-theme-label>Toggle theme</span></button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>CISC3003 Web Programming · 2026 · Group 02</span>
+        <span>Built with Node · Express · SQLite · Vanilla JS</span>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" type="button">&uarr;</button>
+  </div>
+
+  <script defer src="/js/api.js"></script>
+  <script defer src="/js/session.js"></script>
+  <script defer src="/js/theme.js"></script>
+  <script defer src="/js/nav.js"></script>
+  <script defer src="/js/ui.js"></script>
+  <script defer src="/js/shortlist.js"></script>
+  <script defer src="/js/history-log.js"></script>
+</body>
+</html>

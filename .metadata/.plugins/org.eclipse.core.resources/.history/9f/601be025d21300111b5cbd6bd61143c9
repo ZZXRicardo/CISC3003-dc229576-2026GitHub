@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 01 - Knowledge Graph Project</title>
+    <link rel="stylesheet" href="cisc3003-IndAssgn-demo01.css">
+</head>
+<body id="top">
+    <header>
+        <div class="logo">Zhang Zhexuan</div>
+        <nav>
+            <ul>
+                <li><a href="cisc3003-IndAssgn-home.html#top">Home</a></li>
+                <li><a href="cisc3003-IndAssgn-home.html#about">About</a></li>
+                <li><a href="cisc3003-IndAssgn-home.html#contact">Contact</a></li>
+                <li><a href="cisc3003-IndAssgn-showcase.html#top">Showcase</a></li>
+                <li><a href="cisc3003-IndAssgn-demo01.html#top">Demo 1</a></li>
+                <li><a href="cisc3003-IndAssgn-demo02.html#top">Demo 2</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Project Demo 01</h1>
+        
+        <section class="project-demo">
+            <h2>Macau Cultural Knowledge Graph Project</h2>
+            <p><strong>Timeline:</strong> May 2025 - Present</p>
+            <img src="images/KG.jpg" alt="Macau Cultural Knowledge Graph Project" class="project-img">
+            <p><strong>Description:</strong> Utilized DeepSeek API and Qwen API to extract entity-relation triplets of Macau culture, building a high-quality knowledge graph. Embedded the graph into Large Language Models to achieve knowledge-based QA reasoning and content recommendation.</p>
+            
+            <h3>Key Contributions:</h3>
+            <ul>
+                <li>Extracted approximately 1.2 million entity-relation triplets in batches using DeepSeek and Qwen APIs, with manual verification of extraction results and entity/relation alignment to ensure data quality.</li>
+                <li>Embedded the knowledge graph into LLMs to build a more accurate and detailed Macau-focused conversational AI model.</li>
+                <li>Designed and developed a multi-process web crawler to filter and collect about 100,000 Macau-related resources to construct a high-quality text dataset.</li>
+            </ul>
+
+            <h3>Outcomes:</h3>
+            <ul>
+                <li>Related research paper planned for publication in March 2026.</li>
+                <li>Supported Macau cultural and tourism departments with data integration, achieving knowledge-based QA reasoning, intelligent tourism content recommendation, and graph visualization queries.</li>
+                <li>Built a high-quality text dataset containing 100,000+ Macau-related resources, including Wikipedia pages, official cultural heritage websites, and e-books.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>CISC3003 Web Programming - 2025: dc229576 Zhang Zhexuan</p>
+    </footer>
+</body>
+</html>

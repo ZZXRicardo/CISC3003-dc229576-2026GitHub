@@ -1,0 +1,378 @@
+/* ============================================================
+   Per-page tweaks. Most styling now lives in base + components.
+   ============================================================ */
+
+/* ============ ABOUT ============ */
+.page-about .pillars h3 {
+  color: var(--ink);
+}
+
+/* ============ SKILLS ============ */
+.page-skills .soft-skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: var(--space-sm);
+}
+
+.page-skills .soft-skill-item {
+  display: grid;
+  grid-template-columns: 2.75rem 1fr;
+  gap: var(--space-sm);
+  align-items: start;
+  padding: var(--space-md);
+  background: var(--paper-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.page-skills .soft-skill-item:hover {
+  border-color: var(--border-strong);
+  background: var(--paper-deep);
+}
+
+.page-skills .soft-skill-number {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--accent-bright);
+  line-height: 1.1;
+}
+
+.page-skills .soft-skill-item h3 {
+  color: var(--ink);
+  margin-bottom: 0.3rem;
+}
+
+/* ============ MASTERS + JOBS ============ */
+.page-masters .filters,
+.page-jobs .filters {
+  display: grid;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+
+.tier-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: "JetBrains Mono", monospace;
+  font-size: var(--fs-kicker);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.tier-T1 { color: var(--accent-bright); }
+.tier-T2 { color: var(--teal); }
+.tier-T3 { color: var(--ink-soft); }
+
+.role-SDE { color: var(--teal); }
+.role-MLE { color: var(--accent-purple); }
+.role-Security { color: var(--danger); }
+.role-Data { color: var(--accent-bright); }
+.role-Research { color: var(--teal-tint); }
+.role-Product { color: var(--success); }
+
+/* ============ CAREERS ============ */
+.page-careers .career-skills {
+  margin: 0.4rem 0 0.65rem;
+}
+
+/* ============ READINESS ============ */
+.page-readiness .process-step {
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  background: var(--paper-soft);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.page-readiness .process-step:hover {
+  border-color: var(--border-strong);
+  background: var(--paper-deep);
+}
+
+.page-readiness .process-step .step-number {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--accent-bright);
+}
+
+.page-readiness .process-step h3 {
+  margin-bottom: 0;
+}
+
+/* ============ REFLECTION ============ */
+.page-reflection .essay {
+  max-width: var(--measure);
+  margin: 0 auto;
+  font-size: var(--fs-body-lg);
+}
+
+.page-reflection .essay h2 {
+  margin-top: var(--space-xl);
+  color: var(--ink);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  letter-spacing: -0.03em;
+}
+
+.page-reflection .essay > p:first-of-type::first-letter {
+  font-family: "Inter", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--accent-bright);
+  float: left;
+  line-height: 0.85;
+  margin: 0.3rem 0.5rem 0 0;
+  letter-spacing: -0.04em;
+}
+
+/* ============ ACCOUNT ============ */
+.page-verify .verify-code-form {
+  display: grid;
+  gap: var(--space-sm);
+  margin: var(--space-md) 0;
+}
+
+.page-verify .verify-status {
+  margin: var(--space-sm) 0 var(--space-md);
+  padding: 0.9rem 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--paper-soft);
+  color: var(--ink);
+}
+
+.page-verify .verify-status.is-success {
+  border-color: rgba(44, 182, 125, 0.45);
+  background: rgba(44, 182, 125, 0.12);
+}
+
+.page-verify .verify-status.is-error {
+  border-color: rgba(229, 83, 75, 0.45);
+  background: rgba(229, 83, 75, 0.12);
+}
+
+.page-verify .verify-resend-form {
+  display: grid;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+
+.page-verify .verify-help {
+  color: var(--ink-soft);
+  margin-bottom: var(--space-md);
+}
+
+.page-account .account-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+
+.page-account .tab-panel {
+  padding-top: var(--space-sm);
+}
+
+.page-account .shortlist-category {
+  margin-bottom: var(--space-lg);
+}
+
+.page-account .history-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.page-account .history-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 0.85rem;
+  padding: 0.8rem 1.1rem;
+  background: var(--paper-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+  align-items: center;
+  transition: border-color 0.2s;
+}
+
+.page-account .history-item:hover {
+  border-color: var(--border-strong);
+}
+
+.page-account .history-type {
+  font-family: "JetBrains Mono", monospace;
+  font-size: var(--fs-kicker);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--accent-bright);
+}
+
+.page-account .history-date {
+  font-family: "JetBrains Mono", monospace;
+  font-size: var(--fs-small);
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+/* ============ LIST ============ */
+.page-list .list-header,
+.page-list .list-actions,
+.page-list .list-section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.page-list .list-summary {
+  margin-bottom: var(--space-lg);
+}
+
+.page-list .list-layout {
+  display: grid;
+  gap: var(--space-lg);
+}
+
+.page-list .list-section {
+  display: grid;
+  gap: var(--space-sm);
+}
+
+/* ============ CHAT ============ */
+.page-chat .chat-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.page-chat .chat-status-card {
+  min-width: 220px;
+  padding: var(--space-md);
+  border-radius: var(--radius-lg);
+  background: var(--paper-soft);
+  border: 1px solid var(--border);
+  display: grid;
+  gap: 0.35rem;
+}
+
+.page-chat .chat-status-label {
+  font-family: "JetBrains Mono", monospace;
+  font-size: var(--fs-kicker);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.page-chat .chat-layout {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.page-chat .chat-sidebar,
+.page-chat .chat-panel {
+  min-height: 100%;
+}
+
+.page-chat .chat-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.page-chat .chat-panel {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.page-chat .chat-panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.page-chat .chat-thread {
+  min-height: 420px;
+  max-height: 65vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding: 0.35rem;
+}
+
+.page-chat .chat-message {
+  display: flex;
+}
+
+.page-chat .chat-message.is-user {
+  justify-content: flex-end;
+}
+
+.page-chat .chat-message.is-assistant {
+  justify-content: flex-start;
+}
+
+.page-chat .chat-bubble {
+  max-width: min(100%, 46rem);
+  padding: 0.95rem 1.1rem;
+  border-radius: 1.1rem;
+  border: 1px solid var(--border);
+  background: var(--paper-soft);
+}
+
+.page-chat .chat-message.is-user .chat-bubble {
+  background: rgba(41, 151, 255, 0.12);
+  border-color: rgba(41, 151, 255, 0.3);
+}
+
+.page-chat .chat-bubble p {
+  margin: 0;
+  color: var(--ink-muted);
+}
+
+.page-chat .chat-form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.page-chat .chat-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.page-chat .chat-form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+@media (min-width: 960px) {
+  .page-chat .chat-layout {
+    grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+    align-items: start;
+  }
+}

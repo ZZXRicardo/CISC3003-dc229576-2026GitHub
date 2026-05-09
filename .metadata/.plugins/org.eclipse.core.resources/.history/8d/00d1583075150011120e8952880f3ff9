@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary | Zhang Zhexuan</title>
+    <link rel="stylesheet" href="css/cisc3003-IndAssgn-summary.css">
+</head>
+<body>
+    <header class="page-header">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="cisc3003-IndAssgn.html">Home</a> / Summary
+            </nav>
+            <h1>Personal Summary</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="summary-section">
+            <h2>Goals and Intended Learning Outcomes</h2>
+            <div class="content-box">
+                <h3>Academic Goals</h3>
+                <ul>
+                    <li>Master advanced concepts in Artificial Intelligence and Machine Learning</li>
+                    <li>Develop expertise in Knowledge Graph technologies and their applications</li>
+                    <li>Complete Hong Kong Master's program in AI with distinction</li>
+                </ul>
+                
+                <h3>Technical Skills Development</h3>
+                <ul>
+                    <li>Proficiency in Python, JavaScript, and modern web frameworks</li>
+                    <li>Deep understanding of Large Language Models and RAG systems</li>
+                    <li>Experience with cloud deployment and DevOps practices</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="summary-section">
+            <h2>Personal/Professional Development Planning</h2>
+            <div class="content-box">
+                <h3>Short-term Plan (1-2 Years)</h3>
+                <p>Complete undergraduate studies with strong academic performance. Gain practical experience through internships in AI-related fields. Build a solid portfolio of projects demonstrating technical capabilities.</p>
+                
+                <h3>Medium-term Plan (3-5 Years)</h3>
+                <p>Complete Master's degree in AI from Hong Kong University. Work as an AI Engineer or Researcher focusing on NLP and Knowledge Graph applications. Contribute to open-source projects in the AI community.</p>
+                
+                <h3>Long-term Vision (5+ Years)</h3>
+                <p>Become a technical lead in AI product development. Establish expertise in reducing LLM hallucinations through structured knowledge approaches. Potentially pursue PhD research in semantic web technologies.</p>
+            </div>
+        </section>
+
+        <section class="summary-section">
+            <h2>Reflection and Future Directions</h2>
+            <div class="content-box">
+                <h3>Key Learnings</h3>
+                <p>Through my work on the KG-LLM project, I have learned the importance of combining theoretical knowledge with practical implementation. The challenges of entity extraction and evaluation have taught me rigorous testing methodologies and the value of iterative development.</p>
+                
+                <h3>Areas for Improvement</h3>
+                <ul>
+                    <li>Enhanced understanding of distributed systems for large-scale graph processing</li>
+                    <li>Improved frontend development skills for better UI/UX design</li>
+                    <li>Stronger mathematical foundations in linear algebra and statistics for advanced ML</li>
+                </ul>
+                
+                <h3>Future Research Interests</h3>
+                <p>I am particularly interested in exploring multimodal knowledge graphs and their integration with vision-language models. The intersection of structured knowledge and unstructured data presents exciting opportunities for reducing AI hallucinations across diverse domains.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>CISC3003 Web Programming - 2025: dc229576 + Zhang Zhexuan</p>
+        </div>
+    </footer>
+</body>
+</html>

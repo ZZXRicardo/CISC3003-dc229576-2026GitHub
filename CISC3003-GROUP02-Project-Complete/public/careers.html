@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Career Paths · Cornerstone</title>
+  <meta name="description" content="Six CS career tracks — software, ML, data, security, research and product — with concrete skills, roles and next steps.">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('cornerstone-theme');
+        var theme = stored || 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body class="page-careers">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <div class="site-header-inner">
+        <a href="/" class="brand">Cornerstone</a>
+        <input type="checkbox" class="nav-toggle-checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-button"><span>Menu</span></label>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="/masters.html">Master's</a></li>
+            <li><a href="/careers.html" class="current-page" aria-current="page">Careers</a></li>
+            <li><a href="/jobs.html">Jobs</a></li>
+            <li><a href="/readiness.html">Readiness</a></li>
+            <li><a href="/reflection.html">Reflection</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+          </ul>
+        </nav>
+        <div class="header-tools">
+          <button class="theme-toggle" data-theme-toggle type="button"><span data-theme-label>Dark mode</span></button>
+          <span data-auth="guest">
+            <a class="btn btn-ghost" href="/login.html">Sign in</a>
+            <a class="btn btn-ghost" href="/signup.html">Sign up</a>
+          </span>
+          <details class="user-menu" data-auth="user" hidden>
+            <summary><span data-user-name>Account</span></summary>
+            <div class="user-menu-panel">
+              <a href="/list.html">My List</a>
+              <a href="/chat.html">AI Chat</a>
+              <a href="/account.html">My account</a>
+              <button type="button" data-logout>Sign out</button>
+            </div>
+          </details>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-main" id="main-content">
+      <section class="page-banner" aria-labelledby="careers-title">
+        <p class="kicker">Chapter 04</p>
+        <h1 id="careers-title">Career paths</h1>
+        <p class="lede">Nine possible directions after a CS undergrad — what the daily work looks like, what skills matter, and where to go next.</p>
+      </section>
+
+      <section aria-labelledby="filter-title" data-reveal data-card-filter>
+        <h2 id="filter-title" class="sr-only">Filter career paths</h2>
+        <div class="filter-bar">
+          <span class="filter-label">Filter by area</span>
+          <button type="button" class="tag tag-filter" data-filter-value="all" aria-pressed="true">All</button>
+          <button type="button" class="tag tag-filter" data-filter-value="software">Software</button>
+          <button type="button" class="tag tag-filter" data-filter-value="ai">AI / ML</button>
+          <button type="button" class="tag tag-filter" data-filter-value="data">Data</button>
+          <button type="button" class="tag tag-filter" data-filter-value="security">Security</button>
+          <button type="button" class="tag tag-filter" data-filter-value="research">Research</button>
+          <button type="button" class="tag tag-filter" data-filter-value="product">Product</button>
+        </div>
+
+        <p class="result-meta" data-filter-count>Showing all 9 career paths.</p>
+
+        <div class="grid-3" data-filter-grid>
+          <article class="card" data-tags="software">
+            <h3>Software engineering</h3>
+            <p>The default path. Builds and maintains the systems that everyone else uses. Roles span web, mobile, backend infra, DevOps, and platform.</p>
+            <ul class="tag-list career-skills">
+              <li class="tag">DSA</li><li class="tag">Systems</li><li class="tag">Git</li>
+            </ul>
+            <p class="card-meta">Typical roles: SWE, Full-stack, Backend, SRE, Platform.</p>
+            <a class="card-cta" href="/jobs.html?role=SDE">See SDE openings →</a>
+          </article>
+          <article class="card" data-tags="ai">
+            <h3>Machine learning engineering</h3>
+            <p>Builds production ML systems — training pipelines, inference infrastructure, model evaluation. Requires strong ML fundamentals <em>and</em> software engineering chops.</p>
+            <ul class="tag-list career-skills">
+              <li class="tag">PyTorch</li><li class="tag">DSA</li><li class="tag">Statistics</li>
+            </ul>
+            <p class="card-meta">Typical roles: MLE, Applied Scientist, ML Platform Engineer.</p>
+            <a class="card-cta" href="/jobs.html?role=MLE">See MLE openings →</a>
+          </article>
+          <article class="card" data-tags="data">
+            <h3>Data science & analytics</h3>
+            <p>Turns product and business questions into measurable experiments. SQL-heavy with a healthy dose of causal inference and experimental design.</p>
+            <ul class="tag-list career-skills">
+              <li class="tag">SQL</li><li class="tag">Statistics</li><li class="tag">Python</li>
+            </ul>
+            <p class="card-meta">Typical roles: Data Scientist, Analytics Engineer, Product DS.</p>
+            <a class="card-cta" href="/jobs.html?role=Data">See Data openings →</a>
+          </article>
+          <article class="card" data-tags="security">
+            <h3>Security engineering</h3>
+            <p>Protects products, networks and data. Specialisations include application security (AppSec), red-teaming, detection, and cryptography.</p>
+            <ul class="tag-list career-skills">
+              <li class="tag">Networks</li><li class="tag">Systems</li><li class="tag">Cryptography</li>
+            </ul>
+            <p class="card-meta">Typical roles: Security Engineer, Pen Tester, Detection Engineer.</p>
+            <a class="card-cta" href="/jobs.html?role=Security">See Security openings →</a>
+          </article>
+          <article class="card" data-tags="research">
+            <h3>Research (industry or academia)</h3>
+            <p>Pushes the field forward with papers and prototypes. Usually requires a PhD in industry labs (DeepMind, FAIR, MSR); some ML companies hire Bachelor's-level research engineers.</p>
+            <ul class="tag-list career-skills">
+              <li class="tag">Math</li><li class="tag">Writing</li><li class="tag">Literature review</li>
+            </ul>
+            <p class="card-meta">Typical roles: Research Scientist, Research Engineer, PhD student.</p>
+            <a class="card-cta" href="/jobs.html?role=Research">See Research openings →</a>
+          </article>
+          <article class="card" data-tags="product">
+            <h3>Product management (tech PM)</h3>
+            <p>Decides what engineering should build and why. CS background helps enormously in technical PM roles at Google, Meta, Microsoft.</p>
+            <ul class="tag-list career-skills">
+              <li class="tag">Communication</li><li class="tag">Analytics</li><li class="tag">UX sense</li>
+            </ul>
+            <p class="card-meta">Typical roles: APM, RPM, Technical PM, Growth PM.</p>
+            <a class="card-cta" href="/jobs.html?role=Product">See PM openings →</a>
+          </article>
+          <article class="card" data-tags="software">
+            <h3>DevOps & infrastructure</h3>
+            <p>Owns the reliability and deployability of other teams' work. Cloud-heavy, automation-heavy, and — at scale — extremely interesting systems work.</p>
+            <ul class="tag-list career-skills">
+              <li class="tag">Linux</li><li class="tag">Cloud</li><li class="tag">CI/CD</li>
+            </ul>
+            <p class="card-meta">Typical roles: DevOps, SRE, Platform, Cloud Engineer.</p>
+            <a class="card-cta" href="/skills.html">Build the skills →</a>
+          </article>
+          <article class="card" data-tags="software">
+            <h3>Mobile engineering</h3>
+            <p>iOS (Swift) or Android (Kotlin). Specialises at a platform-level and carries deep expertise other SDE generalists don't have.</p>
+            <ul class="tag-list career-skills">
+              <li class="tag">Swift / Kotlin</li><li class="tag">UX</li><li class="tag">Performance</li>
+            </ul>
+            <p class="card-meta">Typical roles: iOS Engineer, Android Engineer.</p>
+            <a class="card-cta" href="/skills.html">Build the skills →</a>
+          </article>
+          <article class="card" data-tags="software">
+            <h3>Game development</h3>
+            <p>Often overlooked by CS grads but rewarding. Mix of graphics, engine programming, and very cross-functional work with artists and designers.</p>
+            <ul class="tag-list career-skills">
+              <li class="tag">C++</li><li class="tag">Graphics</li><li class="tag">Linear algebra</li>
+            </ul>
+            <p class="card-meta">Typical roles: Gameplay Engineer, Engine Programmer, Technical Artist.</p>
+            <a class="card-cta" href="/skills.html">Build the skills →</a>
+          </article>
+        </div>
+        <div class="empty-state" data-filter-empty hidden>
+          <h3>No career paths match this filter.</h3>
+          <p>Try another area or switch back to All.</p>
+        </div>
+      </section>
+
+      <section aria-labelledby="pick-title" data-reveal data-filter-all-only>
+        <p class="kicker">How to pick</p>
+        <h2 id="pick-title">Three honest framings</h2>
+        <div class="grid-3">
+          <article class="card">
+            <h3>By interest</h3>
+            <p>Watch what you do on a Sunday afternoon when no one's grading you. That's a signal. Don't dismiss it.</p>
+          </article>
+          <article class="card">
+            <h3>By lifestyle</h3>
+            <p>Product-facing roles trade variety for ambiguity. Infra trades polish for depth. Research trades pace for patience. All three can be good lives.</p>
+          </article>
+          <article class="card">
+            <h3>By geography</h3>
+            <p>SDE is the most globally portable. MLE and research cluster in a handful of cities. Security is growing everywhere. PM is the least portable.</p>
+          </article>
+        </div>
+      </section>
+
+      <section data-reveal data-filter-all-only>
+        <div class="callout callout-tip">
+          <h4>Don't pick forever, pick for next</h4>
+          <p>Your first role does not define your career. Most senior engineers have pivoted at least once. Pick the first job where you'll learn fastest from people more senior than you — that matters more than title, team or even salary early on.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div class="footer-brand">
+          <h4>Cornerstone</h4>
+          <p>An academic and career handbook for CS undergraduates at the University of Macau.</p>
+        </div>
+        <div>
+          <h4>Chapters</h4>
+          <ul>
+            <li><a href="/about.html">01 · About</a></li>
+            <li><a href="/skills.html">02 · Skills</a></li>
+            <li><a href="/masters.html">03 · Master's</a></li>
+            <li><a href="/careers.html">04 · Careers</a></li>
+            <li><a href="/jobs.html">05 · Jobs</a></li>
+            <li><a href="/readiness.html">06 · Readiness</a></li>
+            <li><a href="/reflection.html">07 · Reflection</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Account</h4>
+          <ul>
+            <li><a href="/login.html">Sign in</a></li>
+            <li><a href="/signup.html">Create account</a></li>
+            <li><a href="/list.html">My List</a></li>
+            <li><a href="/account.html">My account</a></li>
+            <li><a href="/chat.html">AI Chat</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Meta</h4>
+          <ul>
+            <li><a href="#top">Back to top</a></li>
+            <li><button class="btn-ghost" data-theme-toggle style="padding:0;background:transparent;border:0;color:inherit;cursor:pointer;"><span data-theme-label>Toggle theme</span></button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>CISC3003 Web Programming · 2026 · Group 02</span>
+        <span>Vanilla HTML / CSS / JS · Node · Express · SQLite</span>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" type="button">&uarr;</button>
+  </div>
+
+  <script defer src="/js/api.js"></script>
+  <script defer src="/js/session.js"></script>
+  <script defer src="/js/theme.js"></script>
+  <script defer src="/js/nav.js"></script>
+  <script defer src="/js/ui.js"></script>
+  <script defer src="/js/shortlist.js"></script>
+  <script defer src="/js/filter.js"></script>
+  <script defer src="/js/history-log.js"></script>
+</body>
+</html>

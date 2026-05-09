@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Zhang Zhexuan Portfolio</title>
+    <link rel="stylesheet" href="cisc3003-IndAssgn-home.css">
+</head>
+<body id="top">
+    <header>
+        <div class="logo">Zhang Zhexuan</div>
+        <nav>
+            <ul>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="cisc3003-IndAssgn-showcase.html">Showcase</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-image">
+                <img src="images/profile-photo.jpg" alt="Zhang Zhexuan Profile Picture">
+            </div>
+            <div class="hero-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1>Zhang Zhexuan</h1>
+                <h2>Computer Science Student & Aspiring AI Researcher</h2>
+                <div class="btn-container">
+                    <button class="btn btn-outline" onclick="window.open('Zhang_Zhexuan_CV.pdf', '_blank')">View CV (PDF)</button>
+                    <button class="btn btn-solid" onclick="location.href='#contact'">Contact Info</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <p>As a prospective 2027 graduate, I am currently completing my Bachelor's degree in Computer Technology at the University of Macau and have been admitted to the Master's program in Computer Technology at The Chinese University of Hong Kong. I possess a solid foundation in computer science and extensive hands-on project experience, with deep research in Knowledge Graphs, Artificial Intelligence, and Web Development.</p>
+            <p>I have excellent problem-solving abilities and a strong team collaboration spirit, enabling me to quickly learn and apply new technologies to real-world business challenges. Through my internships and projects, I have effectively improved business efficiency and data quality. I am eager to apply my expertise in NLP algorithm implementation and Large Language Model applications to drive technological innovation.</p>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <h2>Qualifications & Experience</h2>
+            
+            <div class="exp-block">
+                <h3>🎓 Education</h3>
+                <ul>
+                    <li><strong>The Chinese University of Hong Kong (CUHK)</strong> | Master of Computer Technology | Aug 2026 - Jun 2027 (Admitted)</li>
+                    <li><strong>University of Macau</strong> | Bachelor of Computer Technology | Aug 2022 - Jun 2026 | GPA: 3.7</li>
+                </ul>
+            </div>
+
+            <div class="exp-block">
+                <h3>💼 Internship Experience</h3>
+                <div class="job">
+                    <h4>Chongqing Zhongxin Kongdian | IoT Development Intern <span>(Jul 2025 - Aug 2025)</span></h4>
+                    <ul>
+                        <li>Built an enterprise Web application using EasyGoAdmin_Gin_Layui, integrating RabbitMQ message queue.</li>
+                        <li>Successfully supported 10,000+ concurrent device uploads with millisecond-level data updates.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h4>Macau Electricity Company | Data Analysis Intern <span>(Jul 2024 - Sep 2024)</span></h4>
+                    <ul>
+                        <li>Developed VBA scripts to standardize data formats and automate report generation.</li>
+                        <li>Optimized billing reconciliation processes, improving accuracy to 99.5%.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h2 class="title">Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <img src="images/KG.jpg" alt="Macau Cultural Knowledge Graph" class="project-img">
+                    <h3 class="project-title">Macau Cultural Knowledge Graph</h3>
+                    <div class="project-btn-container">
+                        <button class="project-btn" onclick="window.open('#', '_blank')">GitHub</button>
+                        <button class="project-btn" onclick="location.href='cisc3003-IndAssgn-demo01.html'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/pet.jpg" alt="Pet Medical LLM Fine-tuning" class="project-img">
+                    <h3 class="project-title">Pet Medical LLM Fine-tuning</h3>
+                    <div class="project-btn-container">
+                        <button class="project-btn" onclick="window.open('#', '_blank')">GitHub</button>
+                        <button class="project-btn" onclick="location.href='cisc3003-IndAssgn-demo02.html'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Get in Touch</h2>
+            <div class="contact-card">
+                <div class="contact-item">
+                    <h3>📞 Phone</h3>
+                    <p>+86 18540202900</p>
+                </div>
+                <div class="contact-item">
+                    <h3>💬 WeChat / QQ</h3>
+                    <p>3363385818</p>
+                </div>
+                <div class="contact-item">
+                    <h3>✉️ Email</h3>
+                    <p><a href="mailto:3363385818@qq.com">3363385818@qq.com</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>CISC3003 Web Programming - 2025: dc229576 Zhang Zhexuan</p>
+    </footer>
+</body>
+</html>
