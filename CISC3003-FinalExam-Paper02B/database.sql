@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS cisc3003_paper02b
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_ci;

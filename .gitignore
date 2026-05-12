@@ -1,0 +1,4 @@
+/.metadata/
+*.zip
+phpmailer_tmp/
+phpmailer.zip

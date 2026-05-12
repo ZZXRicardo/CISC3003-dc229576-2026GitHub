@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS cisc3003_paper02c
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_ci;
+
+USE cisc3003_paper02c;
+
+CREATE TABLE IF NOT EXISTS users (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  email VARCHAR(150) NOT NULL UNIQUE,
+  password_hash VARCHAR(255) NOT NULL,
+  activation_token_hash VARCHAR(64) DEFAULT NULL,
+  activated_at DATETIME DEFAULT NULL,
+  reset_token_hash VARCHAR(64) DEFAULT NULL,
+  reset_token_expires_at DATETIME DEFAULT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

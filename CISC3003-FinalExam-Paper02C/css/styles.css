@@ -1,0 +1,100 @@
+/* Account service layout */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #20242c;
+    background: #eef3f7;
+}
+
+header,
+main,
+footer {
+    width: min(980px, calc(100% - 32px));
+    margin: 0 auto;
+}
+
+header {
+    padding: 28px 0 10px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+nav a,
+.button-link {
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 6px;
+    color: #ffffff;
+    background: #295b8d;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+}
+
+.panel,
+.service {
+    margin: 18px 0;
+    padding: 24px;
+    border: 1px solid #d0d8e2;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    font-weight: 700;
+}
+
+input,
+button {
+    width: 100%;
+    margin-top: 6px;
+    padding: 12px;
+    border: 1px solid #a9b5c2;
+    border-radius: 6px;
+    font: inherit;
+}
+
+button {
+    margin-top: 20px;
+    border: 0;
+    color: #ffffff;
+    background: #1f7a4d;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.message {
+    border-left: 5px solid #1f7a4d;
+}
+
+.error {
+    border-left: 5px solid #b42318;
+}
+
+.small {
+    color: #596579;
+    font-size: 0.92rem;
+}
+
+footer {
+    padding: 28px 0;
+    text-align: center;
+    color: #526070;
+}
